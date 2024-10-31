@@ -17,7 +17,7 @@ const data = [
   { id: 13, keyword: '独特', sentence: "Specific knowledge is knowledge that you cannot be trained for. If society can train you, it can train someone else, and replace you." },
   { id: 14, keyword: '追求', sentence: "Specific knowledge is found by pursuing your genuine curiosity and passion rather than whatever is hot right now." },
   { id: 15, keyword: '玩耍', sentence: "Building specific knowledge will feel like play to you but will look like work to others." },
-  { id: 16, keyword: '学徒', sentence: "When specific knowledge is taught, it’s through apprenticeships, not schools." },
+  { id: 16, keyword: '学徒', sentence: "When specific knowledge is taught, it's through apprenticeships, not schools." },
   { id: 17, keyword: '创造', sentence: "Specific knowledge is often highly technical or creative. It cannot be outsourced or automated." },
   { id: 18, keyword: '责任', sentence: "Embrace accountability, and take business risks under your own name. Society will reward you with responsibility, equity, and leverage." },
   { id: 19, keyword: '风险', sentence: "The most accountable people have singular, public, and risky brands: Oprah, Trump, Kanye, Elon." },
@@ -30,6 +30,18 @@ const data = [
   { id: 26, keyword: '机器人', sentence: "An army of robots is freely available - it's just packed in data centers for heat and space efficiency. Use it." },
   { id: 27, keyword: '写书', sentence: "If you can't code, write books and blogs, record videos and podcasts." },
   { id: 28, keyword: '倍增', sentence: "Leverage is a force multiplier for your judgement." },
+  { id: 29, keyword: '判断', sentence: "Judgment requires experience but can be built faster by learning foundational skills." },
+  { id: 30, keyword: '商业', sentence: "There is no skill called \"business.\" Avoid business magazines and business classes." },
+  { id: 31, keyword: '学习', sentence: "Study microeconomics, game theory, psychology, persuasion, ethics, mathematics, and computers." },
+  { id: 32, keyword: '做事', sentence: "Reading is faster than listening. Doing is faster than watching." },
+  { id: 33, keyword: '日程', sentence: "You should be too busy to \"do coffee\" while still keeping an uncluttered calendar." },
+  { id: 34, keyword: '外包', sentence: "Set and enforce an aspirational personal hourly rate. If fixing a problem will save less than your hourly rate, ignore it. If outsourcing a task will cost less than your hourly rate, outsource it." },
+  { id: 35, keyword: '努力', sentence: "Work as hard as you can. Even though who you work with and what you work on are more important than how hard you work." },
+  { id: 36, keyword: '最好', sentence: "Become the best in the world at what you do. Keep redefining what you do until this is true." },
+  { id: 37, keyword: '速成', sentence: "There are no get-rich-quick schemes. Those are just someone else getting rich off you." },
+  { id: 38, keyword: '专长', sentence: "Apply specific knowledge, with leverage, and eventually you will get what you deserve." },
+  { id: 39, keyword: '最终', sentence: "When you're finally wealthy, you'll realize it wasn't what you were seeking in the first place. But that is for another day." },
+  { id: 40, keyword: '总结 ', sentence: "Summary: Productize Yourself" },
   // 添加更多句子
 ];
 
@@ -82,10 +94,11 @@ const MemoryApp = () => {
 
   return (
     <div>
-      <h1 style={{ marginTop: '60px' }}>记忆纳瓦尔的句子</h1>
-      {feedbackMessage && <div style={{ position: 'fixed', top: '0px', width: '100%', backgroundColor: 'yellow', zIndex: 1000 }}><p>{feedbackMessage}</p></div>} {/* Adjusted top position */}
+      <h1 style={{ marginTop: '60px' }}>纳瓦尔宝典</h1>
+      {feedbackMessage && <div>
+        <p>{feedbackMessage}</p></div>} {/* Adjusted top position */}
       {currentItems.map((item, index) => (
-          <div key={index}>
+        <div key={index}>
           <p>{item.id} . {item.keyword}</p>
           <textarea
             type="text"
