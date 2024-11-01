@@ -200,8 +200,13 @@ const MemoryApp = () => {
   const handleKeyDown = (index, event) => {
     if (event.key === '=') {
       event.preventDefault(); // Prevent default behavior
-      const correctSentence = data[index].sentence;
-      setFeedbackMessage(`正确句子: ${correctSentence}`); // Set feedback message
+      if (feedbackMessage) {
+        setFeedbackMessage('');
+      } else {
+        const correctSentence = data[index].sentence;
+        setFeedbackMessage(`正确句子: ${correctSentence}`); // Set feedback message
+
+      }
     } else if (event.key === ']') {
       event.preventDefault(); // Prevent default behavior
       handleNextPage();
@@ -218,7 +223,7 @@ const MemoryApp = () => {
 
   return (
     <div>
-      <h1 style={{ marginTop: '60px' }}>纳瓦尔宝典</h1>
+      <h1 style={{ marginTop: '60px' }}>纳瓦尔：如何不靠运气致富</h1>
       {feedbackMessage && <div>
         <p>{feedbackMessage}</p></div>} {/* Adjusted top position */}
       {currentItems.map((item, index) => (
