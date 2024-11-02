@@ -205,7 +205,6 @@ const MemoryApp = () => {
       } else {
         const correctSentence = data[index].sentence;
         setFeedbackMessage(`正确句子: ${correctSentence}`); // Set feedback message
-
       }
     } else if (event.key === ']') {
       event.preventDefault(); // Prevent default behavior
@@ -224,32 +223,43 @@ const MemoryApp = () => {
   return (
     <div>
       <h1 style={{ marginTop: '60px' }}>纳瓦尔：如何不靠运气致富</h1>
-      {feedbackMessage && <div>
-        <p>{feedbackMessage}</p></div>} {/* Adjusted top position */}
+      {feedbackMessage && <div dangerouslySetInnerHTML={{ __html: feedbackMessage }}></div>}
       {currentItems.map((item, index) => (
-        <div key={index}>
+        <div key={index} style={{ margin: '20px' }}>
           <p>{item.id} . {item.chinese}</p>
+          <div style={{ width: '60%', margin: 'auto' }}>
+            {userInputs[currentPage * itemsPerPage + index].split(' ').map((word, wordIndex) => {
+              const isCorrectWord = item.sentence.split(' ').includes(word);
+              return (
+                <span key={wordIndex} style={{ color: isCorrectWord ? 'green' : 'black' }}>
+                  {word}{' '}
+                </span>
+              );
+            })}
+          </div>
           <textarea
             type="text"
             placeholder="默写英文句子..."
             value={userInputs[currentPage * itemsPerPage + index]}
             onChange={(e) => handleInputChange(currentPage * itemsPerPage + index, e.target.value)}
             onKeyDown={(e) => handleKeyDown(currentPage * itemsPerPage + index, e)}
-            style={{ fontSize: '18px', width: '80%', height: '150px' }} // Increased font size and textarea dimensions
+            style={{ margin: '20px', fontSize: '18px', width: '80%', height: '100px' }} // Increased font size and textarea dimensions
           />
           {userInputs[currentPage * itemsPerPage + index] === item.sentence && <p style={{ color: 'green' }}>Correct!</p>}
         </div>
       ))}
 
-      <button onClick={handlePrevPage} disabled={currentPage === 0}>
-        上一页
-      </button>
-      <button onClick={handleNextPage} disabled={currentPage >= Math.floor(data.length / itemsPerPage)}>
-        下一页
-      </button>
-      <button onClick={handleRandomLoad}>
-        随机加载句子
-      </button>
+      
+        <button onClick={handlePrevPage} disabled={currentPage === 0} style={{ margin: '10px' }}>
+          上一页
+        </button>
+        <button onClick={handleNextPage} disabled={currentPage >= Math.floor(data.length / itemsPerPage)} style={{ margin: '10px' }}>
+          下一页
+        </button>
+        <button onClick={handleRandomLoad} style={{ margin: '10px' }}>
+          随机加载句子
+        </button>
+      
     </div>
   );
 };
