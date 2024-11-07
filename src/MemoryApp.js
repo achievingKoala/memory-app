@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-// { keyword: '努力', sentence: 'Hard work is the key to achieving your goals.' },
 const data = [
   {
     id: 1, keyword: '财富', sentence: 'Seek wealth, not money or status. Wealth is having assets that earn while you sleep. Money is how we transfer time and wealth. Status is your place in the social hierarchy.',
@@ -204,7 +203,7 @@ const MemoryApp = () => {
         setFeedbackMessage('');
       } else {
         const correctSentence = data[index].sentence;
-        setFeedbackMessage(`正确句子: ${correctSentence}`); // Set feedback message
+        setFeedbackMessage(`${correctSentence}`); // Set feedback message
       }
     } else if (event.key === ']') {
       event.preventDefault(); // Prevent default behavior
@@ -223,10 +222,11 @@ const MemoryApp = () => {
   return (
     <div>
       <h1 style={{ marginTop: '60px' }}>纳瓦尔：如何不靠运气致富</h1>
-      {feedbackMessage && <div dangerouslySetInnerHTML={{ __html: feedbackMessage }}></div>}
       {currentItems.map((item, index) => (
         <div key={index} style={{ margin: '20px' }}>
           <p>{item.id} . {item.chinese}</p>
+           { (feedbackMessage && item.sentence == feedbackMessage) ? <div> {feedbackMessage}</div> : ''}
+          
           <div style={{ width: '60%', margin: 'auto' }}>
             {userInputs[currentPage * itemsPerPage + index].split(' ').map((word, wordIndex) => {
               const isCorrectWord = item.sentence.split(' ').includes(word);
@@ -237,6 +237,7 @@ const MemoryApp = () => {
               );
             })}
           </div>
+
           <textarea
             type="text"
             placeholder="默写英文句子..."
