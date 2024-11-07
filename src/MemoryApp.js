@@ -188,6 +188,14 @@ const MemoryApp = () => {
     setCurrentPage((prev) => Math.max(prev - 1, 0));
   };
 
+  const recordCorrect = (id) => {
+    // id = id + ''
+    console.log('--->', id);
+    const storedCounts = JSON.parse(localStorage.getItem('idCounts')) || {};
+    storedCounts[id] = (storedCounts[id] || 0) + 1;
+    localStorage.setItem('idCounts', JSON.stringify(storedCounts));
+  };
+  
   const handleInputChange = (index, value) => {
     setUserInputs((prev) => {
       const newInputs = [...prev];
@@ -203,7 +211,12 @@ const MemoryApp = () => {
         setFeedbackMessage('');
       } else {
         const correctSentence = data[index].sentence;
-        setFeedbackMessage(`${correctSentence}`); // Set feedback message
+        // const userInputSentence = userInputs[index];
+        // console.log(userInputs);
+        
+        // setFeedbackMessage(correctSentence + '---' + userInputSentence); // Set feedback message
+        // setFeedbackMessage(userInputSentence); // Set feedback message
+        setFeedbackMessage(correctSentence); // Set feedback message
       }
     } else if (event.key === ']') {
       event.preventDefault(); // Prevent default behavior
@@ -214,10 +227,39 @@ const MemoryApp = () => {
     }
   };
 
-  const currentItems = data.slice(
+  var currentItems = data.slice(
     currentPage * itemsPerPage,
     currentPage * itemsPerPage + itemsPerPage
   );
+  
+  const sortDataByIdCount = () => {
+    const storedCounts = JSON.parse(localStorage.getItem('idCounts')) || {};
+    const sortedData = data.sort((a, b) => {
+      const countA = storedCounts[a.id] || 0;
+      const countB = storedCounts[b.id] || 0;
+      return countB - countA; // Sort in descending order
+    });
+    setCurrentPage(0); // Reset to the first page
+    setUserInputs(Array(sortedData.length).fill('')); // Reset user inputs
+    // Update the data state if you have a state for it, otherwise update the currentItems directly
+  };
+  
+  const sortDataByIdCountDescending = () => {
+    const storedCounts = JSON.parse(localStorage.getItem('idCounts')) || {};
+    const sortedData = data.sort((a, b) => {
+      const countA = storedCounts[a.id] || 0;
+      const countB = storedCounts[b.id] || 0;
+      return countA - countB; // Sort in ascending order
+    });
+    setCurrentPage(0); // Reset to the first page
+    setUserInputs(Array(sortedData.length).fill('')); // Reset user inputs
+    // Update the data state if you have a state for it, otherwise update the currentItems directly
+  };
+  
+  // currentItems = data.slice(
+  //   currentPage * itemsPerPage,
+  //   currentPage * itemsPerPage + itemsPerPage
+  // );
 
   return (
     <div>
@@ -246,7 +288,12 @@ const MemoryApp = () => {
             onKeyDown={(e) => handleKeyDown(currentPage * itemsPerPage + index, e)}
             style={{ margin: '20px', fontSize: '18px', width: '80%', height: '100px' }} // Increased font size and textarea dimensions
           />
-          {userInputs[currentPage * itemsPerPage + index] === item.sentence && <p style={{ color: 'green' }}>Correct!</p>}
+          {userInputs[currentPage * itemsPerPage + index] === item.sentence && (
+            <>
+              <p style={{ color: 'green' }}>Correct!</p>
+              {recordCorrect(item.id)} {/* Execute recordCorrect after showing correct */}
+            </>
+          )}
         </div>
       ))}
 
@@ -259,6 +306,12 @@ const MemoryApp = () => {
         </button>
         <button onClick={handleRandomLoad} style={{ margin: '10px' }}>
           随机加载句子
+        </button>
+        <button onClick={sortDataByIdCount} style={{ margin: '10px' }}>
+          根据idCount正序
+        </button>
+        <button onClick={sortDataByIdCountDescending} style={{ margin: '10px' }}>
+          根据idCount倒序
         </button>
       
     </div>
