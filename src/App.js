@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="App">
       <MemoryApp></MemoryApp>
-      {/* <Speech text = 'Pick business partners with high intelligence, energy, and, above all, integrity.'></Speech> */}
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import {speakText} from './Speech';
+// import {speakText} from './Speech';
+import {speakText} from './AzureTextToSpeech';
 
 const data = [
   {
