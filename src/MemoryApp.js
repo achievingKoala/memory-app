@@ -169,7 +169,7 @@ const MemoryApp = () => {
   const [userInputs, setUserInputs] = useState(Array(data.length).fill(''));
   const [feedbackMessage, setFeedbackMessage] = useState('');
 
-  const itemsPerPage = 3;
+  const itemsPerPage = 5;
 
   const handleRandomLoad = () => {
     // const randomIndex = Math.floor(Math.random() * data.length);
@@ -189,7 +189,6 @@ const MemoryApp = () => {
   };
 
   const recordCorrect = (id) => {
-    // id = id + ''
     console.log('--->', id);
     const storedCounts = JSON.parse(localStorage.getItem('idCounts')) || {};
     storedCounts[id] = (storedCounts[id] || 0) + 1;
@@ -197,6 +196,11 @@ const MemoryApp = () => {
   };
   
   const handleInputChange = (index, value) => {
+    console.log('index:', index);
+    if (value == data[index].sentence) {
+      // console.log('--->u', userInputs);
+      recordCorrect(data[index].id);
+    }
     setUserInputs((prev) => {
       const newInputs = [...prev];
       newInputs[index] = value;
@@ -211,11 +215,6 @@ const MemoryApp = () => {
         setFeedbackMessage('');
       } else {
         const correctSentence = data[index].sentence;
-        // const userInputSentence = userInputs[index];
-        // console.log(userInputs);
-        
-        // setFeedbackMessage(correctSentence + '---' + userInputSentence); // Set feedback message
-        // setFeedbackMessage(userInputSentence); // Set feedback message
         setFeedbackMessage(correctSentence); // Set feedback message
       }
     } else if (event.key === ']') {
@@ -227,7 +226,7 @@ const MemoryApp = () => {
     }
   };
 
-  var currentItems = data.slice(
+  const currentItems = data.slice(
     currentPage * itemsPerPage,
     currentPage * itemsPerPage + itemsPerPage
   );
@@ -241,7 +240,6 @@ const MemoryApp = () => {
     });
     setCurrentPage(0); // Reset to the first page
     setUserInputs(Array(sortedData.length).fill('')); // Reset user inputs
-    // Update the data state if you have a state for it, otherwise update the currentItems directly
   };
   
   const sortDataByIdCountDescending = () => {
@@ -256,19 +254,16 @@ const MemoryApp = () => {
     // Update the data state if you have a state for it, otherwise update the currentItems directly
   };
   
-  // currentItems = data.slice(
-  //   currentPage * itemsPerPage,
-  //   currentPage * itemsPerPage + itemsPerPage
-  // );
-
+  const storedCounts = JSON.parse(localStorage.getItem('idCounts')) || {};
+  // const idCount = storedCounts[item.id] || 0; // Get the count for the current item
+  
   return (
     <div>
       <h1 style={{ marginTop: '60px' }}>纳瓦尔：如何不靠运气致富</h1>
-      {currentItems.map((item, index) => (
+      {currentItems.map((item, index) => (      
         <div key={index} style={{ margin: '20px' }}>
-          <p>{item.id} . {item.chinese}</p>
-           { (feedbackMessage && item.sentence == feedbackMessage) ? <div> {feedbackMessage}</div> : ''}
-          
+          <p>{item.id} . {item.chinese}</p> <p>练习次数：{storedCounts[item.id] || 0} </p>
+           { (feedbackMessage && item.sentence == feedbackMessage) ? <div> {feedbackMessage}</div> : ''}        
           <div style={{ width: '60%', margin: 'auto' }}>
             {userInputs[currentPage * itemsPerPage + index].split(' ').map((word, wordIndex) => {
               const isCorrectWord = item.sentence.split(' ').includes(word);
@@ -288,16 +283,17 @@ const MemoryApp = () => {
             onKeyDown={(e) => handleKeyDown(currentPage * itemsPerPage + index, e)}
             style={{ margin: '20px', fontSize: '18px', width: '80%', height: '100px' }} // Increased font size and textarea dimensions
           />
+
           {userInputs[currentPage * itemsPerPage + index] === item.sentence && (
             <>
               <p style={{ color: 'green' }}>Correct!</p>
-              {recordCorrect(item.id)} {/* Execute recordCorrect after showing correct */}
             </>
           )}
         </div>
       ))}
 
       
+        <p>当前页: {currentPage + 1}</p> {/* Display current page number */}
         <button onClick={handlePrevPage} disabled={currentPage === 0} style={{ margin: '10px' }}>
           上一页
         </button>
@@ -308,10 +304,10 @@ const MemoryApp = () => {
           随机加载句子
         </button>
         <button onClick={sortDataByIdCount} style={{ margin: '10px' }}>
-          根据idCount正序
+          根据练习次数正序
         </button>
         <button onClick={sortDataByIdCountDescending} style={{ margin: '10px' }}>
-          根据idCount倒序
+          根据练习次数倒序
         </button>
       
     </div>
