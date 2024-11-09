@@ -201,7 +201,7 @@ const MemoryApp = () => {
     // if (successSound.readyState >= 2) { // Check if the audio is ready to play
     // } else {
     //   console.error('Audio file is not ready to play.');
-    // }
+    // }  
     // successSound.play();
     console.log('--->', id);
     const storedCounts = JSON.parse(localStorage.getItem('idCounts')) || {};
@@ -279,12 +279,12 @@ const MemoryApp = () => {
       <h1 style={{ marginTop: '60px' }}>纳瓦尔：如何不靠运气致富</h1>
       {currentItems.map((item, index) => (      
         <div key={index} style={{ margin: '20px' }}>
-          <p>{item.id} . {item.chinese} 正确次数：{storedCounts[item.id] || 0} </p>
+          <p style={{ fontSize: '20px' }}> {item.id} . {item.chinese} <span style={{ fontSize: '24px' }}>  正确次数：{storedCounts[item.id] || 0}</span> </p>
            { (feedbackMessage && item.sentence == feedbackMessage) ? 
-           <div style={{ width: '60%', margin: 'auto', fontSize: '22px' }} >
+           <div style={{ width: '60%', margin: 'auto', fontSize: '22px', textAlign: 'left' }} >
              {feedbackMessage}</div> 
              : ''}        
-          <div style={{ width: '60%', margin: 'auto', fontSize: '22px' }}>
+          <div style={{ width: '60%', margin: 'auto', fontSize: '22px', textAlign: 'left' }}>
             {userInputs[currentPage * itemsPerPage + index].split(' ').map((word, wordIndex) => {
               const isCorrectWord = item.sentence.split(' ').includes(word);
               return (
@@ -301,7 +301,7 @@ const MemoryApp = () => {
             value={userInputs[currentPage * itemsPerPage + index]}
             onChange={(e) => handleInputChange(currentPage * itemsPerPage + index, e.target.value)}
             onKeyDown={(e) => handleKeyDown(currentPage * itemsPerPage + index, e)}
-            style={{ margin: '20px', fontSize: '22px', width: '80%', height: '80px' }} // Increased font size and textarea dimensions
+            style={{ margin: '20px', fontSize: '22px', width: '60%', height: '80px' }} // Increased font size and textarea dimensions
           />
 
           {userInputs[currentPage * itemsPerPage + index] === item.sentence && (
