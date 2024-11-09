@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 // import {speakText} from './Speech';
 import {speakText} from './AzureTextToSpeech';
+const audioPath = require("./new-note.mp3");
 
 const data = [
   {
@@ -170,8 +171,9 @@ const MemoryApp = () => {
   const [currentPage, setCurrentPage] = useState(0);
   const [userInputs, setUserInputs] = useState(Array(data.length).fill(''));
   const [feedbackMessage, setFeedbackMessage] = useState('');
-
   const itemsPerPage = 5;
+  const successSound = new Audio(audioPath);
+
 
   const handleRandomLoad = () => {
     // const randomIndex = Math.floor(Math.random() * data.length);
@@ -190,7 +192,17 @@ const MemoryApp = () => {
     setCurrentPage((prev) => Math.max(prev - 1, 0));
   };
 
+  
+  
   const recordCorrect = (id) => {
+    successSound.play().catch((error) => {
+      console.error('Error playing audio:', error);
+    });
+    // if (successSound.readyState >= 2) { // Check if the audio is ready to play
+    // } else {
+    //   console.error('Audio file is not ready to play.');
+    // }
+    // successSound.play();
     console.log('--->', id);
     const storedCounts = JSON.parse(localStorage.getItem('idCounts')) || {};
     storedCounts[id] = (storedCounts[id] || 0) + 1;

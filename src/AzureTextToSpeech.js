@@ -3,6 +3,9 @@ import React, { useState } from "react";
 const API_KEY = "BxmaEznl4foxzzjLNTxmZ7F8ibK9tNtmm1Cbsyo7Yi45KdebV0oPJQQJ99AKACYeBjFXJ3w3AAAYACOGd5KZ";
 const REGION = "eastus"; // e.g., "eastus"
 
+// import audioPath from '../public/new-note.mp3'
+const audioPath = require("./new-note.mp3");
+
 export const speakText = async (text) => {
   if (text.trim() === "") return;
 
@@ -58,6 +61,15 @@ const AzureTextToSpeech = () => {
       <br />
       <button onClick={() => speakText(text)} style={{ marginTop: "10px" }}>
         Speak
+      </button>
+      <br />
+      <button onClick={() => {
+        const successSound = new Audio(audioPath);
+        successSound.play().catch(error => {
+          console.error('Error playing audio:', error);
+        });
+      }} style={{ marginTop: "10px" }}>
+        Play Success Sound
       </button>
     </div>
   );
