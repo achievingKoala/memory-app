@@ -266,7 +266,7 @@ const MemoryApp = () => {
       <h1 style={{ marginTop: '60px' }}>纳瓦尔：如何不靠运气致富</h1>
       {currentItems.map((item, index) => (      
         <div key={index} style={{ margin: '20px' }}>
-          <p>{item.id} . {item.chinese}</p> <p>正确次数：{storedCounts[item.id] || 0} </p>
+          <p>{item.id} . {item.chinese} 正确次数：{storedCounts[item.id] || 0} </p>
            { (feedbackMessage && item.sentence == feedbackMessage) ? 
            <div style={{ width: '60%', margin: 'auto', fontSize: '22px' }} >
              {feedbackMessage}</div> 
@@ -288,7 +288,7 @@ const MemoryApp = () => {
             value={userInputs[currentPage * itemsPerPage + index]}
             onChange={(e) => handleInputChange(currentPage * itemsPerPage + index, e.target.value)}
             onKeyDown={(e) => handleKeyDown(currentPage * itemsPerPage + index, e)}
-            style={{ margin: '20px', fontSize: '22px', width: '80%', height: '50px' }} // Increased font size and textarea dimensions
+            style={{ margin: '20px', fontSize: '22px', width: '80%', height: '80px' }} // Increased font size and textarea dimensions
           />
 
           {userInputs[currentPage * itemsPerPage + index] === item.sentence && (
@@ -311,10 +311,10 @@ const MemoryApp = () => {
           随机加载句子
         </button>
         <button onClick={sortDataByIdCount} style={{ margin: '10px' }}>
-          根据练习次数正序
+          根据练习次数倒序
         </button>
         <button onClick={sortDataByIdCountDescending} style={{ margin: '10px' }}>
-          根据练习次数倒序
+          根据练习次数正序
         </button>
       
     </div>
