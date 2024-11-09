@@ -1,12 +1,13 @@
 import React from "react";
 
+export const speakText = (text) => {
+  if (text.trim() === "") return;
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang = "en-US"; // 设置为英语
+  speechSynthesis.speak(utterance);
+};
+
 const TextToSpeech = ({ text = 'hello world' }) => {
-  const speakText = (text) => {
-    if (text.trim() === "") return;
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = "en-US"; // 设置为英语
-    speechSynthesis.speak(utterance);
-  };
 
   const handleSpeakClick = () => {
     speakText(text);

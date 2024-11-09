@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import MemoryApp from './MemoryApp';
-import Speech from './Speech';
+
 
 function App() {
   return (

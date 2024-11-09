@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {speakText} from './Speech';
 
 const data = [
   {
@@ -223,6 +224,9 @@ const MemoryApp = () => {
     } else if (event.key === '[') {
       event.preventDefault(); // Prevent default behavior
       handlePrevPage(); // Corrected to handlePrevPage
+    } else if (event.key === '\\') {
+      event.preventDefault(); // Prevent default behavior
+      speakText(data[index].sentence);
     }
   };
 
@@ -262,9 +266,12 @@ const MemoryApp = () => {
       <h1 style={{ marginTop: '60px' }}>纳瓦尔：如何不靠运气致富</h1>
       {currentItems.map((item, index) => (      
         <div key={index} style={{ margin: '20px' }}>
-          <p>{item.id} . {item.chinese}</p> <p>练习次数：{storedCounts[item.id] || 0} </p>
-           { (feedbackMessage && item.sentence == feedbackMessage) ? <div> {feedbackMessage}</div> : ''}        
-          <div style={{ width: '60%', margin: 'auto' }}>
+          <p>{item.id} . {item.chinese}</p> <p>正确次数：{storedCounts[item.id] || 0} </p>
+           { (feedbackMessage && item.sentence == feedbackMessage) ? 
+           <div style={{ width: '60%', margin: 'auto', fontSize: '22px' }} >
+             {feedbackMessage}</div> 
+             : ''}        
+          <div style={{ width: '60%', margin: 'auto', fontSize: '22px' }}>
             {userInputs[currentPage * itemsPerPage + index].split(' ').map((word, wordIndex) => {
               const isCorrectWord = item.sentence.split(' ').includes(word);
               return (
@@ -281,7 +288,7 @@ const MemoryApp = () => {
             value={userInputs[currentPage * itemsPerPage + index]}
             onChange={(e) => handleInputChange(currentPage * itemsPerPage + index, e.target.value)}
             onKeyDown={(e) => handleKeyDown(currentPage * itemsPerPage + index, e)}
-            style={{ margin: '20px', fontSize: '18px', width: '80%', height: '100px' }} // Increased font size and textarea dimensions
+            style={{ margin: '20px', fontSize: '22px', width: '80%', height: '50px' }} // Increased font size and textarea dimensions
           />
 
           {userInputs[currentPage * itemsPerPage + index] === item.sentence && (
