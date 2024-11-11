@@ -81,7 +81,7 @@ const data = [
     chinese: '最负责任的人拥有单一的、公开的和有风险的品牌：奥普拉、特朗普、卡内、埃隆。'
   },
   {
-    id: 20, keyword: '支点', sentence: "\"Give me a lever long enough, and a place to stand, and I will move the earth.\"  - Archimedes",
+    id: 20, keyword: '支点', sentence: '"Give me a lever long enough, and a place to stand, and I will move the earth." - Archimedes',
     chinese: '「给我一个足够长的杠杆和一个站立的地方，我将会移动地球。\"  - 阿基米德'
   },
   {
@@ -206,8 +206,9 @@ const MemoryApp = () => {
   
   const handleInputChange = (index, value) => {
     console.log('index:', index);
+    // console.log('--->v', value);
+    // console.log('--->u', data[index].sentence);
     if (value == data[index].sentence) {
-      // console.log('--->u', userInputs);
       recordCorrect(data[index].id);
     }
     setUserInputs((prev) => {
