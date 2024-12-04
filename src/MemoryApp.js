@@ -13,7 +13,8 @@ const MemoryApp = () => {
   const [feedbackMessage, setFeedbackMessage] = useState('');
   const itemsPerPage = 5;
   const successSound = new Audio(audioPath);
-  
+  const [isSpeaking, setIsSpeaking] = useState(false); // 播放状态
+  const [isFocused, setIsFocused] = useState(null);
 
 
   const handleRandomLoad = () => {
@@ -76,7 +77,22 @@ const MemoryApp = () => {
       handlePrevPage(); // Corrected to handlePrevPage
     } else if (event.key === '\\') {
       event.preventDefault(); // Prevent default behavior
-      speakText(data[index].sentence);
+      playTextWithStatus(data[index].sentence);
+    }
+  };
+
+  const playTextWithStatus = async (text) => {
+    if (isSpeaking) {
+      console.warn("Already speaking...");
+      return;
+    }
+    setIsSpeaking(true);
+    try {
+      await speakText(text);
+    } catch (error) {
+      console.error("Error while speaking text:", error);
+    } finally {
+      setIsSpeaking(false);
     }
   };
 
@@ -143,11 +159,15 @@ const MemoryApp = () => {
             type="text"
             placeholder="默写英文句子..."
             value={userInputs[currentPage * itemsPerPage + index]}
+            onFocus={() => setIsFocused(index)} // 光标聚焦事件
+            onBlur={() => setIsFocused(null)} // 光标移出事件
             onChange={(e) => handleInputChange(currentPage * itemsPerPage + index, e.target.value)}
             onKeyDown={(e) => handleKeyDown(currentPage * itemsPerPage + index, e)}
             style={{ margin: '20px', fontSize: '22px', width: '60%', height: '80px', wordSpacing: 'normal', fontFamily: 'monospace' }} // Adjusted word spacing and font
           />
-
+          <div style={{ margin: '20px', color: isSpeaking ? 'green' : 'black' }}>
+            {isSpeaking && isFocused  === index ? 'Sending request...' : ''}
+          </div>
           {userInputs[currentPage * itemsPerPage + index] === item.sentence && (
             <>
               <p style={{ color: 'green' }}>Correct!</p>
