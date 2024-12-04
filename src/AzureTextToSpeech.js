@@ -42,6 +42,7 @@ export const speakText = async (text) => {
     console.error("Error in Text-to-Speech:", error);
   }
 };
+
 const AzureTextToSpeech = () => {
   const [text, setText] = useState("");
 
