@@ -62,7 +62,7 @@ export const data = [
     {
         id: 're-11',
         keyword: '自我',
-        sentence: 'Usual Frame: Your ego is "you," and it must be protected. Reframe: Your ego is your enemy.',
+        sentence: 'Usual Frame: Your ego is "you", and it must be protected. Reframe: Your ego is your enemy.',
         chinese: '常规框架：你的自我就是“你”，它必须被保护。重构框架：你的自我就是你的敌人。',
     },
     {
@@ -166,5 +166,35 @@ export const data = [
         keyword: '饥饿',
         sentence: 'Usual Frame: I\'m hungry, so I need food. Reframe: I\'m hungry, so I need protein.',
         chinese: '常规框架：我饿了，所以我需要食物。重构框架：我饿了，所以我需要蛋白质。',
+    },
+    {
+        id: 're-29',
+        keyword: '运动',
+        sentence: 'Usual Frame: It\'s important to learn the best ways to exercise. Reframe: The best exercises are the ones you are willing to do.',
+        chinese: '常规框架：了解最好的锻炼方法很重要。重构框架：最好的锻炼是你愿意做的锻炼。',
+    },
+    {
+        id: 're-30',
+        keyword: '基因',
+        sentence: 'Usual Frame: You should spread your genes. Reframe: No matter what you do, your genes will be diluted with each generation until your contribution nears zero.',
+        chinese: '常规框架：你应该传播你的基因。重构框架：无论你做什么，你的基因将随着每一代的传递而被稀释，直到你的贡献接近零。',
+    },
+    {
+        id: 're-31',
+        keyword: '生活',
+        sentence: 'Usual Frame: Life is about avoiding pain while pursuing happiness and meaning. Reframe: Life is an adventure.',
+        chinese: '常规框架：生活是避免痛苦，同时追求幸福和意义。重构框架：生活是一场冒险。',
+    },
+    {
+        id: 're-32',
+        keyword: '意见',
+        sentence: 'Usual Frame: People come up with their own opinions. Reframe: People join teams, and the media assigns their opinions.',
+        chinese: '常规框架：人们会产生自己的观点。重构框架：人们加入团队，媒体为他们分配观点。',
+    },
+    {
+        id: 're-33',
+        keyword: '他人',
+        sentence: 'Usual Frame: Others think and feel approximately as I do. Reframe: Others are unimaginably different.',
+        chinese: '常规框架：别人思考和感觉大致与我相同。重构框架：别人是难以想象的不同。',
     },
 ]

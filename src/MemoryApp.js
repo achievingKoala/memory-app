@@ -1,4 +1,12 @@
-import {data as jsData} from './sentenceData';
+// import {data as jsData} from './andyData';
+// import {data as jsData} from './sentenceData';
+// import {data as jsData} from './reframe';
+// import {data as jsData} from './wordData';
+import {data as jsData} from './readData';
+// import {data as jsData} from './random1';
+// import {data as jsData} from './random2';
+
+
 import React, { useState } from 'react';
 import {speakText} from './AzureTextToSpeech';
 const audioPath = require("./new-note.mp3");
@@ -7,7 +15,7 @@ const audioPath = require("./new-note.mp3");
 
 const MemoryApp = () => {
 
-  const [data, setData] = useState(jsData);
+  const [data, setData] = useState(jsData.filter(item => item.hide !== 1));
   const [currentPage, setCurrentPage] = useState(0);
   const [userInputs, setUserInputs] = useState(Array(data.length).fill(''));
   const [feedbackMessage, setFeedbackMessage] = useState('');
@@ -137,7 +145,8 @@ const MemoryApp = () => {
   return (
     <div>
       <h1 style={{ marginTop: '60px' }}>纳瓦尔：如何不靠运气致富</h1>
-      {currentItems.map((item, index) => (      
+      {currentItems      
+        .map((item, index) => (
         <div key={index} style={{ margin: '20px' }}>
           <p style={{ fontSize: '20px' }}> {item.id} . {item.chinese} <span style={{ fontSize: '24px' }}>  正确次数：{storedCounts[item.id] || 0}</span> </p>
            { (feedbackMessage && item.sentence == feedbackMessage) ? 
