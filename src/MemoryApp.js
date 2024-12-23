@@ -2,9 +2,10 @@
 // import {data as jsData} from './sentenceData';
 // import {data as jsData} from './reframe';
 // import {data as jsData} from './wordData';
-import {data as jsData} from './readData';
+// import {data as jsData} from './readData';
 // import {data as jsData} from './random1';
 // import {data as jsData} from './random2';
+import {data as jsData} from './successF.js';
 
 
 import React, { useState } from 'react';
