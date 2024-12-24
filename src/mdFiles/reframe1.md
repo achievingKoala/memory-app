@@ -1,14 +1,21 @@
 # Success Reframes
+Usual Frame: My odds of success are low. Reframe: Maybe I am bad at estimating the odds.
 Usual Frame: I am bored with life. Reframe: I am not embarrassing myself enough.
 Usual Frame: Embarrassment is something to be avoided. Reframe: Embarrassment is an investment.
+Usual Frame: The effort is so big and daunting I can’t even start. Reframe: What’s the smallest thing I can do that moves me in the right direction?
 Usual Frame: Success requires setting goals. Reframe: Systems are better than goals.
-Usual Frame: Measure twice, cut once. Reframe: Just start. See if you can figure it out as you go.
+Usual Frame: Focus on being excellent at a skill that has commercial value. Reframe: Acquire skills that work well together and make you rare and flexible at the same time.
 Usual Frame: I am unusually unlucky this happened to me. Reframe: Everyone has problems. No exceptions.
 Usual Frame: I need to come up with a good idea. Reframe: I need to release all my bad ideas as quickly as possible.
 Usual Frame: I feel like an impostor at my job. Reframe: Everyone is an impostor.
 Usual Frame: Your mood is determined by your internal thoughts. Reframe: You can improve your mood by completing meaningful tasks.
+Usual Frame: Whatever managers do is managing. Reframe: If you are not measuring, you are not managing.
+Usual Frame: Praise for your creation predicts you have a hit. Reframe: Only action predicts a hit, not words. Watch for people to extend or modify your creation.
+Usual Frame: I can’t think of anything to write. Reframe: I’m in the wrong environment for writing.
+Usual Frame: I can’t think of anything good to write. Reframe: I can write something bad and fix it.
 
 # Mental Health Reframes
+
 Usual Frame: Social media is a form of entertainment. Reframe: Social media is an addiction.
 Usual Frame: An insult is damaging to my mental health. Reframe: An insult is a confession that your accuser can’t refute your opinion and/or has personal problems of some sort.
 Usual Frame: I can’t think of anything good to write. Reframe: I can write something bad and fix it.
