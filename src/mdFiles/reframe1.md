@@ -15,23 +15,57 @@ Usual Frame: I can’t think of anything to write. Reframe: I’m in the wrong e
 Usual Frame: I can’t think of anything good to write. Reframe: I can write something bad and fix it.
 
 # Mental Health Reframes
-
+Usual Frame: Art is entertainment. Reframe: Art is a powerful, mind-altering drug.
+Usual Frame: Everyone is thinking about me. Reframe: You are only a bit player in their movie.
 Usual Frame: Social media is a form of entertainment. Reframe: Social media is an addiction.
 Usual Frame: An insult is damaging to my mental health. Reframe: An insult is a confession that your accuser can’t refute your opinion and/or has personal problems of some sort.
-Usual Frame: I can’t think of anything good to write. Reframe: I can write something bad and fix it.
-
-# Social Life Reframes
-Usual Frame: Some people are good, and some are not. Reframe: We’re all flawed, and we’re all good at different things.
-Usual Frame: Criticism feels like a dagger to your heart. Reframe: Criticism is a chemical reaction in the skull of someone who isn’t in the room.
-Usual Frame: My feelings are the result of my situation. Reframe: How I feel is my choice.
+Usual Frame: Coldness is pain and a signal I am in danger. Reframe: Coldness makes me healthier and stronger.
 Usual Frame: Your ego is “you,” and it must be protected. Reframe: Your ego is your enemy.
 Usual Frame: Avoid embarrassment. Reframe: Invite embarrassment and use it as a club to kill your ego.
+Usual Frame: I am a priceless work of art that must be protected. Reframe: I am a potato that is easily replaced.
 Usual Frame: History is important. Reframe: History doesn’t exist.
 Usual Frame: My stress and anxiety are caused by events in my life. Reframe: I won’t care about any of those events on my deathbed.
 Usual Frame: I am in pain. Reframe: I am in pain for a minute.
 Usual Frame: You need to stop thinking negative thoughts. Reframe: You can’t subtract negative thoughts. But you can crowd them out.
 Usual Frame: I’m afraid to do the thing I know I should do. Reframe: Life is short.
 Usual Frame: People judge me, so I feel bad when I mess up. Reframe: People only care about themselves. They don’t care what dumb thing I did recently, even if they mention it.
+Usual Frame: My stress and anxiety are caused by events in my life. Reframe: I won’t care about any of those events on my deathbed.
+Usual Frame: No one wants to talk to me. I’m boring. Reframe: Everyone enjoys talking to people who show interest in them.
+Usual Frame: People judge me, so I feel bad when I mess up. Reframe: People only care about themselves. They don’t care what
+dumb thing I did recently, even if they mention it.
+Usual Frame: Stress comes with the job. Reframe: Reducing stress IS your job.
+Usual Frame: Avoid addiction. Reframe: Choose your addictions wisely.
+Usual Frame: I am a victim of my past traumas. Reframe: History is imaginary.
+Usual Frame: You are the result of your traumas. Reframe: You are a random bundle of loose wires.
+
+
+# Social Life Reframes
+Usual Frame: No one seems to find me attractive. Reframe: I haven’t met enough people.
+Usual Frame: I have lost my soulmate. Reframe: I have a million soulmates I have not yet met.
+Usual Frame: People treat you poorly, and you can’t do much about it. Reframe: You cause people to act the way they do.
+Usual Frame: Most people are normal, but I’m a basket case. Reframe: Everyone is a basket case once you get to know them.
+
+# Physical Reframes
+Usual Frame: When I am hungry, I eat food. Reframe: Some food is fuel. Some food is entertainment.
+Usual Frame: Overeating is a willpower problem. Reframe: Overeating is a knowledge problem.
+Usual Frame: I want food, so I must be hungry. Reframe: I want food, so I might be tired.
+Usual Frame: I have a weight loss goal. Reframe: I need to create a weight loss system for myself.
+Usual Frame: Sugar is delicious but don’t overdo it. Reframe: Sugar is poison.
+Usual Frame: My stomach has room for more food. Reframe: I’ve had enough.
+Usual Frame: I’m hungry, so I need food. Reframe: I’m hungry, so I need protein.
+Usual Frame: Exercising requires willpower and motivation. Reframe: Exercising is easier than not exercising if you turn it into a habit.
+Usual Frame: It’s important to learn the best ways to exercise. Reframe: The best exercises are the ones you are willing to do.
+
+
+# Reality Reframes
+Usual Frame: One of us is right, and one is wrong. Reframe: We are watching two different movies on one screen.
+Usual Frame: You should spread your genes. Reframe: No matter what you do, your genes will be diluted with each generation until your contribution nears zero.
+Usual Frame: Life is about avoiding pain while pursuing happiness and meaning. Reframe: Life is an adventure.
+Usual Frame: People come up with their own opinions. Reframe: People join teams, and the media assigns their opinions.
+Usual Frame: Others think and feel approximately as I do. Reframe: Others are unimaginably different.
+
+# The Operating Systems
+Usual Frame: Reality is objective. Reframe: There might be an objective reality, but human brains don’t have access to it. 
 
 
 Here they are:
