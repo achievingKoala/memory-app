@@ -82,5 +82,23 @@ export const data = [
         keyword: '写作',
         sentence: 'Usual Frame: I can\'t think of anything good to write. Reframe: I can write something bad and fix it.',
         chinese: '常规框架：我想不出任何好的内容来写。重构框架：我可以先写点坏的，然后再修正它。'
+    },
+    {
+        id: 're-s-15',
+        keyword: '热爱',
+        sentence: 'You need to love to lose.',
+        chinese: '你需要学会热爱失败'
+    },
+    {
+        id: 're-s-16',
+        keyword: '最后',
+        sentence: 'For in the end, he was trying to tell us that what afflicted the people in Brave New World was not that they were laughing instead of thinking,',
+        chinese: '事实上，他试图告诉我们，《美丽新世界》中的人们所受的困扰，不是他们笑而不是思考'
+    },
+    {
+        id: 're-s-17',
+        keyword: '取代',
+        sentence: 'but that they did not know what they were laughing about and why they had stopped thinking.',
+        chinese: '而是他们不知道自己在笑什么，也不知道为什么停止了思考。'
     }
 ]
