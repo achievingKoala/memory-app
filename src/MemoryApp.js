@@ -5,7 +5,10 @@
 // import {data as jsData} from './readData';
 // import {data as jsData} from './random1';
 // import {data as jsData} from './random2';
-import {data as jsData} from './successF.js';
+// import {data as jsData} from './random-2025';
+// import {data as jsData} from './success-reframe.js';
+// import {data as jsData} from './mental-reframe.js';
+import {data as jsData} from './reality-reframe.js';
 
 
 import React, { useState } from 'react';
