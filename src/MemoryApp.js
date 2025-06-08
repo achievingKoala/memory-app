@@ -17,6 +17,25 @@ const audioPath = require("./new-note.mp3");
 
 // const jsData = data;
 
+const commonStyle = {
+  fontSize: '22px',
+  width: '60%',
+  margin: 'auto',
+  textAlign: 'left',
+  wordSpacing: 'normal',
+  fontFamily: 'monospace',
+};
+const correctCountStyle = { fontSize: '24px' };
+const itemContainerStyle = { margin: '20px' };
+const textareaStyle = {
+  margin: '20px',
+  fontSize: '22px',
+  width: '60%',
+  height: '80px',
+  wordSpacing: 'normal',
+  fontFamily: 'monospace',
+};
+
 const MemoryApp = () => {
 
   const [data, setData] = useState(jsData.filter(item => item.hide !== 1));
@@ -139,76 +158,97 @@ const MemoryApp = () => {
   const storedCounts = JSON.parse(localStorage.getItem('idCounts')) || {};
   // const idCount = storedCounts[item.id] || 0; // Get the count for the current item
   
-  const commonStyle = {
-    fontSize: '22px',
-    width: '60%',
-    margin: 'auto',
-    textAlign: 'left',
-  };
-
   return (
     <div>
       <h1 style={{ marginTop: '60px' }}>纳瓦尔：如何不靠运气致富</h1>
-      {currentItems      
-        .map((item, index) => (
-        <div key={index} style={{ margin: '20px' }}>
-          <p style={{ fontSize: '20px' }}> {item.id} . {item.chinese} <span style={{ fontSize: '24px' }}>  正确次数：{storedCounts[item.id] || 0}</span> </p>
-           { (feedbackMessage && item.sentence == feedbackMessage) ? 
-           <div style={{ ...commonStyle, wordSpacing: 'normal', fontFamily: 'monospace' }} >
-             {feedbackMessage}</div> 
-             : ''}        
-          <div style={{ ...commonStyle, wordSpacing: 'normal', fontFamily: 'monospace' }}>
-            {userInputs[currentPage * itemsPerPage + index].split(' ').map((word, wordIndex) => {
-              const isCorrectWord = item.sentence.split(' ').includes(word);
-              return (
-                <span key={wordIndex} style={{ color: isCorrectWord ? 'green' : 'black' }}>
-                  {word}{' '}
-                </span>
-              );
-            })}
-          </div>
-
-          <textarea
-            type="text"
-            placeholder="默写英文句子..."
-            value={userInputs[currentPage * itemsPerPage + index]}
-            onFocus={() => setIsFocused(index)} // 光标聚焦事件
-            onBlur={() => setIsFocused(null)} // 光标移出事件
-            onChange={(e) => handleInputChange(currentPage * itemsPerPage + index, e.target.value)}
-            onKeyDown={(e) => handleKeyDown(currentPage * itemsPerPage + index, e)}
-            style={{ margin: '20px', fontSize: '22px', width: '60%', height: '80px', wordSpacing: 'normal', fontFamily: 'monospace' }} // Adjusted word spacing and font
-          />
-          <div style={{ margin: '20px', color: isSpeaking ? 'green' : 'black' }}>
-            {isSpeaking && isFocused  === index ? 'Sending request...' : ''}
-          </div>
-          {userInputs[currentPage * itemsPerPage + index] === item.sentence && (
-            <>
-              <p style={{ color: 'green' }}>Correct!</p>
-            </>
-          )}
-        </div>
+      {currentItems.map((item, index) => (
+        <SentenceItem
+          key={item.id}
+          item={item}
+          index={index}
+          userInput={userInputs[currentPage * itemsPerPage + index]}
+          onInputChange={e => handleInputChange(currentPage * itemsPerPage + index, e.target.value)}
+          onKeyDown={e => handleKeyDown(currentPage * itemsPerPage + index, e)}
+          isSpeaking={isSpeaking}
+          isFocused={isFocused === index}
+          feedbackMessage={feedbackMessage}
+          correctCount={storedCounts[item.id] || 0}
+          onFocus={() => setIsFocused(index)}
+          onBlur={() => setIsFocused(null)}
+        />
       ))}
 
-      
-        <p>当前页: {currentPage + 1}</p> {/* Display current page number */}
-        <button onClick={handlePrevPage} disabled={currentPage === 0} style={{ margin: '10px' }}>
-          上一页
-        </button>
-        <button onClick={handleNextPage} disabled={currentPage >= Math.floor(data.length / itemsPerPage)} style={{ margin: '10px' }}>
-          下一页
-        </button>
-        <button onClick={handleRandomLoad} style={{ margin: '10px' }}>
-          随机加载句子
-        </button>
-        <button onClick={sortDataByIdCount} style={{ margin: '10px' }}>
-          根据练习次数倒序
-        </button>
-        <button onClick={sortDataByIdCountDescending} style={{ margin: '10px' }}>
-          根据练习次数正序
-        </button>
-      
+      <p>当前页: {currentPage + 1}</p>
+      <button onClick={handlePrevPage} disabled={currentPage === 0} style={{ margin: '10px' }}>
+        上一页
+      </button>
+      <button onClick={handleNextPage} disabled={currentPage >= Math.floor(data.length / itemsPerPage)} style={{ margin: '10px' }}>
+        下一页
+      </button>
+      <button onClick={handleRandomLoad} style={{ margin: '10px' }}>
+        随机加载句子
+      </button>
+      <button onClick={sortDataByIdCount} style={{ margin: '10px' }}>
+        根据练习次数倒序
+      </button>
+      <button onClick={sortDataByIdCountDescending} style={{ margin: '10px' }}>
+        根据练习次数正序
+      </button>
     </div>
   );
 };
+
+function SentenceItem({
+  item,
+  index,
+  userInput,
+  onInputChange,
+  onKeyDown,
+  isSpeaking,
+  isFocused,
+  feedbackMessage,
+  correctCount,
+  onFocus,
+  onBlur,
+}) {
+  const isCorrect = userInput === item.sentence;
+  const showFeedback = feedbackMessage && item.sentence === feedbackMessage;
+
+  return (
+    <div style={itemContainerStyle}>
+      <p style={{ fontSize: '20px' }}>
+        {item.id} . {item.chinese}
+        <span style={correctCountStyle}> 正确次数：{correctCount}</span>
+      </p>
+      {showFeedback && (
+        <div style={commonStyle}>{feedbackMessage}</div>
+      )}
+      <div style={commonStyle}>
+        {userInput.split(' ').map((word, wordIndex) => {
+          const isCorrectWord = item.sentence.split(' ').includes(word);
+          return (
+            <span key={wordIndex} style={{ color: isCorrectWord ? 'green' : 'black' }}>
+              {word}{' '}
+            </span>
+          );
+        })}
+      </div>
+      <textarea
+        type="text"
+        placeholder="默写英文句子..."
+        value={userInput}
+        onFocus={onFocus}
+        onBlur={onBlur}
+        onChange={onInputChange}
+        onKeyDown={onKeyDown}
+        style={textareaStyle}
+      />
+      <div style={{ margin: '20px', color: isSpeaking ? 'green' : 'black' }}>
+        {isSpeaking && isFocused ? 'Sending request...' : ''}
+      </div>
+      {isCorrect && <p style={{ color: 'green' }}>Correct!</p>}
+    </div>
+  );
+}
 
 export default MemoryApp;
