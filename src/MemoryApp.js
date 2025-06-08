@@ -1,5 +1,5 @@
 // import {data as jsData} from './andyData';
-// import {data as jsData} from './sentenceData';
+import {data as jsData} from './sentenceData';
 // import {data as jsData} from './reframe';
 // import {data as jsData} from './wordData';
 // import {data as jsData} from './readData';
@@ -8,7 +8,7 @@
 // import {data as jsData} from './random-2025';
 // import {data as jsData} from './success-reframe.js';
 // import {data as jsData} from './mental-reframe.js';
-import {data as jsData} from './reality-reframe.js';
+// import {data as jsData} from './reality-reframe.js';
 
 
 import React, { useState } from 'react';
@@ -74,12 +74,12 @@ const MemoryApp = () => {
 
   const handleKeyDown = (index, event) => {
     if (event.key === '=') {
-      event.preventDefault(); // Prevent default behavior
-      if (feedbackMessage) {
+      event.preventDefault();
+      const correctSentence = data[index].sentence;
+      if (feedbackMessage === correctSentence) {
         setFeedbackMessage('');
       } else {
-        const correctSentence = data[index].sentence;
-        setFeedbackMessage(correctSentence); // Set feedback message
+        setFeedbackMessage(correctSentence);
       }
     } else if (event.key === ']') {
       event.preventDefault(); // Prevent default behavior
