@@ -31,23 +31,17 @@ Usual Frame: I’m afraid to do the thing I know I should do. Reframe: Life is s
 Usual Frame: People judge me, so I feel bad when I mess up. Reframe: People only care about themselves. They don’t care what dumb thing I did recently, even if they mention it.
 Usual Frame: My stress and anxiety are caused by events in my life. Reframe: I won’t care about any of those events on my deathbed.
 Usual Frame: No one wants to talk to me. I’m boring. Reframe: Everyone enjoys talking to people who show interest in them.
-Usual Frame: People judge me, so I feel bad when I mess up. Reframe: People only care about themselves. They don’t care what
-dumb thing I did recently, even if they mention it.
+Usual Frame: People judge me, so I feel bad when I mess up. Reframe: People only care about themselves. They don’t care what dumb thing I did recently, even if they mention it.
 Usual Frame: Stress comes with the job. Reframe: Reducing stress IS your job.
 Usual Frame: Avoid addiction. Reframe: Choose your addictions wisely.
 Usual Frame: I am a victim of my past traumas. Reframe: History is imaginary.
 Usual Frame: You are the result of your traumas. Reframe: You are a random bundle of loose wires.
 
 
-# Social Life Reframes
-Usual Frame: No one seems to find me attractive. Reframe: I haven’t met enough people.
-Usual Frame: I have lost my soulmate. Reframe: I have a million soulmates I have not yet met.
-Usual Frame: People treat you poorly, and you can’t do much about it. Reframe: You cause people to act the way they do.
-Usual Frame: Most people are normal, but I’m a basket case. Reframe: Everyone is a basket case once you get to know them.
-
 # Physical Reframes
 Usual Frame: When I am hungry, I eat food. Reframe: Some food is fuel. Some food is entertainment.
 Usual Frame: Overeating is a willpower problem. Reframe: Overeating is a knowledge problem.
+because willpower isn’t real.
 Usual Frame: I want food, so I must be hungry. Reframe: I want food, so I might be tired.
 Usual Frame: I have a weight loss goal. Reframe: I need to create a weight loss system for myself.
 Usual Frame: Sugar is delicious but don’t overdo it. Reframe: Sugar is poison.
