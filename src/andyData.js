@@ -39,7 +39,8 @@ export const data = [
         id: 'a7',
         keyword: '气场',
         sentence: '"Aura" must be until you open your mouth.',
-        chinese: '“气场”在开口之前。'
+        chinese: '“气场”在开口之前。',
+        ifShow: 0
     },
     {
         id: 'a8',
@@ -50,8 +51,8 @@ export const data = [
     {
         id: 'a9',
         keyword: '商业艺术',
-        sentence: 'Business art is the step that comes after Art…making money is art and working is art and good business is the best art.',
-        chinese: '商业艺术是艺术之后的一步……赚钱是艺术，工作是艺术，好的生意是最好的艺术。'
+        sentence: 'Business art is the step that comes after art. making money is art and working is art and good business is the best art.',
+        chinese: '商业艺术是艺术之后的一步. 赚钱是艺术，工作是艺术，好的生意是最好的艺术。'
     },
     {
         id: 'a10',
