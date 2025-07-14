@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>保留光标位置的关键词高亮输入框</title>
+  <style>
+    body {
+      /* background: #111; */
+      /* color: #fff; */
+      font-family: monospace;
+      padding: 40px;
+    }
+
+    .my-input {
+      width: 400px;
+      min-height: 30px;
+      border: 2px solid rgb(1, 24, 1);
+      padding: 10px;
+      background: transparent;
+      outline: none;
+      /* caret-color: #0f0; */
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    .highlight {
+      color: rgb(37, 213, 37);
+    }
+  </style>
+</head>
+<body>
+
+  <h2>关键词变绿（光标不跳）</h2>
+  <div id="editor" class="my-input" contenteditable="true" spellcheck="false"></div>
+
+  <script>
+    const editor = document.getElementById("editor");
+    const keywords = ["apple.", "hello", "no"];
+
+    editor.addEventListener("input", () => {
+      updateEditor();
+    });
+
+    function updateEditor() {
+      // 保存当前光标位置
+      const sel = window.getSelection();
+      if (!sel.rangeCount) return;
+      const range = sel.getRangeAt(0);
+      const preCaretRange = range.cloneRange();
+      preCaretRange.selectNodeContents(editor);
+      preCaretRange.setEnd(range.endContainer, range.endOffset);
+      const caretOffset = preCaretRange.toString().length;
+
+      // 获取纯文本
+      const text = editor.textContent;
+
+      // 始终高亮关键词
+      const words = text.split(/(\s+)/).map(word => {
+        if (keywords.includes(word.trim())) {
+          // 这里要把空格也转成 &nbsp;
+          return `<span class="highlight">${word.replace(/ /g, "&nbsp;")}</span>`;
+        }
+        // 只要是空格就转成 &nbsp;
+        if (/^\s+$/.test(word)) {
+          return word.replace(/ /g, "&nbsp;");
+        }
+        return word;
+      });
+      const html = words.join("");
+
+      // 替换内容
+      editor.innerHTML = html;
+
+      // 恢复光标
+      restoreCaret(editor, caretOffset);
+    }
+
+    function restoreCaret(container, offset) {
+      const range = document.createRange();
+      const sel = window.getSelection();
+      let currentNode = null;
+      let currentOffset = 0;
+
+      // 遍历节点，定位到正确位置
+      function traverse(node) {
+        if (node.nodeType === Node.TEXT_NODE) {
+          const len = node.textContent.length;
+          if (currentOffset + len >= offset) {
+            range.setStart(node, offset - currentOffset);
+            range.collapse(true);
+            sel.removeAllRanges();
+            sel.addRange(range);
+            throw "done"; // 跳出递归
+          } else {
+            currentOffset += len;
+          }
+        } else {
+          for (let child of node.childNodes) {
+            traverse(child);
+          }
+        }
+      }
+
+      try {
+        traverse(container);
+      } catch (e) {
+        // 捕获"跳出"
+      }
+    }
+  </script>
+
+</body>
+</html>

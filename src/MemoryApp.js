@@ -1,14 +1,14 @@
 // import {data as jsData} from './andyData';
-import {data as jsData} from './sentenceData';
+// import {data as jsData} from './sentenceData';
 // import {data as jsData} from './reframe';
 // import {data as jsData} from './wordData';
 // import {data as jsData} from './readData';
 // import {data as jsData} from './random1';
 // import {data as jsData} from './random2';
-// import {data as jsData} from './random-2025';
-// import {data as jsData} from './success-reframe.js';
-// import {data as jsData} from './mental-reframe.js';
-// import {data as jsData} from './reality-reframe.js';
+import {data as random2025Data} from './random-2025';
+import {data as successReframeData} from './success-reframe';
+import {data as mentalReframeData} from './mental-reframe';
+import {data as realityReframeData} from './reality-reframe';
 
 
 import React, { useState } from 'react';
@@ -36,9 +36,16 @@ const textareaStyle = {
   fontFamily: 'monospace',
 };
 
-const MemoryApp = () => {
+const dataSources = [
+  { label: 'Random 2025', value: 'random2025', data: random2025Data },
+  { label: 'Success Reframe', value: 'successReframe', data: successReframeData },
+  { label: 'Mental Reframe', value: 'mentalReframe', data: mentalReframeData },
+  { label: 'Reality Reframe', value: 'realityReframe', data: realityReframeData },
+];
 
-  const [data, setData] = useState(jsData.filter(item => item.hide !== 1));
+const MemoryApp = () => {
+  const [selectedSource, setSelectedSource] = useState(dataSources[0].value);
+  const [data, setData] = useState(dataSources[0].data.filter(item => item.hide !== 1));
   const [currentPage, setCurrentPage] = useState(0);
   const [userInputs, setUserInputs] = useState(Array(data.length).fill(''));
   const [feedbackMessage, setFeedbackMessage] = useState('');
@@ -47,6 +54,16 @@ const MemoryApp = () => {
   const [isSpeaking, setIsSpeaking] = useState(false); // 播放状态
   const [isFocused, setIsFocused] = useState(null);
 
+  const handleSourceChange = (e) => {
+    const newSource = e.target.value;
+    const sourceObj = dataSources.find(ds => ds.value === newSource);
+    const filteredData = sourceObj.data.filter(item => item.hide !== 1);
+    setSelectedSource(newSource);
+    setData(filteredData);
+    setCurrentPage(0);
+    setUserInputs(Array(filteredData.length).fill(''));
+    setFeedbackMessage('');
+  };
 
   const handleRandomLoad = () => {
     // const randomIndex = Math.floor(Math.random() * data.length);
@@ -160,7 +177,15 @@ const MemoryApp = () => {
   
   return (
     <div>
-      <h1 style={{ marginTop: '60px' }}>纳瓦尔：如何不靠运气致富</h1>
+      <div style={{ margin: '20px' }}>
+        <label htmlFor="data-source-select">切换数据源：</label>
+        <select id="data-source-select" value={selectedSource} onChange={handleSourceChange} style={{ fontSize: '18px', marginLeft: '10px' }}>
+          {dataSources.map(ds => (
+            <option key={ds.value} value={ds.value}>{ds.label}</option>
+          ))}
+        </select>
+      </div>
+      {/* <h1 style={{ marginTop: '60px' }}>纳瓦尔：如何不靠运气致富</h1> */}
       {currentItems.map((item, index) => (
         <SentenceItem
           key={item.id}

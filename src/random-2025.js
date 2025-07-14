@@ -29,7 +29,7 @@ export const data = [
         id: 't2-ep1',
         keyword: '天才',
         sentence: 'The imagination of the genius vastly surpasses his intellect; the intellect of the academic vastly surpasses his imagination.',
-        chinese: '天才的想象力远远超过他的学问，书呆子的学问远远超过他的想象力',
+        chinese: '天才的想象力远远超过他的学问；书呆子的学问远远超过他的想象力',
         hide: 0
     },
     {
