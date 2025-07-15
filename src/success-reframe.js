@@ -39,7 +39,7 @@ export const data = [
         id: 're-s-7',
         keyword: '不幸',
         sentence: 'Usual Frame: I am unusually unlucky this happened to me. Reframe: Everyone has problems. No exceptions.',
-        chinese: '常规框架：我非常不幸，这事发生在我身上。重构框架：每个人都有问题，没有例外。'
+        chinese: '常规框架：我非常不幸，这事发生在我身上。重构框架：每个人都有问题。 没有例外。'
     },
     {
         id: 're-s-8',

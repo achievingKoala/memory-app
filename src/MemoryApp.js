@@ -37,10 +37,10 @@ const textareaStyle = {
 };
 
 const dataSources = [
-  { label: 'Random 2025', value: 'random2025', data: random2025Data },
   { label: 'Success Reframe', value: 'successReframe', data: successReframeData },
   { label: 'Mental Reframe', value: 'mentalReframe', data: mentalReframeData },
   { label: 'Reality Reframe', value: 'realityReframe', data: realityReframeData },
+  { label: 'Random 2025', value: 'random2025', data: random2025Data },
 ];
 
 const MemoryApp = () => {
