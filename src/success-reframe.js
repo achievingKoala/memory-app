@@ -6,6 +6,12 @@ export const data = [
         chinese: '常规框架：我的成功概率很低。重构框架：也许我只是对成功概率的估计不准确。'
     },
     {
+        id: 're-s-1b',
+        keyword: '成功概率',
+        sentence: 'Usual Frame: I fail at 90 percent of the things I try. Reframe: I only need to succeed 10 percent of the time.',
+        chinese: '常规框架：我做的事情有90%都失败了。重构框架：我只需要有10%的成功就够了。'
+    },
+    {
         id: 're-s-2',
         keyword: '无聊',
         sentence: 'Usual Frame: I am bored with life. Reframe: I am not embarrassing myself enough.',
@@ -34,6 +40,12 @@ export const data = [
         keyword: '技能',
         sentence: 'Usual Frame: Focus on being excellent at a skill that has commercial value. Reframe: Acquire skills that work well together and make you rare and flexible at the same time.',
         chinese: '常规框架：专注于在具有商业价值的技能上做到优秀。重构框架：获得能够相互配合的技能，让你既稀有又灵活。'
+    },
+    {
+        id: 're-s-6b',
+        keyword: '琐事',
+        sentence: 'Usual Frame: Ugh, I hate this repetitive chore. Reframe: I can do this chore so gracefully and efficiently it feels like a game.',
+        chinese: '常规框架：我讨厌这项重复的琐事。重构框架：我可以如此优雅高效地完成这项琐事，让它像游戏一样有趣。'
     },
     {
         id: 're-s-7',
