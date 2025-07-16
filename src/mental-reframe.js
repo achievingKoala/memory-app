@@ -123,7 +123,13 @@ export const data = [
         id: 're-me-21',
         keyword: '意志力',
         sentence: 'Usual Frame: Some people have no willpower. They are weak. Reframe: Some people get more pleasure from certain vices than you do.',
-        chinese: '通常思维：有些人毫无意志力，他们很软弱。重新思考：有些人从某些恶习中获得的快感比你更多。'
+        chinese: '通常思维：有些人毫无意志力。他们很软弱。重新思考：有些人从某些恶习中获得的快感比你更多。'
+    },
+    {
+        id: 're-me-22',
+        keyword: '坚持',
+        sentence: 'Usual Frame: I can\'t handle this for the rest of my life. Reframe: I can do anything for a day.',
+        chinese: '常规框架：我无法应对这样过一辈子。重构框架：我可以坚持一天做任何事。'
     },
     {
         id: 're-s-16',
