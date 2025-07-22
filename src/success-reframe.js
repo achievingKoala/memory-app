@@ -54,6 +54,12 @@ export const data = [
         chinese: '常规框架：我非常不幸，这事发生在我身上。重构框架：每个人都有问题。 没有例外。'
     },
     {
+        id: 're-s-7b',
+        keyword: '公平',
+        sentence: 'Usual Frame: Fairness is a desirable social goal. Reframe: Fairness is the enemy of success.',
+        chinese: '常规框架：公平是一个值得追求的社会目标。重构框架：公平是成功的敌人。'
+    },
+    {
         id: 're-s-8',
         keyword: '想法',
         sentence: 'Usual Frame: I need to come up with a good idea. Reframe: I need to release all my bad ideas as quickly as possible.',
