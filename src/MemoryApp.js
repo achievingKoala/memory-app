@@ -17,18 +17,38 @@ const audioPath = require("./new-note.mp3");
 
 const commonStyle = {
   fontSize: '22px',
-  width: '60%',
+  width: '80%',
   margin: 'auto',
   textAlign: 'left',
   wordSpacing: 'normal',
   fontFamily: 'monospace',
 };
 const correctCountStyle = { fontSize: '24px' };
-const itemContainerStyle = { margin: '20px' };
+const mainContentStyle = {
+  width: '95%',
+  margin: '0 auto',
+  background: '#f3f6fa',
+  minHeight: '100vh',
+  padding: '0 0 40px 0',
+  boxSizing: 'border-box',
+};
+const itemContainerStyle = {
+  margin: '24px 0',
+  background: '#fff',
+  borderRadius: '14px',
+  boxShadow: '0 2px 12px rgba(37,99,235,0.10)',
+  padding: '28px 32px',
+  border: '1.5px solid #e0e7ef',
+  transition: 'box-shadow 0.2s',
+  maxWidth: '90%',
+  width: '100%',
+  marginLeft: 'auto',
+  marginRight: 'auto',
+};
 const textareaStyle = {
   margin: '20px',
   fontSize: '22px',
-  width: '60%',
+  width: '80%',
   height: '80px',
   wordSpacing: 'normal',
   fontFamily: 'monospace',
@@ -192,7 +212,7 @@ const MemoryApp = () => {
   // const idCount = storedCounts[item.id] || 0; // Get the count for the current item
   
   return (
-    <div>
+    <div style={mainContentStyle}>
       <h1 style={{
         textAlign: 'center',
         fontSize: '2.2rem',
@@ -293,8 +313,20 @@ function SentenceItem({
   const isCorrect = userInput === item.sentence;
   const showFeedback = feedbackMessage && item.sentence === feedbackMessage;
 
+  // 动态样式
+  let cardBorder = '#e0e7ef';
+  if (isCorrect) cardBorder = '#22c55e'; // 绿色
+  else if (isFocused) cardBorder = '#2563eb'; // 蓝色
+  else if (userInput && !isCorrect) cardBorder = '#ef4444'; // 红色
+
+  const dynamicStyle = {
+    ...itemContainerStyle,
+    border: `2.5px solid ${cardBorder}`,
+    boxShadow: isFocused ? '0 4px 16px rgba(37,99,235,0.13)' : itemContainerStyle.boxShadow,
+  };
+
   return (
-    <div style={itemContainerStyle}>
+    <div style={dynamicStyle}>
       <p style={{ fontSize: '20px' }}>
         {item.id} . {item.chinese}
         <span style={correctCountStyle}> 正确次数：{correctCount}</span>
