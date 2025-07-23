@@ -34,6 +34,20 @@ const textareaStyle = {
   fontFamily: 'monospace',
 };
 
+const buttonStyle = {
+  padding: '8px 18px',
+  borderRadius: '8px',
+  border: 'none',
+  background: '#2563eb',
+  color: '#fff',
+  fontWeight: 600,
+  fontSize: '16px',
+  boxShadow: '0 2px 8px rgba(37,99,235,0.08)',
+  cursor: 'pointer',
+  transition: 'background 0.2s, transform 0.1s',
+  marginLeft: '0',
+};
+
 const dataSources = [
   { label: 'Success Reframe', value: 'successReframe', data: successReframeData },
   { label: 'Mental Reframe', value: 'mentalReframe', data: mentalReframeData },
@@ -179,15 +193,33 @@ const MemoryApp = () => {
   
   return (
     <div>
-      <div style={{ margin: '20px' }}>
-        <label htmlFor="data-source-select">切换数据源：</label>
-        <select id="data-source-select" value={selectedSource} onChange={handleSourceChange} style={{ fontSize: '18px', marginLeft: '10px' }}>
+      <h1 style={{
+        textAlign: 'center',
+        fontSize: '2.2rem',
+        fontWeight: 700,
+        margin: '32px 0 16px 0',
+        letterSpacing: '2px',
+        color: '#2563eb'
+      }}>
+        英文默写练习
+      </h1>
+      <div style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        gap: '16px',
+        marginBottom: '32px'
+      }}>
+        <label htmlFor="data-source-select" style={{ fontSize: '18px' }}>切换数据源：</label>
+        <select id="data-source-select" value={selectedSource} onChange={handleSourceChange} style={{ fontSize: '18px', borderRadius: '6px', padding: '6px 12px', border: '1.5px solid #cbd5e1', background: '#f1f5f9', outline: 'none' }}>
           {dataSources.map(ds => (
             <option key={ds.value} value={ds.value}>{ds.label}</option>
           ))}
         </select>
+        <button onClick={handleRandomLoad} style={buttonStyle}>随机加载句子</button>
+        <button onClick={sortDataByIdCount} style={buttonStyle}>根据练习次数倒序</button>
+        <button onClick={sortDataByIdCountDescending} style={buttonStyle}>根据练习次数正序</button>
       </div>
-      {/* <h1 style={{ marginTop: '60px' }}>纳瓦尔：如何不靠运气致富</h1> */}
       {currentItems.map((item, index) => (
         <SentenceItem
           key={item.id}
@@ -211,15 +243,6 @@ const MemoryApp = () => {
       </button>
       <button onClick={handleNextPage} disabled={currentPage >= Math.floor(data.length / itemsPerPage)} style={{ margin: '10px' }}>
         下一页
-      </button>
-      <button onClick={handleRandomLoad} style={{ margin: '10px' }}>
-        随机加载句子
-      </button>
-      <button onClick={sortDataByIdCount} style={{ margin: '10px' }}>
-        根据练习次数倒序
-      </button>
-      <button onClick={sortDataByIdCountDescending} style={{ margin: '10px' }}>
-        根据练习次数正序
       </button>
     </div>
   );
