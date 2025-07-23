@@ -15,8 +15,6 @@ import React, { useState } from 'react';
 import {speakText} from './AzureTextToSpeech';
 const audioPath = require("./new-note.mp3");
 
-// const jsData = data;
-
 const commonStyle = {
   fontSize: '22px',
   width: '60%',
@@ -69,7 +67,8 @@ const MemoryApp = () => {
   const handleRandomLoad = () => {
     // const randomIndex = Math.floor(Math.random() * data.length);
     // setCurrentPage(randomIndex % itemsPerPage === 0 ? randomIndex : Math.floor(randomIndex / itemsPerPage));
-    const shuffledData = data.sort(() => Math.random() - 0.5); // 打乱data的顺序
+    const shuffledData = [...data].sort(() => Math.random() - 0.5); // 打乱data的顺序
+    setData(shuffledData);
     setCurrentPage(0); // 重置当前页面为0
     // 这里可以选择更新userInputs以匹配新的数据顺序
     setUserInputs(Array(shuffledData.length).fill('')); // 重置用户输入
@@ -152,22 +151,24 @@ const MemoryApp = () => {
   
   const sortDataByIdCount = () => {
     const storedCounts = JSON.parse(localStorage.getItem('idCounts')) || {};
-    const sortedData = data.sort((a, b) => {
+    const sortedData = [...data].sort((a, b) => {
       const countA = storedCounts[a.id] || 0;
       const countB = storedCounts[b.id] || 0;
       return countB - countA; // Sort in descending order
     });
+    setData(sortedData);
     setCurrentPage(0); // Reset to the first page
     setUserInputs(Array(sortedData.length).fill('')); // Reset user inputs
   };
   
   const sortDataByIdCountDescending = () => {
     const storedCounts = JSON.parse(localStorage.getItem('idCounts')) || {};
-    const sortedData = data.sort((a, b) => {
+    const sortedData = [...data].sort((a, b) => {
       const countA = storedCounts[a.id] || 0;
       const countB = storedCounts[b.id] || 0;
       return countA - countB; // Sort in ascending order
     });
+    setData(sortedData);
     setCurrentPage(0); // Reset to the first page
     setUserInputs(Array(sortedData.length).fill('')); // Reset user inputs
     // Update the data state if you have a state for it, otherwise update the currentItems directly
