@@ -237,13 +237,42 @@ const MemoryApp = () => {
         />
       ))}
 
-      <p>当前页: {currentPage + 1}</p>
-      <button onClick={handlePrevPage} disabled={currentPage === 0} style={{ margin: '10px' }}>
-        上一页
-      </button>
-      <button onClick={handleNextPage} disabled={currentPage >= Math.floor(data.length / itemsPerPage)} style={{ margin: '10px' }}>
-        下一页
-      </button>
+      {/* 优化后的底部导航 */}
+      <div style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        gap: '24px',
+        margin: '40px 0 24px 0',
+      }}>
+        <button
+          onClick={handlePrevPage}
+          disabled={currentPage === 0}
+          style={{
+            ...buttonStyle,
+            opacity: currentPage === 0 ? 0.5 : 1,
+            cursor: currentPage === 0 ? 'not-allowed' : 'pointer',
+            margin: 0,
+          }}
+        >
+          上一页
+        </button>
+        <span style={{ fontSize: '18px', fontWeight: 600, minWidth: '90px', textAlign: 'center' }}>
+          第 {currentPage + 1} / {Math.max(1, Math.ceil(data.length / itemsPerPage))} 页
+        </span>
+        <button
+          onClick={handleNextPage}
+          disabled={currentPage >= Math.floor(data.length / itemsPerPage)}
+          style={{
+            ...buttonStyle,
+            opacity: currentPage >= Math.floor(data.length / itemsPerPage) ? 0.5 : 1,
+            cursor: currentPage >= Math.floor(data.length / itemsPerPage) ? 'not-allowed' : 'pointer',
+            margin: 0,
+          }}
+        >
+          下一页
+        </button>
+      </div>
     </div>
   );
 };
