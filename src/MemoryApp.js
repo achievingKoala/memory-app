@@ -37,7 +37,7 @@ const itemContainerStyle = {
   background: '#fff',
   borderRadius: '14px',
   boxShadow: '0 2px 12px rgba(37,99,235,0.10)',
-  padding: '28px 32px',
+  padding: '10px',
   border: '1.5px solid #e0e7ef',
   transition: 'box-shadow 0.2s',
   maxWidth: '90%',
@@ -86,6 +86,7 @@ const MemoryApp = () => {
   const successSound = new Audio(audioPath);
   const [isSpeaking, setIsSpeaking] = useState(false); // 播放状态
   const [isFocused, setIsFocused] = useState(null);
+  const textareaRefs = React.useRef([]);
 
   const handleSourceChange = (e) => {
     const newSource = e.target.value;
@@ -134,6 +135,12 @@ const MemoryApp = () => {
     // console.log('--->u', data[index].sentence);
     if (value == data[index].sentence) {
       recordCorrect(data[index].id);
+      // 自动聚焦下一个输入框
+      setTimeout(() => {
+        if (textareaRefs.current[index + 1]) {
+          textareaRefs.current[index + 1].focus();
+        }
+      }, 100); // 延迟以确保禁用生效
     }
     setUserInputs((prev) => {
       const newInputs = [...prev];
@@ -254,6 +261,7 @@ const MemoryApp = () => {
           correctCount={storedCounts[item.id] || 0}
           onFocus={() => setIsFocused(index)}
           onBlur={() => setIsFocused(null)}
+          textareaRef={el => textareaRefs.current[currentPage * itemsPerPage + index] = el}
         />
       ))}
 
@@ -309,6 +317,7 @@ function SentenceItem({
   correctCount,
   onFocus,
   onBlur,
+  textareaRef,
 }) {
   const isCorrect = userInput === item.sentence;
   const showFeedback = feedbackMessage && item.sentence === feedbackMessage;
@@ -353,6 +362,8 @@ function SentenceItem({
         onChange={onInputChange}
         onKeyDown={onKeyDown}
         style={textareaStyle}
+        disabled={userInput === item.sentence}
+        ref={textareaRef}
       />
       <div style={{ margin: '20px', color: isSpeaking ? 'green' : 'black' }}>
         {isSpeaking && isFocused ? 'Sending request...' : ''}
