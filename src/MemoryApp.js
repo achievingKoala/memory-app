@@ -1,5 +1,5 @@
 // import {data as jsData} from './andyData';
-// import {data as jsData} from './sentenceData';
+import {data as navalQuotesData} from './navalQuotes';
 // import {data as jsData} from './reframe';
 // import {data as jsData} from './wordData';
 // import {data as jsData} from './readData';
@@ -41,6 +41,7 @@ const dataSources = [
   { label: 'Mental Reframe', value: 'mentalReframe', data: mentalReframeData },
   { label: 'Reality Reframe', value: 'realityReframe', data: realityReframeData },
   { label: 'Random 2025', value: 'random2025', data: random2025Data },
+  { label: 'Naval Quotes', value: 'navalQuotes', data: navalQuotesData },
 ];
 
 const MemoryApp = () => {
