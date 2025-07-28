@@ -69,9 +69,24 @@ const buttonStyle = {
   transition: 'background 0.2s, transform 0.1s',
   marginLeft: '0',
 };
+// 生成所有chapter列表（去重, 保持顺序）
+const allChapters = [];
+allReframeData.forEach(item => {
+  if (!allChapters.includes(item.chapter)) {
+    allChapters.push(item.chapter);
+  }
+});
 
+// 构造dataSources: 每个chapter一个选项，加上“All”
 const dataSources = [
+  { label: 'Random 2025', value: 'random2025', data: random2025Data },
+  { label: 'Naval Quotes', value: 'navalQuotes', data: navalQuotesData },
   { label: 'All', value: 'all', data: allReframeData },
+  ...allChapters.map(chap => ({
+    label: chap,
+    value: chap,
+    data: allReframeData.filter(item => item.chapter === chap),
+  })),
 ];
 
 const MemoryApp = () => {
