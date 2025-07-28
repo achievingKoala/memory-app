@@ -957,5 +957,89 @@ export const data = [
         "keyword": "小善举",
         "sentence": "Usual Frame: Small acts of kindness are good. Reframe: There are no small acts of kindness.",
         "chinese": "常规框架：小小善举也是好事。重构框架：善意没有大小之分。"
+    },
+    {
+        "chapter": "Physical Health Reframes",
+        "id": "physical-1",
+        "keyword": "饥饿与进食",
+        "sentence": "Usual Frame: When I am hungry, I eat food. Reframe: Some food is fuel. Some food is entertainment.",
+        "chinese": "常规框架：饿了就吃东西。重构框架：有的食物是能量，有的只是娱乐。"
+    },
+    {
+        "chapter": "Physical Health Reframes",
+        "id": "physical-2",
+        "keyword": "暴饮暴食",
+        "sentence": "Usual Frame: Overeating is a willpower problem. Reframe: Overeating is a knowledge problem.",
+        "chinese": "常规框架：吃太多是意志力差。重构框架：吃太多是知识不足。"
+    },
+    {
+        "chapter": "Physical Health Reframes",
+        "id": "physical-3",
+        "keyword": "选择食物",
+        "sentence": "Usual Frame: I eat too much of the wrong food. Reframe: I spend too much time with the wrong people.",
+        "chinese": "常规框架：我总是吃错东西。重构框架：我总是跟错人待在一起。"
+    },
+    {
+        "chapter": "Physical Health Reframes",
+        "id": "physical-4",
+        "keyword": "渴望食物",
+        "sentence": "Usual Frame: I want food, so I must be hungry. Reframe: I want food, so I might be tired.",
+        "chinese": "常规框架：想吃东西就说明我饿了。重构框架：想吃东西也许只是我累了。"
+    },
+    {
+        "chapter": "Physical Health Reframes",
+        "id": "physical-5",
+        "keyword": "减肥目标",
+        "sentence": "Usual Frame: I have a weight loss goal. Reframe: I need to create a weight loss system for myself.",
+        "chinese": "常规框架：我有个减肥目标。重构框架：我需要为自己建立减肥系统。"
+    },
+    {
+        "chapter": "Physical Health Reframes",
+        "id": "physical-6",
+        "keyword": "糖分",
+        "sentence": "Usual Frame: Sugar is delicious but don’t overdo it. Reframe: Sugar is poison.",
+        "chinese": "常规框架：糖很美味，只要不过量就好。重构框架：糖是毒药。"
+    },
+    {
+        "chapter": "Physical Health Reframes",
+        "id": "physical-7",
+        "keyword": "碳水诱惑",
+        "sentence": "Usual Frame: I am tempted by bad carbs. Reframe: I’m not the kind of person who eats bad carbs.",
+        "chinese": "常规框架：我容易被不健康碳水吸引。重构框架：我不是爱吃不健康碳水的人。"
+    },
+    {
+        "chapter": "Physical Health Reframes",
+        "id": "physical-8",
+        "keyword": "吃撑",
+        "sentence": "Usual Frame: My stomach has room for more food. Reframe: I’ve had enough.",
+        "chinese": "常规框架：我胃里还能再装点。重构框架：我已经足够了。"
+    },
+    {
+        "chapter": "Physical Health Reframes",
+        "id": "physical-9",
+        "keyword": "饥饿感",
+        "sentence": "Usual Frame: I’m hungry, so I need food. Reframe: I’m hungry, so I need protein.",
+        "chinese": "常规框架：我饿了，需要吃东西。重构框架：我饿了，要吃蛋白质。"
+    },
+    {
+        "chapter": "Physical Health Reframes",
+        "id": "physical-10",
+        "keyword": "锻炼习惯",
+        "sentence": "Usual Frame: Exercising requires willpower and motivation. Reframe: Exercising is easier than not exercising if you turn it into a habit.",
+        "chinese": "常规框架：锻炼需要意志力和动力。重构框架：一旦习惯成自然，锻炼比不锻炼更容易。"
+    },
+    {
+        "chapter": "Physical Health Reframes",
+        "id": "physical-11",
+        "keyword": "健身方式",
+        "sentence": "Usual Frame: It’s important to learn the best ways to exercise. Reframe: The best exercises are the ones you are willing to do.",
+        "chinese": "常规框架：找到最科学的锻炼方式很重要。重构框架：最好的锻炼方式是你愿意坚持的那种。"
+    },
+    {
+        "chapter": "Physical Health Reframes",
+        "id": "physical-12",
+        "keyword": "睡眠和努力",
+        "sentence": "Usual Frame: I can’t get to sleep. Reframe: I didn’t work hard enough.",
+        "chinese": "常规框架：我失眠了。重构框架：我还不够努力。"
     }
 ]
