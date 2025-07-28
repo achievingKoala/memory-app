@@ -327,5 +327,432 @@ export const data = [
         "keyword": "写作要求",
         "sentence": "Usual Frame: I can't think of anything good to write. Reframe 3: I can write something bad and fix it.",
         "chinese": "常规框架：写不出好东西。重构框架：先写出烂的再修。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-1",
+        "keyword": "内心想法",
+        "sentence": "Usual Frame: I am my inner thoughts. Reframe: I am what I do.",
+        "chinese": "常规框架：我是我的内心想法。重构框架：我是我的行为。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-2",
+        "keyword": "认识自我",
+        "sentence": "Usual Frame: Find yourself. Reframe: Author yourself.",
+        "chinese": "常规框架：寻找自我。重构框架：创造自我。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-3",
+        "keyword": "好人与坏人",
+        "sentence": "Usual Frame: Some people are good, and some are not. Reframe: We’re all flawed, and we’re all good at different things.",
+        "chinese": "常规框架：有的人是好人，有的人不是。重构框架：我们都有缺点，也都各有所长。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-4",
+        "keyword": "艺术定义",
+        "sentence": "Usual Frame: Art is entertainment. Reframe: Art is a powerful, mind-altering drug.",
+        "chinese": "常规框架：艺术是娱乐。重构框架：艺术是改变心智的强大药物。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-5",
+        "keyword": "对待批评者",
+        "sentence": "Usual Frame: Your critics are evil monsters. Reframe: Your critics are your mascots.",
+        "chinese": "常规框架：批评你的人是恶魔。重构框架：批评你的人是你的吉祥物。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-6",
+        "keyword": "批评感受",
+        "sentence": "Usual Frame: Criticism feels like a dagger to your heart. Reframe: Criticism is a chemical reaction in the skull of someone who isn’t in the room.",
+        "chinese": "常规框架：批评像匕首刺向你的心脏。重构框架：批评只是没在你面前的人头脑中的化学反应。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-7",
+        "keyword": "他人建议",
+        "sentence": "Usual Frame: You should do what I think you should do. Reframe: Go eat fudge. (Spoken only in your mind.)",
+        "chinese": "常规框架：你应该按照我说的做。重构框架：去吃巧克力吧（只在你心里想）。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-8",
+        "keyword": "自我中心",
+        "sentence": "Usual Frame: Everyone is thinking about me. Reframe: You are only a bit player in their movie.",
+        "chinese": "常规框架：每个人都在想我。重构框架：你只是他人电影里的配角。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-9",
+        "keyword": "社交媒体",
+        "sentence": "Usual Frame: Social media is a form of entertainment. Reframe: Social media is an addiction.",
+        "chinese": "常规框架：社交媒体是一种娱乐。重构框架：社交媒体是一种上瘾。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-10",
+        "keyword": "侮辱",
+        "sentence": "Usual Frame: An insult is damaging to my mental health. Reframe: An insult is a confession that your accuser can’t refute your opinion and/or has personal problems of some sort.",
+        "chinese": "常规框架：侮辱会损伤我的心理健康。重构框架：侮辱其实是对方不能反驳你的观点或有自身问题的自白。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-11",
+        "keyword": "被讨厌",
+        "sentence": "Usual Frame: An insult hurts because it means someone dislikes or disrespects you. Reframe: A stranger’s opinion of you—even if it gets published in The New York Times—is little more than their personal diary entry.",
+        "chinese": "常规框架：侮辱很伤人，因为有人讨厌或不尊重你。重构框架：陌生人对你的看法，即使发表在纽约时报，也不过是人家的日记。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-12",
+        "keyword": "细菌",
+        "sentence": "Usual Frame: Germs will harm me. Reframe: Germs make me stronger.",
+        "chinese": "常规框架：细菌会伤害我。重构框架：细菌让我更强壮。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-13",
+        "keyword": "寒冷",
+        "sentence": "Usual Frame: Coldness is pain and a signal I am in danger. Reframe: Coldness makes me healthier and stronger.",
+        "chinese": "常规框架：寒冷意味着痛苦和危险。重构框架：寒冷让我更健康、强壮。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-14",
+        "keyword": "死亡的意义",
+        "sentence": "Usual Frame: Death is a tragedy, and I need to feel bad about it. Reframe: The deceased has no more problems. How did I make this about me?",
+        "chinese": "常规框架：死亡是悲剧，我得难过。重构框架：去世的人再无烦恼，怎么变成了我的痛苦？"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-15",
+        "keyword": "死亡的看法",
+        "sentence": "Usual Frame: Death is a tragedy. Reframe: It is an honor to help another pass.",
+        "chinese": "常规框架：死亡是悲剧。重构框架：能陪伴他人走完人生是一种荣誉。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-16",
+        "keyword": "情感与处境",
+        "sentence": "Usual Frame: My feelings are the result of my situation. Reframe: How I feel is my choice.",
+        "chinese": "常规框架：我的感受是境遇造成的。重构框架：我的感受由我选择。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-17",
+        "keyword": "仇恨",
+        "sentence": "Usual Frame: I hate someone who deserves it. Reframe: Hate is nothing but punishing myself for the misdeeds of others.",
+        "chinese": "常规框架：我恨罪有应得的人。重构框架：仇恨只是用来惩罚自己的工具。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-18",
+        "keyword": "怨恨和愤怒",
+        "sentence": "Usual Frame: Hate and anger are toxic feelings you hope will wear off. Reframe: Hate and anger are a superpower level of energy you can use for gain.",
+        "chinese": "常规框架：愤恨和愤怒是有毒的，希望它能自消。重构框架：仇恨和愤怒是一种可被利用的重要能量。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-19",
+        "keyword": "问题存在",
+        "sentence": "Usual Frame: Why can’t my problems go away? Reframe: Everything has a right to exist, including this problem.",
+        "chinese": "常规框架：为什么我的问题不能消失？重构框架：每个问题都有存在的权利。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-20",
+        "keyword": "自我（ego）",
+        "sentence": "Usual Frame: Your ego is 'you,' and it must be protected. Reframe: Your ego is your enemy.",
+        "chinese": "常规框架：自我是你本人，必须被保护。重构框架：自我是你的敌人。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-21",
+        "keyword": "避免尴尬",
+        "sentence": "Usual Frame: Avoid embarrassment. Reframe: Invite embarrassment and use it as a club to kill your ego.",
+        "chinese": "常规框架：要避免尴尬。重构框架：主动迎接尴尬，用它斩杀你的自我。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-22",
+        "keyword": "自我形象",
+        "sentence": "Usual Frame: I am a priceless work of art that must be protected. Reframe: I am a potato that is easily replaced.",
+        "chinese": "常规框架：我是无价之宝，需被保护。重构框架：我就是一颗土豆，随时能被替换。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-23",
+        "keyword": "担忧未来",
+        "sentence": "Usual Frame: I worry something will go wrong. Reframe: I’m curious what will happen.",
+        "chinese": "常规框架：我担心出事。重构框架：我好奇会发生什么。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-24",
+        "keyword": "应对消极",
+        "sentence": "Usual Frame: Worry about all potential bad outcomes. Reframe: Control the heck out of things you can control. Accept all outcomes.",
+        "chinese": "常规框架：担忧所有坏结果。重构框架：控制你能控制的，接受所有结果。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-25",
+        "keyword": "历史重要性",
+        "sentence": "Usual Frame: History is important. Reframe: History doesn’t exist.",
+        "chinese": "常规框架：历史很重要。重构框架：历史不存在。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-26",
+        "keyword": "现实观",
+        "sentence": "Usual Frame: Reality is exactly what you see and feel. Reframe: Imagine the objects around you as virtual objects.",
+        "chinese": "常规框架：现实就是所见所感。重构框架：把周围看作虚拟的。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-27",
+        "keyword": "压力和焦虑",
+        "sentence": "Usual Frame: My stress and anxiety are caused by events in my life. Reframe: I won’t care about any of those events on my deathbed.",
+        "chinese": "常规框架：我的压力和焦虑是生活导致的。重构框架：死前你不会关心这些事。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-28",
+        "keyword": "疼痛",
+        "sentence": "Usual Frame: I am in pain. Reframe: I am in pain for a minute.",
+        "chinese": "常规框架：我很痛苦。重构框架：痛苦只持续一分钟。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-29",
+        "keyword": "自我至上",
+        "sentence": "Usual Frame: You are the center of your universe and the highest priority. Reframe: Viewed from space, everything looks small, including your problems.",
+        "chinese": "常规框架：你是自己宇宙的中心，是最重要的。重构框架：站在太空看，一切包括你的烦恼都很渺小。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-30",
+        "keyword": "消极念头",
+        "sentence": "Usual Frame: You need to stop thinking negative thoughts. Reframe: You can’t subtract negative thoughts. But you can crowd them out.",
+        "chinese": "常规框架：你要停止消极思考。重构框架：你无法消除负面念头，但可以用别的想法挤掉它们。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-31",
+        "keyword": "害怕行动",
+        "sentence": "Usual Frame: I’m afraid to do the thing I know I should do. Reframe: Life is short.",
+        "chinese": "常规框架：我害怕做该做的事。重构框架：人生苦短。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-32",
+        "keyword": "强迫性行为",
+        "sentence": "Usual Frame: I must do this pattern of behavior or else something bad will happen. Reframe: I no longer need to do the behavior because less is more.",
+        "chinese": "常规框架：我必须做这件事，否则会有坏事发生。重构框架：我不再需要这样，少即是多。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-33",
+        "keyword": "自信",
+        "sentence": "Usual Frame: Confidence is something you’re born with. Reframe: Confidence is something you learn.",
+        "chinese": "常规框架：自信是天生的。重构框架：自信是可以习得的。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-34",
+        "keyword": "社交能力",
+        "sentence": "Usual Frame: People have better social skills than I do. Reframe: I am in the top 10 percent of people with good social skills (after reading this chapter).",
+        "chinese": "常规框架：别人社交能力比我好。重构框架：看完本章我已是社交前10%。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-35",
+        "keyword": "社交场合",
+        "sentence": "Usual Frame: Each person at the gathering is a source of potential embarrassment for me. Reframe: Each person has a problem (social awkwardness) that I can solve right now.",
+        "chinese": "常规框架：聚会里每个人都可能让我尴尬。重构框架：每个人都有社交尴尬，我可以帮他们。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-36",
+        "keyword": "无聊",
+        "sentence": "Usual Frame: No one wants to talk to me. I’m boring. Reframe: Everyone enjoys talking to people who show interest in them.",
+        "chinese": "常规框架：没人愿理我，我很无聊。重构框架：每个人都喜欢有人对自己感兴趣。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-37",
+        "keyword": "做自己",
+        "sentence": "Usual Frame: Be yourself and keep it real. Reframe: Adjust your communication style for the situation.",
+        "chinese": "常规框架：做自己，坦诚待人。重构框架：针对情境调整表达风格。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-38",
+        "keyword": "选对决策",
+        "sentence": "Usual Frame: Is this a good decision? Reframe: Can we test it small?",
+        "chinese": "常规框架：这是一个好决定吗？重构框架：我们能否小范围试试？"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-39",
+        "keyword": "被评价",
+        "sentence": "Usual Frame: People judge me, so I feel bad when I mess up. Reframe: People only care about themselves. They don’t care what dumb thing I did recently, even if they mention it.",
+        "chinese": "常规框架：别人评价我，导致我犯错会难过。重构框架：别人只关心自己，不真的在意你的糗事。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-40",
+        "keyword": "压力归因",
+        "sentence": "Usual Frame: Stress comes with the job. Reframe: Reducing stress IS your job.",
+        "chinese": "常规框架：工作自带压力。重构框架：你的工作是降低压力。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-41",
+        "keyword": "幸存者困扰",
+        "sentence": "Usual Frame: Why did I survive when others did not? Reframe: It’s no different from a clock reading 2:00 PM exactly once a day. It is just cause and effect. It has no meaning.",
+        "chinese": "常规框架：为什么只有我幸存？重构框架：这像时钟每天都会指向2点，只是因果，无特别意义。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-42",
+        "keyword": "幸存者困惑2",
+        "sentence": "Usual Frame: Why did I survive when others did not? Reframe: Every specific thing that has happened to me since birth is extraordinarily unlikely. This is more of that.",
+        "chinese": "常规框架：为什么别人没活下来而我活了？重构框架：我经历的所有事都很不寻常，这也是如此。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-43",
+        "keyword": "为什么是我",
+        "sentence": "Usual Frame: Why me? Reframe: God needs you here for something important.",
+        "chinese": "常规框架：为什么是我？重构框架：上帝需要你留在人间完成重要的事。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-44",
+        "keyword": "内疚",
+        "sentence": "Usual Frame: I feel a responsibility to hold this guilt. Reframe: You have my permission to release your guilt.",
+        "chinese": "常规框架：我有责任背负内疚。重构框架：你可以放下这种内疚。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-45",
+        "keyword": "幸存者愧疚",
+        "sentence": "Usual Frame: I feel bad that I was the lone survivor. Reframe: What would the dead want you to do—suffer or be happy?",
+        "chinese": "常规框架：我是唯一幸存的感觉很内疚。重构框架：死人希望你痛苦还是幸福？"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-46",
+        "keyword": "自责",
+        "sentence": "Usual Frame: You could have done more. Reframe: Everyone can do more. It is a meaningless concept.",
+        "chinese": "常规框架：你本可以做得更多。重构框架：每个人都能做更多，这种说法没有意义。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-47",
+        "keyword": "上瘾",
+        "sentence": "Usual Frame: Avoid addiction. Reframe: Choose your addictions wisely.",
+        "chinese": "常规框架：要避免上瘾。重构框架：明智地选择自己的嗜好。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-48",
+        "keyword": "快感和意志力",
+        "sentence": "Usual Frame: People with bad judgment often pursue dangerous and unproductive pleasures. Reframe: People need a minimum level of pleasure to make life worth living, and if they can’t get it safely, they will get it unsafely.",
+        "chinese": "常规框架：判断力差的人追求危险与无用的快感。重构框架：人活着需要最低限度的快感，得不到就会冒险去争取。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-49",
+        "keyword": "意志力",
+        "sentence": "Usual Frame: Some people have no willpower. They are weak. Reframe: Some people get more pleasure from certain vices than you do.",
+        "chinese": "常规框架：有些人没有意志力很软弱。重构框架：有些人从某些恶习中获得的快感比你多。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-50",
+        "keyword": "好坏日子",
+        "sentence": "Usual Frame: There are good days and bad. Reframe: All days are useful in different ways.",
+        "chinese": "常规框架：有好日子和坏日子。重构框架：每一天都各有用处。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-51",
+        "keyword": "自由",
+        "sentence": "Usual Frame: Freedom is the ability to do what you want. Reframe: Freedom’s just another word for nothing left to lose.",
+        "chinese": "常规框架：自由就是做想做的事。重构框架：自由的本质是无所失去。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-52",
+        "keyword": "面向未来",
+        "sentence": "Usual Frame: I can’t handle this for the rest of my life. Reframe: I can do anything for a day.",
+        "chinese": "常规框架：我无法忍受一辈子这样。重构框架：一天什么都能撑过去。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-53",
+        "keyword": "创伤与历史",
+        "sentence": "Usual Frame: I am a victim of my past traumas. Reframe: History is imaginary.",
+        "chinese": "常规框架：我是过往创伤的受害者。重构框架：历史是想象的。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-54",
+        "keyword": "愤怒的来源",
+        "sentence": "Usual Frame: I am angry because something happened. Reframe: I am living in the past.",
+        "chinese": "常规框架：某事让我愤怒。重构框架：我活在过去。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-55",
+        "keyword": "焦虑本质",
+        "sentence": "Usual Frame: I am anxious. Reframe: I am living in the future (but not in a good way).",
+        "chinese": "常规框架：我很焦虑。重构框架：我活在对未来的忧虑中。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-56",
+        "keyword": "创伤定义",
+        "sentence": "Usual Frame: You are the result of your traumas. Reframe: You are a random bundle of loose wires.",
+        "chinese": "常规框架：你是你创伤的产物。重构框架：你只是乱糟糟的神经集合。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-57",
+        "keyword": "创伤与力量",
+        "sentence": "Usual Frame: My trauma crippled me. Reframe: My trauma is why I can kick your ass.",
+        "chinese": "常规框架：创伤让我残缺。重构框架：创伤让我更强大。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-58",
+        "keyword": "活在当下",
+        "sentence": "Usual Frame: Live in the now. Reframe: Imagine even your smallest actions influencing your future.",
+        "chinese": "常规框架：活在当下。重构框架：想象每个小动作都影响未来。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-59",
+        "keyword": "安全感",
+        "sentence": "Usual Frame: Safe things are safe. Dangerous things are dangerous. Reframe: Safe-looking things can be dangerous. Dangerous-looking things can be safe.",
+        "chinese": "常规框架：安全的就是安全的，危险的就是危险的。重构框架：看似安全的可能危险，看似危险的可能安全。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-60",
+        "keyword": "幸福来源",
+        "sentence": "Usual Frame: Happiness comes from within. Reframe: Use the external world to program your brain for happiness.",
+        "chinese": "常规框架：幸福来自内心。重构框架：用外界来训练你的幸福。"
+    },
+    {
+        "chapter": "Mental Health Reframes",
+        "id": "mental-61",
+        "keyword": "心理结构",
+        "sentence": "Usual Frame: My mind is in my brain. Reframe: My mind includes my brain, body, and physical environment. Any change to one changes the others.",
+        "chinese": "常规框架：我的思想只在大脑里。重构框架：我的思想包含大脑、身体和物理环境，任何一处变化都会影响整体。"
     }
 ]
