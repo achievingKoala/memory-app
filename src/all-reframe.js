@@ -754,5 +754,208 @@ export const data = [
         "keyword": "心理结构",
         "sentence": "Usual Frame: My mind is in my brain. Reframe: My mind includes my brain, body, and physical environment. Any change to one changes the others.",
         "chinese": "常规框架：我的思想只在大脑里。重构框架：我的思想包含大脑、身体和物理环境，任何一处变化都会影响整体。"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-1",
+        "keyword": "做自己",
+        "sentence": "Usual Frame: Be yourself. Reframe: Become a better version of yourself.",
+        "chinese": "常规框架：做你自己。重构框架：成为更好的自己。"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-2",
+        "keyword": "爱自己",
+        "sentence": "Usual Frame: Learn to love yourself as you are. Reframe: Be glad your brain is pestering you to improve.",
+        "chinese": "常规框架：学会爱本来的自己。重构框架：庆幸你的大脑催促你进步。"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-3",
+        "keyword": "建议他人",
+        "sentence": "Usual Frame: This person needs my advice. Reframe: This person might need some information, empathy, or some help organizing their thoughts.",
+        "chinese": "常规框架：这个人需要我的建议。重构框架：对方可能只需要信息、共情或帮他理清思路。"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-4",
+        "keyword": "抱怨",
+        "sentence": "Usual Frame: People who complain want solutions. Reframe: Some people who complain just enjoy complaining.",
+        "chinese": "常规框架：抱怨的人想要解决方案。重构框架：有些人只是喜欢抱怨。"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-5",
+        "keyword": "强势性格",
+        "sentence": "Usual Frame: This person has a strong personality. I must become stronger to deal with it as an equal. Reframe: This person is toxic. I must escape now.",
+        "chinese": "常规框架：这个人性格很强势，我要变得更强以平等相待。重构框架：这个人有毒，我要马上远离。"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-6",
+        "keyword": "赞美",
+        "sentence": "Usual Frame: Giving compliments is awkward, creepy, or manipulative. Reframe: Withholding a compliment is almost immoral.",
+        "chinese": "常规框架：夸奖别人很尴尬、做作或有目的。重构框架：吝啬赞美几乎是不道德的。"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-7",
+        "keyword": "吸引力",
+        "sentence": "Usual Frame: No one seems to find me attractive. Reframe: I haven’t met enough people.",
+        "chinese": "常规框架：没人觉得我有魅力。重构框架：我还没遇到足够多人。"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-8",
+        "keyword": "寻找伴侣",
+        "sentence": "Usual Frame: I need to go find someone to be my romantic partner. Reframe: I need to signal my genetic advantages to attract a romantic partner.",
+        "chinese": "常规框架：我要主动找对象。重构框架：我要展示自身基因优势来吸引对象。"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-9",
+        "keyword": "饭局纠结",
+        "sentence": "Usual Frame: I’m trying to make a dining decision with a crazy person. Please shoot me. Reframe: It’s not about food. It’s about the illusion of control.",
+        "chinese": "常规框架：与一个“疯子”讨论吃什么太痛苦了。重构框架：这不是食物问题，而是控制感问题。"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-10",
+        "keyword": "决策分担",
+        "sentence": "Usual Frame: I need a decision. Reframe: I need a copilot to share the blame.",
+        "chinese": "常规框架：我需要一个决定。重构框架：我需要一个搭档来分担责任。"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-11",
+        "keyword": "幽默的本质",
+        "sentence": "Usual Frame: The usual patterns hold (non-humor). Reframe: The usual patterns are violated (humor).",
+        "chinese": "常规框架：一切按常理出牌（通常不幽默）。重构框架：打破常规才有幽默。"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-12",
+        "keyword": "婚姻观念1",
+        "sentence": "Usual Frame: Marriage is about finding your soul mate. Reframe: Marriage is about finding love with someone who values promises.",
+        "chinese": "常规框架：婚姻就是找到灵魂伴侣。重构框架：婚姻是和重视承诺的人相爱。"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-13",
+        "keyword": "婚姻观念2",
+        "sentence": "Usual Frame: Marriage is a great system, so if your marriage fails, that means one or both of you messed up. Reframe: So many marriages ending in divorce proves that marriage is a poorly designed system.",
+        "chinese": "常规框架：婚姻制度很棒，失败是个人原因。重构框架：离婚比例高说明婚姻制度设计有问题。"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-14",
+        "keyword": "永恒关系",
+        "sentence": "Usual Frame: I want my relationship to last forever. Reframe: Nothing lasts forever.",
+        "chinese": "常规框架：我希望关系天长地久。重构框架：没有什么能永恒。"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-15",
+        "keyword": "失恋",
+        "sentence": "Usual Frame: This breakup ends my hopes for happiness. Reframe: There are happier third marriages than first.",
+        "chinese": "常规框架：失恋让我不再有幸福希望。重构框架：第三次婚姻也许比第一次更幸福。"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-16",
+        "keyword": "灵魂伴侣丧失",
+        "sentence": "Usual Frame: I have lost my soulmate. Reframe: I have a million soulmates I have not yet met.",
+        "chinese": "常规框架：我失去了我的灵魂伴侣。重构框架：还有无数灵魂伴侣等我遇见。"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-17",
+        "keyword": "失恋难过",
+        "sentence": "Usual Frame: I am crying because my relationship ended. Reframe: 'Don’t cry because it is over, smile because it happened.'—Dr. Seuss",
+        "chinese": "常规框架：分手让我痛哭。重构框架：”不要因结束而哭泣，要为曾拥有而微笑。”——苏斯博士"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-18",
+        "keyword": "父母与青少年",
+        "sentence": "Usual Frame: A teen can’t understand the “reason” parents have given, and it turns into a power struggle. Reframe: The parent is a guide for young brains that are not yet capable of understanding adult reasons.",
+        "chinese": "常规框架：青少年不理解父母的理由，变成权力斗争。重构框架：父母是指引未成熟大脑的向导。"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-19",
+        "keyword": "孩子教育",
+        "sentence": "Usual Frame: I’m talking to you, teen, and this is between us. Reframe: I must answer to your future self, not your current self.",
+        "chinese": "常规框架：我和你（青少年）谈话只是现在的你和我。重构框架：我要对你未来的自己负责。"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-20",
+        "keyword": "他人影响",
+        "sentence": "Usual Frame: People treat you poorly, and you can’t do much about it. Reframe: You cause people to act the way they do.",
+        "chinese": "常规框架：别人对你不好，你无能为力。重构框架：别人的行为受你影响。"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-21",
+        "keyword": "谁主沉浮",
+        "sentence": "Usual Frame: The boss is in charge. Reframe: The person with the best ideas is in charge.",
+        "chinese": "常规框架：老板说了算。重构框架：最有主意的人说了算。"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-22",
+        "keyword": "权威",
+        "sentence": "Usual Frame: The experts are in charge. Reframe: The best communicator is in charge.",
+        "chinese": "常规框架：专家说了算。重构框架：表达能力强的说了算。"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-23",
+        "keyword": "能力与权力",
+        "sentence": "Usual Frame: The boss is in charge. Reframe: The most capable people are in charge.",
+        "chinese": "常规框架：老板在位。重构框架：最能干的人真正主导。"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-24",
+        "keyword": "权力本质",
+        "sentence": "Usual Frame: The people in charge have the power. Reframe: Power = (Persuasion skill) x (Audience size)",
+        "chinese": "常规框架：领导就有权力。重构框架：权力=说服力×受众规模。"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-25",
+        "keyword": "动机猜测",
+        "sentence": "Usual Frame: I can discern people’s motives by their actions. Reframe: Mind-reading isn’t real. Humans are terrible at discerning motives.",
+        "chinese": "常规框架：我能从行为判断动机。重构框架：读心术并不存在，人并不擅长看穿动机。"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-26",
+        "keyword": "正常与疯子",
+        "sentence": "Usual Frame: Most people are normal, but I’m a basket case. Reframe: Everyone is a basket case once you get to know them.",
+        "chinese": "常规框架：大多数人正常，只有我是另类。重构框架：每个人其实都是“神经兮兮”，只要你深入了解。"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-27",
+        "keyword": "错误的评判",
+        "sentence": "Usual Frame: Judge people by their mistakes. Reframe: Judge people by how they respond to their mistakes.",
+        "chinese": "常规框架：以错误评判他人。重构框架：看别人如何面对错误来评判。"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-28",
+        "keyword": "时间观念",
+        "sentence": "Usual Frame: People who are always late are either incompetent or uncaring or both. Reframe: Some people have time blindness.",
+        "chinese": "常规框架：总迟到的人要么无能要么不在乎。重构框架：有些人有“时间失明”。"
+    },
+    {
+        "chapter": "Social Life Reframes",
+        "id": "social-29",
+        "keyword": "小善举",
+        "sentence": "Usual Frame: Small acts of kindness are good. Reframe: There are no small acts of kindness.",
+        "chinese": "常规框架：小小善举也是好事。重构框架：善意没有大小之分。"
     }
 ]
