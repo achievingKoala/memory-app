@@ -346,7 +346,7 @@ export const data = [
         "chapter": "Mental Health Reframes",
         "id": "mental-3",
         "keyword": "好人与坏人",
-        "sentence": "Usual Frame: Some people are good, and some are not. Reframe: We’re all flawed, and we’re all good at different things.",
+        "sentence": "Usual Frame: Some people are good, and some are not. Reframe: We're all flawed, and we're all good at different things.",
         "chinese": "常规框架：有的人是好人，有的人不是。重构框架：我们都有缺点，也都各有所长。"
     },
     {
@@ -367,7 +367,7 @@ export const data = [
         "chapter": "Mental Health Reframes",
         "id": "mental-6",
         "keyword": "批评感受",
-        "sentence": "Usual Frame: Criticism feels like a dagger to your heart. Reframe: Criticism is a chemical reaction in the skull of someone who isn’t in the room.",
+        "sentence": "Usual Frame: Criticism feels like a dagger to your heart. Reframe: Criticism is a chemical reaction in the skull of someone who isn't in the room.",
         "chinese": "常规框架：批评像匕首刺向你的心脏。重构框架：批评只是没在你面前的人头脑中的化学反应。"
     },
     {
@@ -395,14 +395,14 @@ export const data = [
         "chapter": "Mental Health Reframes",
         "id": "mental-10",
         "keyword": "侮辱",
-        "sentence": "Usual Frame: An insult is damaging to my mental health. Reframe: An insult is a confession that your accuser can’t refute your opinion and/or has personal problems of some sort.",
+        "sentence": "Usual Frame: An insult is damaging to my mental health. Reframe: An insult is a confession that your accuser can't refute your opinion and/or has personal problems of some sort.",
         "chinese": "常规框架：侮辱会损伤我的心理健康。重构框架：侮辱其实是对方不能反驳你的观点或有自身问题的自白。"
     },
     {
         "chapter": "Mental Health Reframes",
         "id": "mental-11",
         "keyword": "被讨厌",
-        "sentence": "Usual Frame: An insult hurts because it means someone dislikes or disrespects you. Reframe: A stranger’s opinion of you—even if it gets published in The New York Times—is little more than their personal diary entry.",
+        "sentence": "Usual Frame: An insult hurts because it means someone dislikes or disrespects you. Reframe: A stranger's opinion of you—even if it gets published in The New York Times—is little more than their personal diary entry.",
         "chinese": "常规框架：侮辱很伤人，因为有人讨厌或不尊重你。重构框架：陌生人对你的看法，即使发表在纽约时报，也不过是人家的日记。"
     },
     {
@@ -458,7 +458,7 @@ export const data = [
         "chapter": "Mental Health Reframes",
         "id": "mental-19",
         "keyword": "问题存在",
-        "sentence": "Usual Frame: Why can’t my problems go away? Reframe: Everything has a right to exist, including this problem.",
+        "sentence": "Usual Frame: Why can't my problems go away? Reframe: Everything has a right to exist, including this problem.",
         "chinese": "常规框架：为什么我的问题不能消失？重构框架：每个问题都有存在的权利。"
     },
     {
@@ -486,7 +486,7 @@ export const data = [
         "chapter": "Mental Health Reframes",
         "id": "mental-23",
         "keyword": "担忧未来",
-        "sentence": "Usual Frame: I worry something will go wrong. Reframe: I’m curious what will happen.",
+        "sentence": "Usual Frame: I worry something will go wrong. Reframe: I'm curious what will happen.",
         "chinese": "常规框架：我担心出事。重构框架：我好奇会发生什么。"
     },
     {
@@ -500,7 +500,7 @@ export const data = [
         "chapter": "Mental Health Reframes",
         "id": "mental-25",
         "keyword": "历史重要性",
-        "sentence": "Usual Frame: History is important. Reframe: History doesn’t exist.",
+        "sentence": "Usual Frame: History is important. Reframe: History doesn't exist.",
         "chinese": "常规框架：历史很重要。重构框架：历史不存在。"
     },
     {
@@ -514,7 +514,7 @@ export const data = [
         "chapter": "Mental Health Reframes",
         "id": "mental-27",
         "keyword": "压力和焦虑",
-        "sentence": "Usual Frame: My stress and anxiety are caused by events in my life. Reframe: I won’t care about any of those events on my deathbed.",
+        "sentence": "Usual Frame: My stress and anxiety are caused by events in my life. Reframe: I won't care about any of those events on my deathbed.",
         "chinese": "常规框架：我的压力和焦虑是生活导致的。重构框架：死前你不会关心这些事。"
     },
     {
@@ -535,14 +535,14 @@ export const data = [
         "chapter": "Mental Health Reframes",
         "id": "mental-30",
         "keyword": "消极念头",
-        "sentence": "Usual Frame: You need to stop thinking negative thoughts. Reframe: You can’t subtract negative thoughts. But you can crowd them out.",
+        "sentence": "Usual Frame: You need to stop thinking negative thoughts. Reframe: You can't subtract negative thoughts. But you can crowd them out.",
         "chinese": "常规框架：你要停止消极思考。重构框架：你无法消除负面念头，但可以用别的想法挤掉它们。"
     },
     {
         "chapter": "Mental Health Reframes",
         "id": "mental-31",
         "keyword": "害怕行动",
-        "sentence": "Usual Frame: I’m afraid to do the thing I know I should do. Reframe: Life is short.",
+        "sentence": "Usual Frame: I'm afraid to do the thing I know I should do. Reframe: Life is short.",
         "chinese": "常规框架：我害怕做该做的事。重构框架：人生苦短。"
     },
     {
@@ -556,7 +556,7 @@ export const data = [
         "chapter": "Mental Health Reframes",
         "id": "mental-33",
         "keyword": "自信",
-        "sentence": "Usual Frame: Confidence is something you’re born with. Reframe: Confidence is something you learn.",
+        "sentence": "Usual Frame: Confidence is something you're born with. Reframe: Confidence is something you learn.",
         "chinese": "常规框架：自信是天生的。重构框架：自信是可以习得的。"
     },
     {
@@ -577,7 +577,7 @@ export const data = [
         "chapter": "Mental Health Reframes",
         "id": "mental-36",
         "keyword": "无聊",
-        "sentence": "Usual Frame: No one wants to talk to me. I’m boring. Reframe: Everyone enjoys talking to people who show interest in them.",
+        "sentence": "Usual Frame: No one wants to talk to me. I'm boring. Reframe: Everyone enjoys talking to people who show interest in them.",
         "chinese": "常规框架：没人愿理我，我很无聊。重构框架：每个人都喜欢有人对自己感兴趣。"
     },
     {
@@ -598,7 +598,7 @@ export const data = [
         "chapter": "Mental Health Reframes",
         "id": "mental-39",
         "keyword": "被评价",
-        "sentence": "Usual Frame: People judge me, so I feel bad when I mess up. Reframe: People only care about themselves. They don’t care what dumb thing I did recently, even if they mention it.",
+        "sentence": "Usual Frame: People judge me, so I feel bad when I mess up. Reframe: People only care about themselves. They don't care what dumb thing I did recently, even if they mention it.",
         "chinese": "常规框架：别人评价我，导致我犯错会难过。重构框架：别人只关心自己，不真的在意你的糗事。"
     },
     {
@@ -612,7 +612,7 @@ export const data = [
         "chapter": "Mental Health Reframes",
         "id": "mental-41",
         "keyword": "幸存者困扰",
-        "sentence": "Usual Frame: Why did I survive when others did not? Reframe: It’s no different from a clock reading 2:00 PM exactly once a day. It is just cause and effect. It has no meaning.",
+        "sentence": "Usual Frame: Why did I survive when others did not? Reframe: It's no different from a clock reading 2:00 PM exactly once a day. It is just cause and effect. It has no meaning.",
         "chinese": "常规框架：为什么只有我幸存？重构框架：这像时钟每天都会指向2点，只是因果，无特别意义。"
     },
     {
@@ -661,7 +661,7 @@ export const data = [
         "chapter": "Mental Health Reframes",
         "id": "mental-48",
         "keyword": "快感和意志力",
-        "sentence": "Usual Frame: People with bad judgment often pursue dangerous and unproductive pleasures. Reframe: People need a minimum level of pleasure to make life worth living, and if they can’t get it safely, they will get it unsafely.",
+        "sentence": "Usual Frame: People with bad judgment often pursue dangerous and unproductive pleasures. Reframe: People need a minimum level of pleasure to make life worth living, and if they can't get it safely, they will get it unsafely.",
         "chinese": "常规框架：判断力差的人追求危险与无用的快感。重构框架：人活着需要最低限度的快感，得不到就会冒险去争取。"
     },
     {
@@ -682,14 +682,14 @@ export const data = [
         "chapter": "Mental Health Reframes",
         "id": "mental-51",
         "keyword": "自由",
-        "sentence": "Usual Frame: Freedom is the ability to do what you want. Reframe: Freedom’s just another word for nothing left to lose.",
+        "sentence": "Usual Frame: Freedom is the ability to do what you want. Reframe: Freedom's just another word for nothing left to lose.",
         "chinese": "常规框架：自由就是做想做的事。重构框架：自由的本质是无所失去。"
     },
     {
         "chapter": "Mental Health Reframes",
         "id": "mental-52",
         "keyword": "面向未来",
-        "sentence": "Usual Frame: I can’t handle this for the rest of my life. Reframe: I can do anything for a day.",
+        "sentence": "Usual Frame: I can't handle this for the rest of my life. Reframe: I can do anything for a day.",
         "chinese": "常规框架：我无法忍受一辈子这样。重构框架：一天什么都能撑过去。"
     },
     {
@@ -801,7 +801,7 @@ export const data = [
         "chapter": "Social Life Reframes",
         "id": "social-7",
         "keyword": "吸引力",
-        "sentence": "Usual Frame: No one seems to find me attractive. Reframe: I haven’t met enough people.",
+        "sentence": "Usual Frame: No one seems to find me attractive. Reframe: I haven't met enough people.",
         "chinese": "常规框架：没人觉得我有魅力。重构框架：我还没遇到足够多人。"
     },
     {
@@ -815,7 +815,7 @@ export const data = [
         "chapter": "Social Life Reframes",
         "id": "social-9",
         "keyword": "饭局纠结",
-        "sentence": "Usual Frame: I’m trying to make a dining decision with a crazy person. Please shoot me. Reframe: It’s not about food. It’s about the illusion of control.",
+        "sentence": "Usual Frame: I'm trying to make a dining decision with a crazy person. Please shoot me. Reframe: It's not about food. It's about the illusion of control.",
         "chinese": "常规框架：与一个“疯子”讨论吃什么太痛苦了。重构框架：这不是食物问题，而是控制感问题。"
     },
     {
@@ -871,28 +871,28 @@ export const data = [
         "chapter": "Social Life Reframes",
         "id": "social-17",
         "keyword": "失恋难过",
-        "sentence": "Usual Frame: I am crying because my relationship ended. Reframe: 'Don’t cry because it is over, smile because it happened.'—Dr. Seuss",
+        "sentence": "Usual Frame: I am crying because my relationship ended. Reframe: 'Don't cry because it is over, smile because it happened.'—Dr. Seuss",
         "chinese": "常规框架：分手让我痛哭。重构框架：”不要因结束而哭泣，要为曾拥有而微笑。”——苏斯博士"
     },
     {
         "chapter": "Social Life Reframes",
         "id": "social-18",
         "keyword": "父母与青少年",
-        "sentence": "Usual Frame: A teen can’t understand the “reason” parents have given, and it turns into a power struggle. Reframe: The parent is a guide for young brains that are not yet capable of understanding adult reasons.",
+        "sentence": "Usual Frame: A teen can't understand the “reason” parents have given, and it turns into a power struggle. Reframe: The parent is a guide for young brains that are not yet capable of understanding adult reasons.",
         "chinese": "常规框架：青少年不理解父母的理由，变成权力斗争。重构框架：父母是指引未成熟大脑的向导。"
     },
     {
         "chapter": "Social Life Reframes",
         "id": "social-19",
         "keyword": "孩子教育",
-        "sentence": "Usual Frame: I’m talking to you, teen, and this is between us. Reframe: I must answer to your future self, not your current self.",
+        "sentence": "Usual Frame: I'm talking to you, teen, and this is between us. Reframe: I must answer to your future self, not your current self.",
         "chinese": "常规框架：我和你（青少年）谈话只是现在的你和我。重构框架：我要对你未来的自己负责。"
     },
     {
         "chapter": "Social Life Reframes",
         "id": "social-20",
         "keyword": "他人影响",
-        "sentence": "Usual Frame: People treat you poorly, and you can’t do much about it. Reframe: You cause people to act the way they do.",
+        "sentence": "Usual Frame: People treat you poorly, and you can't do much about it. Reframe: You cause people to act the way they do.",
         "chinese": "常规框架：别人对你不好，你无能为力。重构框架：别人的行为受你影响。"
     },
     {
@@ -927,14 +927,14 @@ export const data = [
         "chapter": "Social Life Reframes",
         "id": "social-25",
         "keyword": "动机猜测",
-        "sentence": "Usual Frame: I can discern people’s motives by their actions. Reframe: Mind-reading isn’t real. Humans are terrible at discerning motives.",
+        "sentence": "Usual Frame: I can discern people's motives by their actions. Reframe: Mind-reading isn't real. Humans are terrible at discerning motives.",
         "chinese": "常规框架：我能从行为判断动机。重构框架：读心术并不存在，人并不擅长看穿动机。"
     },
     {
         "chapter": "Social Life Reframes",
         "id": "social-26",
         "keyword": "正常与疯子",
-        "sentence": "Usual Frame: Most people are normal, but I’m a basket case. Reframe: Everyone is a basket case once you get to know them.",
+        "sentence": "Usual Frame: Most people are normal, but I'm a basket case. Reframe: Everyone is a basket case once you get to know them.",
         "chinese": "常规框架：大多数人正常，只有我是另类。重构框架：每个人其实都是“神经兮兮”，只要你深入了解。"
     },
     {
@@ -997,28 +997,28 @@ export const data = [
         "chapter": "Physical Health Reframes",
         "id": "physical-6",
         "keyword": "糖分",
-        "sentence": "Usual Frame: Sugar is delicious but don’t overdo it. Reframe: Sugar is poison.",
+        "sentence": "Usual Frame: Sugar is delicious but don't overdo it. Reframe: Sugar is poison.",
         "chinese": "常规框架：糖很美味，只要不过量就好。重构框架：糖是毒药。"
     },
     {
         "chapter": "Physical Health Reframes",
         "id": "physical-7",
         "keyword": "碳水诱惑",
-        "sentence": "Usual Frame: I am tempted by bad carbs. Reframe: I’m not the kind of person who eats bad carbs.",
+        "sentence": "Usual Frame: I am tempted by bad carbs. Reframe: I'm not the kind of person who eats bad carbs.",
         "chinese": "常规框架：我容易被不健康碳水吸引。重构框架：我不是爱吃不健康碳水的人。"
     },
     {
         "chapter": "Physical Health Reframes",
         "id": "physical-8",
         "keyword": "吃撑",
-        "sentence": "Usual Frame: My stomach has room for more food. Reframe: I’ve had enough.",
+        "sentence": "Usual Frame: My stomach has room for more food. Reframe: I've had enough.",
         "chinese": "常规框架：我胃里还能再装点。重构框架：我已经足够了。"
     },
     {
         "chapter": "Physical Health Reframes",
         "id": "physical-9",
         "keyword": "饥饿感",
-        "sentence": "Usual Frame: I’m hungry, so I need food. Reframe: I’m hungry, so I need protein.",
+        "sentence": "Usual Frame: I'm hungry, so I need food. Reframe: I'm hungry, so I need protein.",
         "chinese": "常规框架：我饿了，需要吃东西。重构框架：我饿了，要吃蛋白质。"
     },
     {
@@ -1032,14 +1032,14 @@ export const data = [
         "chapter": "Physical Health Reframes",
         "id": "physical-11",
         "keyword": "健身方式",
-        "sentence": "Usual Frame: It’s important to learn the best ways to exercise. Reframe: The best exercises are the ones you are willing to do.",
+        "sentence": "Usual Frame: It's important to learn the best ways to exercise. Reframe: The best exercises are the ones you are willing to do.",
         "chinese": "常规框架：找到最科学的锻炼方式很重要。重构框架：最好的锻炼方式是你愿意坚持的那种。"
     },
     {
         "chapter": "Physical Health Reframes",
         "id": "physical-12",
         "keyword": "睡眠和努力",
-        "sentence": "Usual Frame: I can’t get to sleep. Reframe: I didn’t work hard enough.",
+        "sentence": "Usual Frame: I can't get to sleep. Reframe: I didn't work hard enough.",
         "chinese": "常规框架：我失眠了。重构框架：我还不够努力。"
     },
     {
@@ -1081,7 +1081,7 @@ export const data = [
         "chapter": "Reality Reframes",
         "id": "reality-6",
         "keyword": "行为预测",
-        "sentence": "Usual Frame: Predicting people’s actions involves many variables. Reframe: Follow the money. That’s all you need.",
+        "sentence": "Usual Frame: Predicting people's actions involves many variables. Reframe: Follow the money. That's all you need.",
         "chinese": "常规框架：预测行为需要很多变量。重构框架：只要看钱往哪流就够了。"
     },
     {
@@ -1158,7 +1158,7 @@ export const data = [
         "chapter": "The Operating System for Your Mind",
         "id": "os-6",
         "keyword": "现实主观性",
-        "sentence": "Usual Frame: Reality is objective. Reframe: There might be an objective reality, but human brains don’t have access to it.",
+        "sentence": "Usual Frame: Reality is objective. Reframe: There might be an objective reality, but human brains don't have access to it.",
         "chinese": "常规框架：现实是客观的。重构框架：客观现实可能存在，但人脑接触不到。"
     },
     {
