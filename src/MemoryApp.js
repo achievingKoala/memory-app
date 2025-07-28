@@ -9,6 +9,8 @@ import {data as random2025Data} from './random-2025';
 import {data as successReframeData} from './success-reframe';
 import {data as mentalReframeData} from './mental-reframe';
 import {data as realityReframeData} from './reality-reframe';
+import {data as allReframeData} from './all-reframe';
+
 
 
 import React, { useState } from 'react';
@@ -69,11 +71,7 @@ const buttonStyle = {
 };
 
 const dataSources = [
-  { label: 'Success Reframe', value: 'successReframe', data: successReframeData },
-  { label: 'Mental Reframe', value: 'mentalReframe', data: mentalReframeData },
-  { label: 'Reality Reframe', value: 'realityReframe', data: realityReframeData },
-  { label: 'Random 2025', value: 'random2025', data: random2025Data },
-  { label: 'Naval Quotes', value: 'navalQuotes', data: navalQuotesData },
+  { label: 'All', value: 'all', data: allReframeData },
 ];
 
 const MemoryApp = () => {
