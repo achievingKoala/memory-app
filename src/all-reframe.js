@@ -1041,5 +1041,131 @@ export const data = [
         "keyword": "睡眠和努力",
         "sentence": "Usual Frame: I can’t get to sleep. Reframe: I didn’t work hard enough.",
         "chinese": "常规框架：我失眠了。重构框架：我还不够努力。"
+    },
+    {
+        "chapter": "Reality Reframes",
+        "id": "reality-1",
+        "keyword": "核能",
+        "sentence": "Usual Frame: Nuclear Power is risky. Reframe: Nuclear power is green.",
+        "chinese": "常规框架：核能很危险。重构框架：核能是绿色能源。"
+    },
+    {
+        "chapter": "Reality Reframes",
+        "id": "reality-2",
+        "keyword": "人类理性",
+        "sentence": "Usual Frame: People are rational 90 percent of the time. Reframe: People are rational 10 percent of the time if that.",
+        "chinese": "常规框架：人类90%的时候是理性的。重构框架：人类就算有10%时间理性就不错了。"
+    },
+    {
+        "chapter": "Reality Reframes",
+        "id": "reality-3",
+        "keyword": "对错观",
+        "sentence": "Usual Frame: One of us is right, and one is wrong. Reframe: We are watching two different movies on one screen.",
+        "chinese": "常规框架：我们之间必有对错。重构框架：我们像在一块屏幕前看不同的电影。"
+    },
+    {
+        "chapter": "Reality Reframes",
+        "id": "reality-4",
+        "keyword": "遗传观",
+        "sentence": "Usual Frame: You should spread your genes. Reframe: No matter what you do, your genes will be diluted with each generation until your contribution nears zero.",
+        "chinese": "常规框架：你应该传播基因。重构框架：无论你怎么做，你的基因每一代都会被稀释，直至趋于零。"
+    },
+    {
+        "chapter": "Reality Reframes",
+        "id": "reality-5",
+        "keyword": "世界观",
+        "sentence": "Usual Frame: The best worldview is the true one. Reframe: The best worldview is one that predicts the best.",
+        "chinese": "常规框架：最好的世界观是真实的世界观。重构框架：最好的世界观是能带来最好结果的。"
+    },
+    {
+        "chapter": "Reality Reframes",
+        "id": "reality-6",
+        "keyword": "行为预测",
+        "sentence": "Usual Frame: Predicting people’s actions involves many variables. Reframe: Follow the money. That’s all you need.",
+        "chinese": "常规框架：预测行为需要很多变量。重构框架：只要看钱往哪流就够了。"
+    },
+    {
+        "chapter": "Reality Reframes",
+        "id": "reality-7",
+        "keyword": "人生意义",
+        "sentence": "Usual Frame: Life is about avoiding pain while pursuing happiness and meaning. Reframe: Life is an adventure.",
+        "chinese": "常规框架：人生就是避免痛苦、追求幸福与意义。重构框架：人生是一场冒险。"
+    },
+    {
+        "chapter": "Reality Reframes",
+        "id": "reality-8",
+        "keyword": "推定无罪",
+        "sentence": "Usual Frame: Everyone is innocent until proven guilty. Reframe: Citizens are innocent until proven guilty. Corporations and governments are presumed guilty until proven innocent.",
+        "chinese": "常规框架：所有人未经证实就是清白的。重构框架：个人如此，公司和政府默认有罪，需自证清白。"
+    },
+    {
+        "chapter": "Reality Reframes",
+        "id": "reality-9",
+        "keyword": "作弊观",
+        "sentence": "Usual Frame: No cheating has been detected, so the organization is innocent. Reframe: Whenever there is an opportunity for cheating and not getting caught, a lot to gain from cheating, and lots of people involved, cheating will always happen.",
+        "chinese": "常规框架：没有发现作弊就代表组织清白。重构框架：有利可图且不易被发现、参与者多的地方作弊肯定存在。"
+    },
+    {
+        "chapter": "Reality Reframes",
+        "id": "reality-10",
+        "keyword": "舆论与观点",
+        "sentence": "Usual Frame: People come up with their own opinions. Reframe: People join teams, and the media assigns their opinions.",
+        "chinese": "常规框架：人们自行形成观点。重构框架：人们加入阵营，媒体替他们分配观点。"
+    },
+    {
+        "chapter": "Reality Reframes",
+        "id": "reality-11",
+        "keyword": "人性差异",
+        "sentence": "Usual Frame: Others think and feel approximately as I do. Reframe: Others are unimaginably different.",
+        "chinese": "常规框架：别人和我想法差不多。重构框架：别人和你极不相同。"
+    },
+    {
+        "chapter": "The Operating System for Your Mind",
+        "id": "os-1",
+        "keyword": "自我塑造",
+        "sentence": "Usual Frame: You are the product of your experiences and genes. Reframe: You are the author of your experience.",
+        "chinese": "常规框架：你是你的经历和基因的产物。重构框架：你是自己经历的创作者。"
+    },
+    {
+        "chapter": "The Operating System for Your Mind",
+        "id": "os-2",
+        "keyword": "对待他人",
+        "sentence": "Usual Frame: I deserve to be treated well by others. Reframe: You get what you give, on average. No one deserves anything.",
+        "chinese": "常规框架：我理应被他人善待。重构框架：你付出什么大致会收获什么。没有人天生值得被优待。"
+    },
+    {
+        "chapter": "The Operating System for Your Mind",
+        "id": "os-3",
+        "keyword": "现实本质",
+        "sentence": "Usual Frame: Reality is objective, and science helps us understand it. Reframe: Our so-called reality is a simulation created by a higher intelligence.",
+        "chinese": "常规框架：现实是客观的，科学可以解释现实。重构框架：我们的现实其实是由更高智慧创造的模拟。"
+    },
+    {
+        "chapter": "The Operating System for Your Mind",
+        "id": "os-4",
+        "keyword": "人生如游戏",
+        "sentence": "Alternate: You are in a video game, and you have certain problems to solve to get to the next level.",
+        "chinese": "补充：你就像在一款电子游戏里，必须解决某些问题才能进入新关卡。"
+    },
+    {
+        "chapter": "The Operating System for Your Mind",
+        "id": "os-5",
+        "keyword": "记忆的不同",
+        "sentence": "Usual Frame: We have different memories. Reframe: We created different subjective realities.",
+        "chinese": "常规框架：我们有不同的记忆。重构框架：我们创造了不同的主观现实。"
+    },
+    {
+        "chapter": "The Operating System for Your Mind",
+        "id": "os-6",
+        "keyword": "现实主观性",
+        "sentence": "Usual Frame: Reality is objective. Reframe: There might be an objective reality, but human brains don’t have access to it.",
+        "chinese": "常规框架：现实是客观的。重构框架：客观现实可能存在，但人脑接触不到。"
+    },
+    {
+        "chapter": "The Operating System for Your Mind",
+        "id": "os-7",
+        "keyword": "一切皆主观",
+        "sentence": "Usual Frame: Reality is only subjective in terms of our opinions and preferences. Reframe: We can treat all of reality as subjective and get a good outcome, as if we authored it ourselves.",
+        "chinese": "常规框架：现实只有在观点和偏好上才是主观的。重构框架：我们可以把整个现实都当作主观的，反而能获得更好的结果，就像我们亲手创造的一样。"
     }
 ]
