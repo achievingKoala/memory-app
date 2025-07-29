@@ -11,8 +11,6 @@ import {data as mentalReframeData} from './mental-reframe';
 import {data as realityReframeData} from './reality-reframe';
 import {data as allReframeData} from './all-reframe';
 
-
-
 import React, { useState } from 'react';
 import {speakText} from './AzureTextToSpeech';
 const audioPath = require("./new-note.mp3");
@@ -89,6 +87,25 @@ const dataSources = [
   })),
 ];
 
+// 收藏样式
+const favoriteButtonStyle = {
+  border: 'none',
+  background: 'transparent',
+  cursor: 'pointer',
+  fontSize: '1.6em',
+  marginLeft: '12px',
+  verticalAlign: 'middle',
+  userSelect: 'none',
+};
+
+function getFavoriteIds() {
+  return JSON.parse(localStorage.getItem('favoriteIds') || '[]');
+}
+
+function setFavoriteIds(favIds) {
+  localStorage.setItem('favoriteIds', JSON.stringify(favIds));
+}
+
 const MemoryApp = () => {
   const [selectedSource, setSelectedSource] = useState(dataSources[0].value);
   const [data, setData] = useState(dataSources[0].data.filter(item => item.hide !== 1));
@@ -101,6 +118,24 @@ const MemoryApp = () => {
   const [isFocused, setIsFocused] = useState(null);
   const textareaRefs = React.useRef([]);
 
+  // 收藏相关
+  const [favoriteIds, setFavoriteIdsState] = useState(getFavoriteIds());
+  const [showOnlyFavorite, setShowOnlyFavorite] = useState(false);
+
+  // 收藏按钮handler
+  const toggleFavorite = (id) => {
+    setFavoriteIdsState((prevIds) => {
+      let updated;
+      if (prevIds.includes(id)) {
+        updated = prevIds.filter(f => f !== id);
+      } else {
+        updated = [...prevIds, id];
+      }
+      setFavoriteIds(updated);
+      return updated;
+    });
+  };
+
   const handleSourceChange = (e) => {
     const newSource = e.target.value;
     const sourceObj = dataSources.find(ds => ds.value === newSource);
@@ -110,44 +145,36 @@ const MemoryApp = () => {
     setCurrentPage(0);
     setUserInputs(Array(filteredData.length).fill(''));
     setFeedbackMessage('');
+    setShowOnlyFavorite(false);
   };
 
   const handleRandomLoad = () => {
-    // const randomIndex = Math.floor(Math.random() * data.length);
-    // setCurrentPage(randomIndex % itemsPerPage === 0 ? randomIndex : Math.floor(randomIndex / itemsPerPage));
     const shuffledData = [...data].sort(() => Math.random() - 0.5); // 打乱data的顺序
     setData(shuffledData);
     setCurrentPage(0); // 重置当前页面为0
-    // 这里可以选择更新userInputs以匹配新的数据顺序
     setUserInputs(Array(shuffledData.length).fill('')); // 重置用户输入
   };
 
   const handleNextPage = () => {
-    setCurrentPage((prev) => Math.min(prev + 1, Math.floor(data.length / itemsPerPage)));
+    setCurrentPage((prev) => Math.min(prev + 1, Math.floor(filteredCurrentData.length / itemsPerPage)));
   };
 
   const handlePrevPage = () => {
     setCurrentPage((prev) => Math.max(prev - 1, 0));
   };
 
-  
-  
   const recordCorrect = (id) => {
     successSound.play().catch((error) => {
       console.error('Error playing audio:', error);
     });
-    console.log('--->', id);
     const storedCounts = JSON.parse(localStorage.getItem('idCounts')) || {};
     storedCounts[id] = (storedCounts[id] || 0) + 1;
     localStorage.setItem('idCounts', JSON.stringify(storedCounts));
   };
   
   const handleInputChange = (index, value) => {
-    console.log('index:', index);
-    // console.log('--->v', value);
-    // console.log('--->u', data[index].sentence);
-    if (value == data[index].sentence) {
-      recordCorrect(data[index].id);
+    if (value == filteredCurrentData[index].sentence) {
+      recordCorrect(filteredCurrentData[index].id);
       // 自动聚焦下一个输入框
       setTimeout(() => {
         if (textareaRefs.current[index + 1]) {
@@ -165,7 +192,7 @@ const MemoryApp = () => {
   const handleKeyDown = (index, event) => {
     if (event.key === '=') {
       event.preventDefault();
-      const correctSentence = data[index].sentence;
+      const correctSentence = filteredCurrentData[index].sentence;
       if (feedbackMessage === correctSentence) {
         setFeedbackMessage('');
       } else {
@@ -176,10 +203,10 @@ const MemoryApp = () => {
       handleNextPage();
     } else if (event.key === '[') {
       event.preventDefault(); // Prevent default behavior
-      handlePrevPage(); // Corrected to handlePrevPage
+      handlePrevPage();
     } else if (event.key === '\\') {
       event.preventDefault(); // Prevent default behavior
-      playTextWithStatus(data[index].sentence);
+      playTextWithStatus(filteredCurrentData[index].sentence);
     }
   };
 
@@ -198,39 +225,42 @@ const MemoryApp = () => {
     }
   };
 
-  const currentItems = data.slice(
+  // 先根据 showOnlyFavorite 过滤
+  const filteredCurrentData = showOnlyFavorite
+    ? data.filter(item => favoriteIds.includes(item.id))
+    : data;
+
+  const currentItems = filteredCurrentData.slice(
     currentPage * itemsPerPage,
     currentPage * itemsPerPage + itemsPerPage
   );
-  
+
   const sortDataByIdCount = () => {
     const storedCounts = JSON.parse(localStorage.getItem('idCounts')) || {};
-    const sortedData = [...data].sort((a, b) => {
+    const sortedData = [...filteredCurrentData].sort((a, b) => {
       const countA = storedCounts[a.id] || 0;
       const countB = storedCounts[b.id] || 0;
       return countB - countA; // Sort in descending order
     });
-    setData(sortedData);
-    setCurrentPage(0); // Reset to the first page
-    setUserInputs(Array(sortedData.length).fill('')); // Reset user inputs
+    setData(showOnlyFavorite ? data : sortedData);
+    setCurrentPage(0);
+    setUserInputs(Array(sortedData.length).fill(''));
   };
-  
+
   const sortDataByIdCountDescending = () => {
     const storedCounts = JSON.parse(localStorage.getItem('idCounts')) || {};
-    const sortedData = [...data].sort((a, b) => {
+    const sortedData = [...filteredCurrentData].sort((a, b) => {
       const countA = storedCounts[a.id] || 0;
       const countB = storedCounts[b.id] || 0;
       return countA - countB; // Sort in ascending order
     });
-    setData(sortedData);
-    setCurrentPage(0); // Reset to the first page
-    setUserInputs(Array(sortedData.length).fill('')); // Reset user inputs
-    // Update the data state if you have a state for it, otherwise update the currentItems directly
+    setData(showOnlyFavorite ? data : sortedData);
+    setCurrentPage(0);
+    setUserInputs(Array(sortedData.length).fill(''));
   };
-  
+
   const storedCounts = JSON.parse(localStorage.getItem('idCounts')) || {};
-  // const idCount = storedCounts[item.id] || 0; // Get the count for the current item
-  
+
   return (
     <div style={mainContentStyle}>
       <h1 style={{
@@ -259,24 +289,48 @@ const MemoryApp = () => {
         <button onClick={handleRandomLoad} style={buttonStyle}>随机加载句子</button>
         <button onClick={sortDataByIdCount} style={buttonStyle}>根据练习次数倒序</button>
         <button onClick={sortDataByIdCountDescending} style={buttonStyle}>根据练习次数正序</button>
+        <button
+          onClick={() => {
+            setShowOnlyFavorite(val => {
+              if (!val) setCurrentPage(0);
+              return !val;
+            });
+          }}
+          style={{
+            ...buttonStyle,
+            background: showOnlyFavorite ? "#facc15" : "#2563eb",
+            color: showOnlyFavorite ? "#000" : "#fff",
+            marginLeft: "10px"
+          }}
+        >
+          {showOnlyFavorite ? '显示全部' : '仅看收藏'}
+        </button>
       </div>
-      {currentItems.map((item, index) => (
-        <SentenceItem
-          key={item.id}
-          item={item}
-          index={index}
-          userInput={userInputs[currentPage * itemsPerPage + index]}
-          onInputChange={e => handleInputChange(currentPage * itemsPerPage + index, e.target.value)}
-          onKeyDown={e => handleKeyDown(currentPage * itemsPerPage + index, e)}
-          isSpeaking={isSpeaking}
-          isFocused={isFocused === index}
-          feedbackMessage={feedbackMessage}
-          correctCount={storedCounts[item.id] || 0}
-          onFocus={() => setIsFocused(index)}
-          onBlur={() => setIsFocused(null)}
-          textareaRef={el => textareaRefs.current[currentPage * itemsPerPage + index] = el}
-        />
-      ))}
+      {currentItems.length === 0 ? (
+        <div style={{ textAlign: 'center', fontSize: '20px', color: '#888', margin: '40px 0' }}>
+          {showOnlyFavorite ? '暂无收藏内容。' : '暂无句子。'}
+        </div>
+      ) : (
+        currentItems.map((item, index) => (
+          <SentenceItem
+            key={item.id}
+            item={item}
+            index={index}
+            userInput={userInputs[currentPage * itemsPerPage + index]}
+            onInputChange={e => handleInputChange(currentPage * itemsPerPage + index, e.target.value)}
+            onKeyDown={e => handleKeyDown(currentPage * itemsPerPage + index, e)}
+            isSpeaking={isSpeaking}
+            isFocused={isFocused === index}
+            feedbackMessage={feedbackMessage}
+            correctCount={storedCounts[item.id] || 0}
+            favorite={favoriteIds.includes(item.id)}
+            onFavoriteClick={() => toggleFavorite(item.id)}
+            onFocus={() => setIsFocused(index)}
+            onBlur={() => setIsFocused(null)}
+            textareaRef={el => textareaRefs.current[currentPage * itemsPerPage + index] = el}
+          />
+        ))
+      )}
 
       {/* 优化后的底部导航 */}
       <div style={{
@@ -299,15 +353,15 @@ const MemoryApp = () => {
           上一页
         </button>
         <span style={{ fontSize: '18px', fontWeight: 600, minWidth: '90px', textAlign: 'center' }}>
-          第 {currentPage + 1} / {Math.max(1, Math.ceil(data.length / itemsPerPage))} 页
+          第 {currentPage + 1} / {Math.max(1, Math.ceil(filteredCurrentData.length / itemsPerPage))} 页
         </span>
         <button
           onClick={handleNextPage}
-          disabled={currentPage >= Math.floor(data.length / itemsPerPage)}
+          disabled={currentPage >= Math.floor(filteredCurrentData.length / itemsPerPage)}
           style={{
             ...buttonStyle,
-            opacity: currentPage >= Math.floor(data.length / itemsPerPage) ? 0.5 : 1,
-            cursor: currentPage >= Math.floor(data.length / itemsPerPage) ? 'not-allowed' : 'pointer',
+            opacity: currentPage >= Math.floor(filteredCurrentData.length / itemsPerPage) ? 0.5 : 1,
+            cursor: currentPage >= Math.floor(filteredCurrentData.length / itemsPerPage) ? 'not-allowed' : 'pointer',
             margin: 0,
           }}
         >
@@ -328,6 +382,8 @@ function SentenceItem({
   isFocused,
   feedbackMessage,
   correctCount,
+  favorite,
+  onFavoriteClick,
   onFocus,
   onBlur,
   textareaRef,
@@ -352,6 +408,25 @@ function SentenceItem({
       <p style={{ fontSize: '20px' }}>
         {item.id} . {item.chinese}
         <span style={correctCountStyle}> 正确次数：{correctCount}</span>
+        <button
+          style={{
+            ...buttonStyle,
+            ...favoriteButtonStyle,
+            color: favorite ? '#facc15' : '#aaa',
+            outline: 'none',
+            padding: '2px 12px',
+            fontSize: '1.1em',
+            marginLeft: '12px',
+            marginRight: 0,
+            background: 'transparent',
+            border: 'none',
+          }}
+          onClick={onFavoriteClick}
+          aria-label={favorite ? '取消收藏' : '收藏'}
+          title={favorite ? '取消收藏' : '收藏'}
+        >
+          {favorite ? '取消收藏' : '收  藏'}
+        </button>
       </p>
       {showFeedback && (
         <div style={commonStyle}>{feedbackMessage}</div>
