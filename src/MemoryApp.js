@@ -99,7 +99,14 @@ const favoriteButtonStyle = {
 };
 
 function getFavoriteIds() {
-  return JSON.parse(localStorage.getItem('favoriteIds') || '[]');
+  let favIds = JSON.parse(localStorage.getItem('favoriteIds') || 'null');
+  if (!favIds) {
+    // 第一次访问，还未存储，默认全收藏
+    // 假定全局 allReframeData 有所有题目
+    favIds = allReframeData.map(item => item.id);
+    localStorage.setItem('favoriteIds', JSON.stringify(favIds));
+  }
+  return favIds;
 }
 
 function setFavoriteIds(favIds) {

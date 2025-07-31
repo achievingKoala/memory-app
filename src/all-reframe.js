@@ -85,7 +85,7 @@ export const data = [
         "id": "success-6",
         "keyword": "无聊",
         "sentence": "Usual Frame: I am bored with life. Reframe: I am not embarrassing myself enough.",
-        "chinese": "常规框架：我觉得生活无趣。重构框架：我还不够勇敢，出丑得还不够多。",
+        "chinese": "常规框架：我对生活感到无聊。重构框架：我还不够让自己感到尴尬。",
         "index": 10,
         "favorite": true
     },
@@ -112,7 +112,7 @@ export const data = [
         "id": "success-9",
         "keyword": "行动",
         "sentence": "Usual Frame: The effort is so big and daunting I can't even start. Reframe: What's the smallest thing I can do that moves me in the right direction?",
-        "chinese": "常规框架：事情太大太难，无法开始。重构框架：我现在能做的最小一步是什么？",
+        "chinese": "常规框架：努力太大太难以开始。重构框架：我能做的最小的一步是什么？",
         "index": 13,
         "favorite": true
     },
