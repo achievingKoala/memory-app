@@ -295,6 +295,9 @@ const MemoryApp = () => {
             <option key={ds.value} value={ds.value}>{ds.label}</option>
           ))}
         </select>
+        <span style={{ fontSize: "18px", color: "#888" }}>
+          共 {filteredCurrentData.length} 题
+        </span>
         <button onClick={handleRandomLoad} style={buttonStyle}>随机加载句子</button>
         <button onClick={sortDataByIdCount} style={buttonStyle}>根据练习次数倒序</button>
         <button onClick={sortDataByIdCountDescending} style={buttonStyle}>根据练习次数正序</button>
