@@ -202,7 +202,7 @@ export const data = [
         "id": "success-19",
         "keyword": "努力成果",
         "sentence": "Usual Frame: Your hard work will be rewarded. Reframe: The illusion of hard work will be rewarded.",
-        "chinese": "常规框架：努力会有回报。重构框架：努力的“假象”更易被奖励。",
+        "chinese": "常规框架：努力会有回报。重构框架：努力的\"假象\"更易被奖励。",
         "index": 23,
         "favorite": true
     },
@@ -327,8 +327,8 @@ export const data = [
         "chapter": "Success Reframes",
         "id": "success-33",
         "keyword": "创作失误",
-        "sentence": "Usual Frame: Avoid mistakes in your art. Reframe: Invite mistakes into your art and keep the “good ones.”",
-        "chinese": "常规框架：艺术创作要避免错误。重构框架：拥抱失误，保留其中的“好错”。",
+        "sentence": "Usual Frame: Avoid mistakes in your art. Reframe: Invite mistakes into your art and keep the \"good ones.\"",
+        "chinese": "常规框架：艺术创作要避免错误。重构框架：拥抱失误，保留其中的\"好错\"。",
         "index": 37,
         "favorite": true
     },
@@ -1048,7 +1048,7 @@ export const data = [
         "id": "social-9",
         "keyword": "饭局纠结",
         "sentence": "Usual Frame: I'm trying to make a dining decision with a crazy person. Please shoot me. Reframe: It's not about food. It's about the illusion of control.",
-        "chinese": "常规框架：与一个“疯子”讨论吃什么太痛苦了。重构框架：这不是食物问题，而是控制感问题。",
+        "chinese": "常规框架：与一个\"疯子\"讨论吃什么太痛苦了。重构框架：这不是食物问题，而是控制感问题。",
         "index": 117,
         "favorite": true
     },
@@ -1120,7 +1120,7 @@ export const data = [
         "id": "social-17",
         "keyword": "失恋难过",
         "sentence": "Usual Frame: I am crying because my relationship ended. Reframe: 'Don't cry because it is over, smile because it happened.'—Dr. Seuss",
-        "chinese": "常规框架：分手让我痛哭。重构框架：”不要因结束而哭泣，要为曾拥有而微笑。”——苏斯博士",
+        "chinese": "常规框架：分手让我痛哭。重构框架：\"不要因结束而哭泣，要为曾拥有而微笑。\"——苏斯博士",
         "index": 125,
         "favorite": true
     },
@@ -1128,7 +1128,7 @@ export const data = [
         "chapter": "Social Life Reframes",
         "id": "social-18",
         "keyword": "父母与青少年",
-        "sentence": "Usual Frame: A teen can't understand the “reason” parents have given, and it turns into a power struggle. Reframe: The parent is a guide for young brains that are not yet capable of understanding adult reasons.",
+        "sentence": "Usual Frame: A teen can't understand the \"reason\" parents have given, and it turns into a power struggle. Reframe: The parent is a guide for young brains that are not yet capable of understanding adult reasons.",
         "chinese": "常规框架：青少年不理解父母的理由，变成权力斗争。重构框架：父母是指引未成熟大脑的向导。",
         "index": 126,
         "favorite": true
@@ -1201,7 +1201,7 @@ export const data = [
         "id": "social-26",
         "keyword": "正常与疯子",
         "sentence": "Usual Frame: Most people are normal, but I'm a basket case. Reframe: Everyone is a basket case once you get to know them.",
-        "chinese": "常规框架：大多数人正常，只有我是另类。重构框架：每个人其实都是“神经兮兮”，只要你深入了解。",
+        "chinese": "常规框架：大多数人正常，只有我是另类。重构框架：每个人其实都是\"神经兮兮\"，只要你深入了解。",
         "index": 134,
         "favorite": true
     },
@@ -1219,7 +1219,7 @@ export const data = [
         "id": "social-28",
         "keyword": "时间观念",
         "sentence": "Usual Frame: People who are always late are either incompetent or uncaring or both. Reframe: Some people have time blindness.",
-        "chinese": "常规框架：总迟到的人要么无能要么不在乎。重构框架：有些人有“时间失明”。",
+        "chinese": "常规框架：总迟到的人要么无能要么不在乎。重构框架：有些人有\"时间失明\"。",
         "index": 136,
         "favorite": true
     },

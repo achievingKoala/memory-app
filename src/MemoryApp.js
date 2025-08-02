@@ -10,6 +10,7 @@ import {data as successReframeData} from './success-reframe';
 import {data as mentalReframeData} from './mental-reframe';
 import {data as realityReframeData} from './reality-reframe';
 import {data as allReframeData} from './all-reframe';
+import {data as adviceData} from './adviceData';
 
 import React, { useState } from 'react';
 import {speakText} from './AzureTextToSpeech';
@@ -79,6 +80,7 @@ allReframeData.forEach(item => {
 const dataSources = [
   { label: 'Random 2025', value: 'random2025', data: random2025Data },
   { label: 'Naval Quotes', value: 'navalQuotes', data: navalQuotesData },
+  { label: 'Advice', value: 'advice', data: adviceData },
   { label: 'All', value: 'all', data: allReframeData },
   ...allChapters.map(chap => ({
     label: chap,
