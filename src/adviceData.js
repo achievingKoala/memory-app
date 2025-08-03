@@ -21,7 +21,7 @@ export const data = [
     },
     {
         id: "advice-5",
-        sentence: "Don’t be afraid to ask a question that may sound stupid because 99% of the time everyone else is thinking of the same question and is too embarrassed to ask it.",
+        sentence: "Don't be afraid to ask a question that may sound stupid because 99% of the time everyone else is thinking of the same question and is too embarrassed to ask it.",
         chinese: "不要害怕问一个看起来愚蠢的问题，因为99%的时候，其他人也在想同样的问题，只是不好意思开口。"
     },
     {
@@ -36,12 +36,12 @@ export const data = [
     },
     {
         id: "advice-8",
-        sentence: "The fact that you \"can’t do\" something can be embarrassing. But if you are \"learning to do\" something that is admirable. There are only tiny baby steps between can’t and learning.",
+        sentence: "The fact that you \"can't do\" something can be embarrassing. But if you are \"learning to do\" something that is admirable. There are only tiny baby steps between can't and learning.",
         chinese: "意识到自己\"不会做\"某事可能让人尴尬。但如果你正在\"学习去做\"，那就是值得赞赏的。从不会到学习，其实只是小小一步。"
     },
     {
         id: "advice-9",
-        sentence: "Don’t measure your life with someone else’s ruler.",
+        sentence: "Don't measure your life with someone else's ruler.",
         chinese: "不要用别人的尺子衡量自己的人生。"
     },
     {
@@ -66,17 +66,17 @@ export const data = [
     },
     {
         id: "advice-14",
-        sentence: "You don’t have to attend every argument you are invited to.",
+        sentence: "You don't have to attend every argument you are invited to.",
         chinese: "你不用参与每一个被邀请的争论。"
     },
     {
         id: "advice-15",
-        sentence: "A worthy goal for a year is to learn enough about a subject so that you can’t believe how ignorant you were a year earlier.",
+        sentence: "A worthy goal for a year is to learn enough about a subject so that you can't believe how ignorant you were a year earlier.",
         chinese: "一年的有价值目标，是深入学习一个领域，以至于你无法相信一年前自己是多么无知。"
     },
     {
         id: "advice-16",
-        sentence: "You can’t reason someone out of a notion that they didn’t reason themselves into.",
+        sentence: "You can't reason someone out of a notion that they didn't reason themselves into.",
         chinese: "你无法用道理说服一个不是用道理形成想法的人。"
     },
     {
@@ -91,7 +91,7 @@ export const data = [
     },
     {
         id: "advice-19",
-        sentence: "Treating a person to a meal never fails and is so easy to do. It’s powerful with old friends and a great way to make new friends.",
+        sentence: "Treating a person to a meal never fails and is so easy to do. It's powerful with old friends and a great way to make new friends.",
         chinese: "请别人吃一顿饭总是有效而简单。这不仅能加深友谊，也是结交新朋友的好方法。"
     },
     {
@@ -101,7 +101,7 @@ export const data = [
     },
     {
         id: "advice-21",
-        sentence: "If you are looking for something in your house and you finally find it when you’re done with it don’t put it back where you found it. Put it back where you first looked for it.",
+        sentence: "If you are looking for something in your house and you finally find it when you're done with it don't put it back where you found it. Put it back where you first looked for it.",
         chinese: "如果你在家里找东西，却在用完后才找到，别把它放回原处，而是放到你最先找的地方。"
     },
     {
@@ -111,7 +111,7 @@ export const data = [
     },
     {
         id: "advice-23",
-        sentence: "Never use a credit card for credit. The only kind of credit, or debt that is acceptable is debt to acquire something whose exchange value is extremely likely to increase like a home. The exchange value of most things diminishes or vanishes the moment you purchase them. Don’t be in debt to losers.",
+        sentence: "Never use a credit card for credit. The only kind of credit, or debt that is acceptable is debt to acquire something whose exchange value is extremely likely to increase like a home. The exchange value of most things diminishes or vanishes the moment you purchase them. Don't be in debt to losers.",
         chinese: "永远不要用信用卡来借贷。唯一可以接受的负债是为了获得那些极有可能升值的东西，比如房产。大多数物品在你买下的那一刻起，价值就会贬损或消失。别为无价值的东西借债。"
     },
     {
@@ -136,7 +136,7 @@ export const data = [
     },
     {
         id: "advice-28",
-        sentence: "Whenever you have a choice between being right or being kind be kind. No exceptions. Don’t confuse kindness with weakness.",
+        sentence: "Whenever you have a choice between being right or being kind be kind. No exceptions. Don't confuse kindness with weakness.",
         chinese: "每当你在正确与善良之间做选择时，请选择善良，无一例外。善良不是软弱。"
     },
     {
@@ -161,7 +161,7 @@ export const data = [
     },
     {
         id: "advice-33",
-        sentence: "Whenever you can’t decide which path to take pick the one that produces change.",
+        sentence: "Whenever you can't decide which path to take pick the one that produces change.",
         chinese: "当你无法决定走哪条路时，选择那个会带来变化的方向。"
     },
     {
@@ -176,7 +176,7 @@ export const data = [
     },
     {
         id: "advice-36",
-        sentence: "Habit is far more dependable than inspiration. Make progress by making habits. Don’t focus on getting into shape. Focus on becoming the kind of person who never misses a workout.",
+        sentence: "Habit is far more dependable than inspiration. Make progress by making habits. Don't focus on getting into shape. Focus on becoming the kind of person who never misses a workout.",
         chinese: "习惯远比灵感可靠。通过养成习惯获得进步。别把目标定在身材上，而要成为永不缺席锻炼的人。"
     },
     {
@@ -191,17 +191,17 @@ export const data = [
     },
     {
         id: "advice-39",
-        sentence: "Rule of 3 in conversation: To get to the real reason, ask a person to go deeper than what they just said. Then again, and then once more. The third time’s answer is the one closest to the truth.",
+        sentence: "Rule of 3 in conversation: To get to the real reason, ask a person to go deeper than what they just said. Then again, and then once more. The third time's answer is the one closest to the truth.",
         chinese: "对话中的\"三次法则\"：要想追到问题的根本，就请对方再多说一点，再多说一次。第三次的答案才最接近真相。"
     },
     {
         id: "advice-40",
-        sentence: "Pros make as many mistakes as amateurs; they’ve just learned how to gracefully recover from their mistakes.",
+        sentence: "Pros make as many mistakes as amateurs; they've just learned how to gracefully recover from their mistakes.",
         chinese: "专业人士和新手一样会犯很多错误，但他们学会了优雅地从错误中恢复。"
     },
     {
         id: "advice-41",
-        sentence: "Don’t be the best. Be the only.",
+        sentence: "Don't be the best. Be the only.",
         chinese: "别做最优秀的，要做独一无二的那一个。"
     },
     {
@@ -211,12 +211,12 @@ export const data = [
     },
     {
         id: "advice-43",
-        sentence: "The more you are interested in others the more interesting they’ll find you. To be interesting, be interested.",
+        sentence: "The more you are interested in others the more interesting they'll find you. To be interesting, be interested.",
         chinese: "你越关心别人，别人就觉得你越有趣。想成为有趣的人，先做感兴趣的人。"
     },
     {
         id: "advice-44",
-        sentence: "Don’t take it personally when someone turns you down. Assume they are like you: busy, occupied, distracted. Try again later. It’s amazing how often a second try works.",
+        sentence: "Don't take it personally when someone turns you down. Assume they are like you: busy, occupied, distracted. Try again later. It's amazing how often a second try works.",
         chinese: "别人拒绝你，不要往心里去。假设他们只是像你一样忙碌、分心。以后再试，一次未成，二次常成。"
     },
     {
@@ -231,7 +231,7 @@ export const data = [
     },
     {
         id: "advice-47",
-        sentence: "When you are young, spend at least 6 months to 1 year living as cheaply as you can owning as little as you possibly can eating beans and rice in a tiny room or tent. That way any time you have to risk something in the future, you won’t be afraid of the \"worst-case\" scenario.",
+        sentence: "When you are young, spend at least 6 months to 1 year living as cheaply as you can owning as little as you possibly can eating beans and rice in a tiny room or tent. That way any time you have to risk something in the future, you won't be afraid of the \"worst-case\" scenario.",
         chinese: "年轻时，至少用半年到一年，尽量节俭地生活，拥有最少的东西，住在小房间或帐篷里，吃米饭和豆子。这样以后要冒险时，你就不会惧怕\"最坏的情况\"。"
     },
     {
@@ -251,7 +251,7 @@ export const data = [
     },
     {
         id: "advice-51",
-        sentence: "If you ask for someone’s feedback you’ll get a critic. But if instead you ask for advice you’ll get a partner.",
+        sentence: "If you ask for someone's feedback you'll get a critic. But if instead you ask for advice you'll get a partner.",
         chinese: "如果你向别人请求反馈，你会得到批评；但如果你请求建议，你会得到伙伴。"
     },
     {
@@ -266,7 +266,7 @@ export const data = [
     },
     {
         id: "advice-54",
-        sentence: "This is true: It’s hard to cheat an honest person.",
+        sentence: "This is true: It's hard to cheat an honest person.",
         chinese: "确实如此：很难骗到一个诚实的人。"
     },
     {
@@ -291,7 +291,7 @@ export const data = [
     },
     {
         id: "advice-59",
-        sentence: "Nothing elevates a person higher than taking responsibility for their mistakes. If you mess up, fess up. It’s astounding how powerful this ownership is.",
+        sentence: "Nothing elevates a person higher than taking responsibility for their mistakes. If you mess up, fess up. It's astounding how powerful this ownership is.",
         chinese: "没有什么比为自己的错误负责更能让人进步。如果你搞砸了，就坦然承认。承担责任的力量令人惊异。"
     },
     {
@@ -301,7 +301,7 @@ export const data = [
     },
     {
         id: "advice-61",
-        sentence: "Don’t take a job because it pays the most money.",
+        sentence: "Don't take a job because it pays the most money.",
         chinese: "不要因为高薪而接受一份工作。"
     },
     {
@@ -316,7 +316,7 @@ export const data = [
     },
     {
         id: "advice-64",
-        sentence: "Separate the processes of creating from improving. You can’t write and edit or sculpt and polish or make and analyze at the same time. If you do, the editor stops the creator. While you invent, don’t select. While you sketch, don’t inspect. While you write the first draft, don’t reflect. At the start, the creator mind must be unleashed from judgment.",
+        sentence: "Separate the processes of creating from improving. You can't write and edit or sculpt and polish or make and analyze at the same time. If you do, the editor stops the creator. While you invent, don't select. While you sketch, don't inspect. While you write the first draft, don't reflect. At the start, the creator mind must be unleashed from judgment.",
         chinese: "创作和完善要分开进行。你无法一边写一边改稿，或一边雕刻一边打磨，或一边创造一边分析。如果你这么做，批评者会扼杀创造者。在你构思时，不要挑选；在你草绘时，不要检视；写初稿时，不要反思。最初阶段要让创造力毫无束缚。"
     },
     {
@@ -326,7 +326,7 @@ export const data = [
     },
     {
         id: "advice-66",
-        sentence: "Perhaps the most counterintuitive truth of the universe is that the more you give to others the more you’ll get. Understanding this is the beginning of wisdom.",
+        sentence: "Perhaps the most counterintuitive truth of the universe is that the more you give to others the more you'll get. Understanding this is the beginning of wisdom.",
         chinese: "宇宙中最反常识的真理也许就是：你给予越多，收获也会越多。理解这一点，就是智慧的开始。"
     },
     {
@@ -341,7 +341,7 @@ export const data = [
     },
     {
         id: "advice-69",
-        sentence: "When an object is lost, 95% of the time it is hiding within arm’s reach of where it was last seen. Search in all possible locations in that radius and you’ll find it.",
+        sentence: "When an object is lost, 95% of the time it is hiding within arm's reach of where it was last seen. Search in all possible locations in that radius and you'll find it.",
         chinese: "当找不到东西时，95%的可能它就在离上次看到它的地方一臂之遥内。仔细搜索那个范围，你就能找到。"
     },
     {
@@ -351,7 +351,7 @@ export const data = [
     },
     {
         id: "advice-71",
-        sentence: "Don’t be in haste. When you are in a hurry you are more easily conned or manipulated.",
+        sentence: "Don't be in haste. When you are in a hurry you are more easily conned or manipulated.",
         chinese: "不要急躁。仓促时你更容易被骗或被操控。"
     },
     {
@@ -361,7 +361,7 @@ export const data = [
     },
     {
         id: "advice-73",
-        sentence: "To cultivate a habit switch your language from \"I can or can’t do\" to \"I do or don’t do.\" You shift the weight from a wavering choice to an unwavering identity.",
+        sentence: "To cultivate a habit switch your language from \"I can or can't do\" to \"I do or don't do.\" You shift the weight from a wavering choice to an unwavering identity.",
         chinese: "培养习惯的方法，是把\"我能不能做\"换成\"我就是做/不做\"。你会从摇摆的选择变成坚定的身份。"
     },
     {
@@ -386,27 +386,27 @@ export const data = [
     },
     {
         id: "advice-78",
-        sentence: "Before you are old attend as many funerals as you can bear and listen. Nobody talks about the departed’s achievements. The only thing people will remember is what kind of person you were while you were achieving.",
+        sentence: "Before you are old attend as many funerals as you can bear and listen. Nobody talks about the departed's achievements. The only thing people will remember is what kind of person you were while you were achieving.",
         chinese: "在你年老之前，尽可能多参加葬礼，多倾听。没有人会谈论死者的成就，大家只会记得你成就时是什么样的人。"
     },
     {
         id: "advice-79",
-        sentence: "Anything real begins with the fiction of what could be. Imagination is therefore the most potent force in the universe. And you can get better at it. It’s the one skill in life that benefits from ignoring what everyone else knows.",
+        sentence: "Anything real begins with the fiction of what could be. Imagination is therefore the most potent force in the universe. And you can get better at it. It's the one skill in life that benefits from ignoring what everyone else knows.",
         chinese: "一切真实始于对可能性的幻想。想象力因此是宇宙中最强大的力量，而且你可以不断训练它。它是唯一一种无视世俗知识反而越强的技能。"
     },
     {
         id: "advice-80",
-        sentence: "When crises strike don’t waste them. No problems, no progress.",
+        sentence: "When crises strike don't waste them. No problems, no progress.",
         chinese: "当危机来临，不要浪费它。有问题才会有进步。"
     },
     {
         id: "advice-81",
-        sentence: "You really don’t want to be famous. Read the biography of any famous person.",
+        sentence: "You really don't want to be famous. Read the biography of any famous person.",
         chinese: "你其实不会想成名。读一读任何名人的传记就明白了。"
     },
     {
         id: "advice-82",
-        sentence: "On vacation go to the most remote place on your itinerary first bypassing the cities and then return to the big city at the end. You’ll maximize the shock of otherness in the remote, and then later you’ll welcome the familiar conveniences of a busy city on the way back.",
+        sentence: "On vacation go to the most remote place on your itinerary first bypassing the cities and then return to the big city at the end. You'll maximize the shock of otherness in the remote, and then later you'll welcome the familiar conveniences of a busy city on the way back.",
         chinese: "度假时先去最偏远的地方，绕开城市，最后再回大城市。这样你能最大程度地体会异域的冲击感，回程时又能重新欣赏城市的便利。"
     },
     {
@@ -416,7 +416,7 @@ export const data = [
     },
     {
         id: "advice-84",
-        sentence: "Don’t say anything about someone in email you would not be comfortable saying to them directly because eventually it will reach them.",
+        sentence: "Don't say anything about someone in email you would not be comfortable saying to them directly because eventually it will reach them.",
         chinese: "不要在邮件里说你不敢当面说的话，因为这些话终会传到对方耳朵里。"
     },
     {
@@ -446,12 +446,12 @@ export const data = [
     },
     {
         id: "advice-90",
-        sentence: "Rule of 7 in research: You can find out anything if you are willing to go seven levels. If the first source you ask doesn’t know ask them who you should ask next and so on down the line. If you are willing to go to the seventh source you’ll almost always get your answer.",
+        sentence: "Rule of 7 in research: You can find out anything if you are willing to go seven levels. If the first source you ask doesn't know ask them who you should ask next and so on down the line. If you are willing to go to the seventh source you'll almost always get your answer.",
         chinese: "研究的\"七次法则\"：愿意追问到第七层，你就能找到答案。如果第一个问的人不知道，就让他介绍下一个，依次类推。走到第七层，你几乎必定会有答案。"
     },
     {
         id: "advice-91",
-        sentence: "To earn bliss just for a moment send someone you don’t know a compliment for something they did.",
+        sentence: "To earn bliss just for a moment send someone you don't know a compliment for something they did.",
         chinese: "想要获得瞬间的幸福，就给一个陌生人为他们做的事情送去称赞。"
     },
     {
@@ -466,7 +466,7 @@ export const data = [
     },
     {
         id: "advice-94",
-        sentence: "Don’t ever respond to a solicitation or a proposal on the phone. The urgency is a disguise for a scam.",
+        sentence: "Don't ever respond to a solicitation or a proposal on the phone. The urgency is a disguise for a scam.",
         chinese: "永远别在电话中回应推销或邀约。所谓紧急不过是骗局的伪装。"
     },
     {
@@ -476,22 +476,22 @@ export const data = [
     },
     {
         id: "advice-96",
-        sentence: "How to apologize: quickly, specifically, sincerely. Don’t ruin an apology with an excuse.",
+        sentence: "How to apologize: quickly, specifically, sincerely. Don't ruin an apology with an excuse.",
         chinese: "如何道歉：迅速、具体、真诚。不要用解释毁了你的道歉。"
     },
     {
         id: "advice-97",
-        sentence: "Don’t bother asking a barber if you need a haircut. Pay attention to incentives.",
+        sentence: "Don't bother asking a barber if you need a haircut. Pay attention to incentives.",
         chinese: "别问理发师你需不需要理发。要关注他人的激励动机。"
     },
     {
         id: "advice-98",
-        sentence: "That thing that made you weird as a kid could make you great as an adult —if you don’t lose it.",
+        sentence: "That thing that made you weird as a kid could make you great as an adult —if you don't lose it.",
         chinese: "让你小时候与众不同的特质，若你不丢掉，它会让你在成年后变得伟大。"
     },
     {
         id: "advice-99",
-        sentence: "Following your bliss is a recipe for paralysis if you don’t know what you are passionate about. A better path for most youth is \"master something.\" Through mastery of one thing you’ll command a viewpoint to steadily find where your bliss is.",
+        sentence: "Following your bliss is a recipe for paralysis if you don't know what you are passionate about. A better path for most youth is \"master something.\" Through mastery of one thing you'll command a viewpoint to steadily find where your bliss is.",
         chinese: "如果你不知道自己热爱的是什么，仅仅追随幸福很容易陷入迷茫。对大多数年轻人来说，\"把一件事做到极致\"是更好的路径。通过精通某件事，你会逐步找到属于你的热爱。"
     },
     {
@@ -501,7 +501,7 @@ export const data = [
     },
     {
         id: "advice-101",
-        sentence: "When you lend something pretend you are gifting. If it is returned you’ll be surprised and happy.",
+        sentence: "When you lend something pretend you are gifting. If it is returned you'll be surprised and happy.",
         chinese: "当你借东西给别人时，当作是在送人。如果归还了，你会惊喜又开心。"
     },
     {
@@ -511,7 +511,7 @@ export const data = [
     },
     {
         id: "advice-103",
-        sentence: "A balcony or porch needs to be at least 6 feet (2 meters) deep or it won’t be used.",
+        sentence: "A balcony or porch needs to be at least 6 feet (2 meters) deep or it won't be used.",
         chinese: "阳台或门廊至少要有6英尺（2米）深，否则根本不会被使用。"
     },
     {
@@ -556,12 +556,12 @@ export const data = [
     },
     {
         id: "advice-112",
-        sentence: "Over the long term the future is decided by optimists. To be an optimist you don’t have to ignore the multitude of problems we create; you just have to imagine how much our ability to solve problems improves.",
+        sentence: "Over the long term the future is decided by optimists. To be an optimist you don't have to ignore the multitude of problems we create; you just have to imagine how much our ability to solve problems improves.",
         chinese: "长远来看，未来属于乐观者。要成为乐观者，并不意味着忽视问题，而是要相信我们解决问题的能力会不断进步。"
     },
     {
         id: "advice-113",
-        sentence: "Don’t let someone else’s urgency become your emergency. In fact, don’t be governed by the urgent of any sort. Focus on the important. The urgent is a tyrant. The important should be your king. Down with the tyranny of the urgent!",
+        sentence: "Don't let someone else's urgency become your emergency. In fact, don't be governed by the urgent of any sort. Focus on the important. The urgent is a tyrant. The important should be your king. Down with the tyranny of the urgent!",
         chinese: "不要让别人的紧急变成你的紧急。事实上，任何紧急的事都不该支配你。要聚焦重要事项，别让急迫的琐事奴役你，重要的才是你的王者。"
     },
     {
@@ -576,7 +576,7 @@ export const data = [
     },
     {
         id: "advice-116",
-        sentence: "Don’t reserve you kindest praise for a person until their eulogy. Tell them while they are alive when it makes a difference to them Write it in a letter they can keep.",
+        sentence: "Don't reserve you kindest praise for a person until their eulogy. Tell them while they are alive when it makes a difference to them Write it in a letter they can keep.",
         chinese: "不要把你最美好的赞美留到对方去世后才说。在他们还活着、听得见、能受益时说出来，写封信给他们留作回忆。"
     },
     {
@@ -601,12 +601,12 @@ export const data = [
     },
     {
         id: "advice-121",
-        sentence: "If someone is trying to convince you it’s not a pyramid scheme it’s a pyramid scheme.",
+        sentence: "If someone is trying to convince you it's not a pyramid scheme it's a pyramid scheme.",
         chinese: "如果有人试图说服你这不是传销，那它就是传销。"
     },
     {
         id: "advice-122",
-        sentence: "Don’t create things to make money; make money so you can create things. The reward for good work is more work.",
+        sentence: "Don't create things to make money; make money so you can create things. The reward for good work is more work.",
         chinese: "不要为了赚钱而创造事物；而应为了能创造事物而去赚钱。好工作的回报是更多的工作。"
     },
     {
@@ -621,7 +621,7 @@ export const data = [
     },
     {
         id: "advice-125",
-        sentence: "Learn how to tie a bowline knot. Practice in the dark. With one hand. For the rest of your life you’ll use this knot more times than you would ever believe.",
+        sentence: "Learn how to tie a bowline knot. Practice in the dark. With one hand. For the rest of your life you'll use this knot more times than you would ever believe.",
         chinese: "学会打一个船结（蝴蝶结）。在黑暗中练习，用一只手。你会在以后的人生里比你想象得更多次用到它。"
     },
     {
@@ -641,12 +641,12 @@ export const data = [
     },
     {
         id: "advice-129",
-        sentence: "Don’t aim to have others like you; aim to have them respect you.",
+        sentence: "Don't aim to have others like you; aim to have them respect you.",
         chinese: "不要追求别人喜欢你，而要让别人尊重你。"
     },
     {
         id: "advice-130",
-        sentence: "The foundation of maturity: Just because it’s not your fault doesn’t mean it’s not your responsibility.",
+        sentence: "The foundation of maturity: Just because it's not your fault doesn't mean it's not your responsibility.",
         chinese: "成熟的基础是：不是你的错并不等于不用你负责。"
     },
     {
@@ -661,7 +661,7 @@ export const data = [
     },
     {
         id: "advice-133",
-        sentence: "Compliment people behind their back. It’ll come back to you.",
+        sentence: "Compliment people behind their back. It'll come back to you.",
         chinese: "背后夸奖别人，这会回到你身上。"
     },
     {
@@ -671,12 +671,12 @@ export const data = [
     },
     {
         id: "advice-135",
-        sentence: "The job of a grandparent is to grandparent, not to parent. Parent’s house, parent rules. Grandparent’s house, grandparent rules.",
+        sentence: "The job of a grandparent is to grandparent, not to parent. Parent's house, parent rules. Grandparent's house, grandparent rules.",
         chinese: "祖父母的职责只是当祖父母，不是父母。在父母家听父母的规则，在祖父母家听祖父母的规则。"
     },
     {
         id: "advice-136",
-        sentence: "You don’t need more time because you already have all the time that you will ever get; you need more focus.",
+        sentence: "You don't need more time because you already have all the time that you will ever get; you need more focus.",
         chinese: "你不需要更多时间，因为你拥有的时间就是全部，你需要的是更多专注。"
     },
     {
@@ -691,27 +691,27 @@ export const data = [
     },
     {
         id: "advice-139",
-        sentence: "If the cost of something is not advertised it is a sign that it’s more than you can afford.",
+        sentence: "If the cost of something is not advertised it is a sign that it's more than you can afford.",
         chinese: "如果一个东西没有标明价格，那它很可能贵到你负担不起。"
     },
     {
         id: "advice-140",
-        sentence: "Everyone’s time is finite and shrinking. The highest leverage you can get with your money is to buy someone else’s time. Hire and outsource when you can.",
+        sentence: "Everyone's time is finite and shrinking. The highest leverage you can get with your money is to buy someone else's time. Hire and outsource when you can.",
         chinese: "每个人的时间都是有限并且在缩减的。用钱能获得的最大杠杆是买别人的时间。能雇佣就雇佣，能外包就外包。"
     },
     {
         id: "advice-141",
-        sentence: "Your best response to an insult is \"You’re probably right.\" Often they are.",
+        sentence: "Your best response to an insult is \"You're probably right.\" Often they are.",
         chinese: "面对侮辱，最好的回应是\"你也许说得对\"。其实往往他们确实说对了。"
     },
     {
         id: "advice-142",
-        sentence: "Assume anyone asking for your account information for any reason is guilty of scamming you unless proven innocent. The way to prove innocence is to call them back, or log in to your account using numbers or a website that you provide not them. Don’t release any identifying information while they are contacting you via phone, message, or email. You must control the channel.",
+        sentence: "Assume anyone asking for your account information for any reason is guilty of scamming you unless proven innocent. The way to prove innocence is to call them back, or log in to your account using numbers or a website that you provide not them. Don't release any identifying information while they are contacting you via phone, message, or email. You must control the channel.",
         chinese: "凡是要你账户信息的，不管理由是什么，都假定是骗子，除非对方证明清白。证明清白的方式是你自己回拨电话，或用你自己知道的网站或号码登陆账户，不用对方提供的任何信息。在对方通过电话、短信、邮件联系你的时候，不要泄露个人信息。你必须掌控沟通渠道。"
     },
     {
         id: "advice-143",
-        sentence: "Fear makes people do stupid things so don’t trust anything made in fear.",
+        sentence: "Fear makes people do stupid things so don't trust anything made in fear.",
         chinese: "恐惧会让人做蠢事，所以不要相信任何因恐惧而做出的东西。"
     },
     {
@@ -731,7 +731,7 @@ export const data = [
     },
     {
         id: "advice-147",
-        sentence: "When a child asks an endless string of \"Why?\" questions, the smartest reply is \"I don’t know, what do you think?\"",
+        sentence: "When a child asks an endless string of \"Why?\" questions, the smartest reply is \"I don't know, what do you think?\"",
         chinese: "当孩子不停地问\"为什么\"的时候，最聪明的回答是：\"我不知道，你觉得呢？\""
     },
     {
@@ -741,12 +741,12 @@ export const data = [
     },
     {
         id: "advice-149",
-        sentence: "Show me your calendar and I will tell you your priorities. Tell me who your friends are and I’ll tell you where you’re going.",
+        sentence: "Show me your calendar and I will tell you your priorities. Tell me who your friends are and I'll tell you where you're going.",
         chinese: "给我看看你的日历，我就能知道你的优先级是什么。告诉我你的朋友，我就知道你未来会怎样。"
     },
     {
         id: "advice-150",
-        sentence: "When brainstorming improvising jamming with others you’ll go much further and deeper if you build upon each contribution with a playful \"yes—and\" example instead of a deflating \"no—but\" reply.",
+        sentence: "When brainstorming improvising jamming with others you'll go much further and deeper if you build upon each contribution with a playful \"yes—and\" example instead of a deflating \"no—but\" reply.",
         chinese: "在头脑风暴、即兴创作、与人协作时，当你用\"是的，并且……\"代替\"不是，但是……\"接纳对方的想法，你们会走得更远更深入。"
     },
     {
@@ -781,7 +781,7 @@ export const data = [
     },
     {
         id: "advice-157",
-        sentence: "When someone tells you something is wrong, they’re usually right. When they tell you how to fix it they’re usually wrong.",
+        sentence: "When someone tells you something is wrong, they're usually right. When they tell you how to fix it they're usually wrong.",
         chinese: "当别人告诉你哪里不对时，通常他们是对的。当他们告诉你该怎么修正时，通常他们是错的。"
     },
     {
@@ -801,17 +801,17 @@ export const data = [
     },
     {
         id: "advice-161",
-        sentence: "Money is overrated. Truly new things rarely need an abundance of money. If that was so, billionaires would have a monopoly on inventing new things, and they don’t. Instead, almost all breakthroughs are made by those who lack money. If breakthroughs could be bought, then the rich would buy them. Instead, passion, persistence, belief, and ingenuity are required to invent new things qualities the poor and young often have in abundance. Stay hungry.",
+        sentence: "Money is overrated. Truly new things rarely need an abundance of money. If that was so, billionaires would have a monopoly on inventing new things, and they don't. Instead, almost all breakthroughs are made by those who lack money. If breakthroughs could be bought, then the rich would buy them. Instead, passion, persistence, belief, and ingenuity are required to invent new things qualities the poor and young often have in abundance. Stay hungry.",
         chinese: "金钱被高估了。真正的新事物很少需要大量资金，否则亿万富翁早已把创新垄断了。实际上，几乎所有突破都是缺钱人做出的。如果用钱能买来突破，富人早就全买了。发明新事物需要激情、毅力、信念和创造力，这些穷人和年轻人常常不缺。保持饥饿感。"
     },
     {
         id: "advice-162",
-        sentence: "If you can’t tell what you desperately need it’s probably sleep.",
+        sentence: "If you can't tell what you desperately need it's probably sleep.",
         chinese: "如果你不知道自己最需要什么，很可能你缺的是睡眠。"
     },
     {
         id: "advice-163",
-        sentence: "Ignore what others may be thinking of you because they aren’t thinking of you.",
+        sentence: "Ignore what others may be thinking of you because they aren't thinking of you.",
         chinese: "不要在意别人是否在想你，因为他们根本没想你。"
     },
     {
@@ -836,17 +836,17 @@ export const data = [
     },
     {
         id: "advice-168",
-        sentence: "Don’t worry how or where you begin. As long as you keep moving, your success will arrive far from where you start.",
+        sentence: "Don't worry how or where you begin. As long as you keep moving, your success will arrive far from where you start.",
         chinese: "别担心你从哪里，以及用什么方式开始。只要你不断前进，成功一定远离起点。"
     },
     {
         id: "advice-169",
-        sentence: "Avoid hitting the snooze button. That’s just training you to oversleep.",
+        sentence: "Avoid hitting the snooze button. That's just training you to oversleep.",
         chinese: "不要按贪睡按钮，那会让你变得越来越爱赖床。"
     },
     {
         id: "advice-170",
-        sentence: "You’ll learn a lot more if you ask people \"how are you sleeping?\" instead of \"how are you doing?\"",
+        sentence: "You'll learn a lot more if you ask people \"how are you sleeping?\" instead of \"how are you doing?\"",
         chinese: "问别人\"最近睡得好吗？\"比问\"你还好吗？\"会得到更多信息。"
     },
     {
@@ -856,7 +856,7 @@ export const data = [
     },
     {
         id: "advice-172",
-        sentence: "Each time you connect to people bring them a blessing; then they’ll be happy to see you when you bring them a problem.",
+        sentence: "Each time you connect to people bring them a blessing; then they'll be happy to see you when you bring them a problem.",
         chinese: "每次与人接触都带去祝福，这样当你带去难题时他们也会乐于见你。"
     },
     {
@@ -871,7 +871,7 @@ export const data = [
     },
     {
         id: "advice-175",
-        sentence: "You can reduce the annoyance of someone’s stupid belief by increasing your understanding of why they believe it.",
+        sentence: "You can reduce the annoyance of someone's stupid belief by increasing your understanding of why they believe it.",
         chinese: "如果你多理解别人为什么会有愚蠢的信仰，你就会少一些恼火。"
     },
     {
@@ -891,7 +891,7 @@ export const data = [
     },
     {
         id: "advice-179",
-        sentence: "When you are stuck, sleep on it. Give your subconscious an assignment while you sleep. You’ll have an answer in the morning.",
+        sentence: "When you are stuck, sleep on it. Give your subconscious an assignment while you sleep. You'll have an answer in the morning.",
         chinese: "当你陷入困境时，睡一觉。在睡觉时让潜意识去思考，早上你会有答案。"
     },
     {
@@ -906,7 +906,7 @@ export const data = [
     },
     {
         id: "advice-182",
-        sentence: "Don’t treat people as bad as they are. Treat them as good as you are.",
+        sentence: "Don't treat people as bad as they are. Treat them as good as you are.",
         chinese: "不要用他们的坏对待别人，要用你的善良去对待别人。"
     },
     {
@@ -941,7 +941,7 @@ export const data = [
     },
     {
         id: "advice-189",
-        sentence: "People can’t remember more than three points from a speech.",
+        sentence: "People can't remember more than three points from a speech.",
         chinese: "一场演讲中，人通常记不住三点以上。"
     },
     {
@@ -976,7 +976,7 @@ export const data = [
     },
     {
         id: "advice-196",
-        sentence: "Every person you meet knows an amazing lot about something you know virtually nothing about. It won’t be obvious and your job is to discover what it is.",
+        sentence: "Every person you meet knows an amazing lot about something you know virtually nothing about. It won't be obvious and your job is to discover what it is.",
         chinese: "你遇到的每个人都有你几乎一无所知的专长。你的工作就是发现那是什么。"
     },
     {
@@ -991,12 +991,12 @@ export const data = [
     },
     {
         id: "advice-199",
-        sentence: "If you are buying stock, the person selling it thinks it is worth less than you do. If you are selling, they think it is worth more than you do. Each time you are ready to buy or sell stock ask yourself \"What do I know that they don’t?\"",
+        sentence: "If you are buying stock, the person selling it thinks it is worth less than you do. If you are selling, they think it is worth more than you do. Each time you are ready to buy or sell stock ask yourself \"What do I know that they don't?\"",
         chinese: "你买股票时，卖方觉得它比你认为的值要低；你卖时，对方觉得它比你认为的值要高。每次买卖时，问问自己\"我知道什么是对方不知道的？\""
     },
     {
         id: "advice-200",
-        sentence: "You don’t marry a person you marry a family.",
+        sentence: "You don't marry a person you marry a family.",
         chinese: "你不仅是和一个人结婚，更是与一个家庭结婚。"
     },
     {
@@ -1041,7 +1041,7 @@ export const data = [
     },
     {
         id: "advice-209",
-        sentence: "Don’t let your email inbox become your to-do list run by others.",
+        sentence: "Don't let your email inbox become your to-do list run by others.",
         chinese: "不要让你的邮箱收件箱变成由别人主导的待办清单。"
     },
     {
@@ -1051,7 +1051,7 @@ export const data = [
     },
     {
         id: "advice-211",
-        sentence: "Take one simple thing —almost anything— but take it extremely seriously as if it is the only thing in the world —or maybe the entire world is in it— and by taking it seriously you’ll light up the sky.",
+        sentence: "Take one simple thing —almost anything— but take it extremely seriously as if it is the only thing in the world —or maybe the entire world is in it— and by taking it seriously you'll light up the sky.",
         chinese: "认真对待一件简单的事情——任何事情都可以——就像它是世间唯一的事，甚至像整个世界都在里面。如此投入，你会点亮天空。"
     },
     {
@@ -1066,7 +1066,7 @@ export const data = [
     },
     {
         id: "advice-214",
-        sentence: "Don’t ever work for someone you don’t want to become.",
+        sentence: "Don't ever work for someone you don't want to become.",
         chinese: "永远不要为一个你不愿成为的人工作。"
     },
     {
@@ -1076,7 +1076,7 @@ export const data = [
     },
     {
         id: "advice-216",
-        sentence: "The expanding universe is overflowing with abundance. It is so full that improvement can often be gained only by subtracting. Keep removing, until you can’t. End with wanting more, not less.",
+        sentence: "The expanding universe is overflowing with abundance. It is so full that improvement can often be gained only by subtracting. Keep removing, until you can't. End with wanting more, not less.",
         chinese: "扩张的宇宙中充满了丰盈。以致于改善往往只能通过减法获得。不断地减少，直到不能再减。终点是让你意犹未尽，而非嫌弃。"
     },
     {
@@ -1171,7 +1171,7 @@ export const data = [
     },
     {
         id: "advice-235",
-        sentence: "Productivity is often a distraction. Don’t aim for better ways to get through your tasks as quickly as possible. Instead aim for better tasks that you never want to stop doing.",
+        sentence: "Productivity is often a distraction. Don't aim for better ways to get through your tasks as quickly as possible. Instead aim for better tasks that you never want to stop doing.",
         chinese: "提高效率常常成了干扰。不要只想着如何更快完成任务，而应该寻找那些你永远不愿停止的好任务。"
     },
     {
@@ -1181,12 +1181,12 @@ export const data = [
     },
     {
         id: "advice-237",
-        sentence: "Ask funders for money and they’ll give you advice; but ask for advice and they’ll give you money.",
+        sentence: "Ask funders for money and they'll give you advice; but ask for advice and they'll give you money.",
         chinese: "向资助人要求钱，他们会给你建议；但如果你请教建议，他们反而会给你钱。"
     },
     {
         id: "advice-238",
-        sentence: "The biggest lie we tell ourselves is \"I don’t need to write this down because I will remember it.\"",
+        sentence: "The biggest lie we tell ourselves is \"I don't need to write this down because I will remember it.\"",
         chinese: "我们对自己说的最大谎言就是\"这个不用记下来，我肯定记得住\"。"
     },
     {
@@ -1196,7 +1196,7 @@ export const data = [
     },
     {
         id: "advice-240",
-        sentence: "Don’t keep making the same mistakes; try to make new mistakes.",
+        sentence: "Don't keep making the same mistakes; try to make new mistakes.",
         chinese: "不要一再犯同样的错误。去尝试新的错误吧。"
     },
     {
@@ -1211,7 +1211,7 @@ export const data = [
     },
     {
         id: "advice-243",
-        sentence: "Don’t buy anything late at night. There is nothing you need to buy that cannot wait till tomorrow morning.",
+        sentence: "Don't buy anything late at night. There is nothing you need to buy that cannot wait till tomorrow morning.",
         chinese: "不要在深夜买东西。没有什么非得等不到明天早上再买。"
     },
     {
@@ -1246,12 +1246,12 @@ export const data = [
     },
     {
         id: "advice-250",
-        sentence: "Making art is not selfish; it’s for the rest of us. If you don’t do your thing you are cheating us.",
+        sentence: "Making art is not selfish; it's for the rest of us. If you don't do your thing you are cheating us.",
         chinese: "创作艺术不是自私，它是为了我们所有人。如果你不去做自己的事，就是在亏欠大家。"
     },
     {
         id: "advice-251",
-        sentence: "In a genuine survival situation, you can go 3 weeks without food and 3 days without water but only 3 hours without warmth or shade. So don’t worry about food. Focus on temperature and water.",
+        sentence: "In a genuine survival situation, you can go 3 weeks without food and 3 days without water but only 3 hours without warmth or shade. So don't worry about food. Focus on temperature and water.",
         chinese: "真正的生存环境下，人可以三周不吃饭，三天不喝水，但只可三小时没有温度或荫凉。所以别担心食物，把重点放在温度和水上。"
     },
     {
@@ -1266,7 +1266,7 @@ export const data = [
     },
     {
         id: "advice-254",
-        sentence: "When you feel like quitting just do five more: 5 more minutes, 5 more pages 5 more steps. Then repeat. Sometimes you can break through and keep going but even if you can’t, you ended five ahead. Tell yourself that you will quit tomorrow but not today.",
+        sentence: "When you feel like quitting just do five more: 5 more minutes, 5 more pages 5 more steps. Then repeat. Sometimes you can break through and keep going but even if you can't, you ended five ahead. Tell yourself that you will quit tomorrow but not today.",
         chinese: "当你想放弃时，再多做五个：多五分钟，多五页，多走五步。然后再来一次。有时你能冲破极限，但即使不能，你也比原来多了五个。告诉自己今天不放弃，明天再说。"
     },
     {
@@ -1286,7 +1286,7 @@ export const data = [
     },
     {
         id: "advice-258",
-        sentence: "To be rich you don’t need to make more money; you chiefly need to better manage the money already flowing through your hands.",
+        sentence: "To be rich you don't need to make more money; you chiefly need to better manage the money already flowing through your hands.",
         chinese: "想要富有，不是赚更多的钱，而是管理好你现有的钱。"
     },
     {
@@ -1301,7 +1301,7 @@ export const data = [
     },
     {
         id: "advice-261",
-        sentence: "You’ll get 10 times better results by elevating good behavior rather than punishing bad behavior especially in children and animals.",
+        sentence: "You'll get 10 times better results by elevating good behavior rather than punishing bad behavior especially in children and animals.",
         chinese: "表扬好行为比惩罚坏行为有效十倍，尤其对孩子和动物。"
     },
     {
@@ -1311,12 +1311,12 @@ export const data = [
     },
     {
         id: "advice-263",
-        sentence: "When you’re checking references for a job applicant, their employer may be prohibited from saying anything negative so leave or send a message that says \"Get back to me if you highly recommend this applicant as super great.\" If they don’t reply, take that as a negative.",
+        sentence: "When you're checking references for a job applicant, their employer may be prohibited from saying anything negative so leave or send a message that says \"Get back to me if you highly recommend this applicant as super great.\" If they don't reply, take that as a negative.",
         chinese: "核查求职者推荐人时，有些雇主不能给出负面评价，所以你可以留言：\"如果你特别推荐此人，请联系我。\"如果对方没回复，那就当作否定看待。"
     },
     {
         id: "advice-264",
-        sentence: "Don’t wait for the storm to pass; dance in the rain.",
+        sentence: "Don't wait for the storm to pass; dance in the rain.",
         chinese: "别等风暴过去，直接在雨中起舞吧。"
     },
     {
@@ -1326,7 +1326,7 @@ export const data = [
     },
     {
         id: "advice-266",
-        sentence: "Keep all your things visible in a hotel room, not in drawers and all gathered into one spot. That way you’ll never leave anything behind. If you need to have something like a charger off to the side place a couple of other large items next to it, because you are less likely to leave three items behind than just one.",
+        sentence: "Keep all your things visible in a hotel room, not in drawers and all gathered into one spot. That way you'll never leave anything behind. If you need to have something like a charger off to the side place a couple of other large items next to it, because you are less likely to leave three items behind than just one.",
         chinese: "在酒店房间里，把所有东西放在明处，集中放在一起，不要藏抽屉，这样不会落下东西。如果某个东西不得不单独放在一边，比如充电器，那就在旁边多放两件大东西，因为你不太可能同时忘记三件东西。"
     },
     {
@@ -1351,7 +1351,7 @@ export const data = [
     },
     {
         id: "advice-271",
-        sentence: "When you don’t know how much to pay someone for a particular task ask them, \"What would be fair?\" and their answer usually is.",
+        sentence: "When you don't know how much to pay someone for a particular task ask them, \"What would be fair?\" and their answer usually is.",
         chinese: "不知道该为某项工作付多少钱时，不妨问对方：\"你觉得公平的价格是多少？\"对方给出的答案往往就很合理。"
     },
     {
@@ -1371,12 +1371,12 @@ export const data = [
     },
     {
         id: "advice-275",
-        sentence: "If you’re doing something that you are hiding from others it’s probably not good for you.",
+        sentence: "If you're doing something that you are hiding from others it's probably not good for you.",
         chinese: "如果你在做一件事，还不敢让别人知道，那它很可能对你没好处。"
     },
     {
         id: "advice-276",
-        sentence: "When you need to cut something extremely exact don’t try to do it with one cut. Instead, cut it a bit bigger and then keep trimming it bit by bit until perfect. Professional makers call this \"creeping up\" to the precise measurement.",
+        sentence: "When you need to cut something extremely exact don't try to do it with one cut. Instead, cut it a bit bigger and then keep trimming it bit by bit until perfect. Professional makers call this \"creeping up\" to the precise measurement.",
         chinese: "需要极其精确地剪裁时，不要一次到位。先剪大一点，然后一点点修整，直到刚好。专业人士称这种方法为\"逐步逼近精度\"。"
     },
     {
@@ -1391,7 +1391,7 @@ export const data = [
     },
     {
         id: "advice-279",
-        sentence: "90% of everything is crap. If you think you don’t like opera, romance novels, TikTok, country music, vegan food NFTs, keep trying to see if you can find the 10% that is not crap.",
+        sentence: "90% of everything is crap. If you think you don't like opera, romance novels, TikTok, country music, vegan food NFTs, keep trying to see if you can find the 10% that is not crap.",
         chinese: "90%的东西都是糟糕的。如果你觉得自己喜欢不上歌剧、言情小说、短视频、乡村音乐、素食、NFTs……多努力发掘那10%的好东西。"
     },
     {
@@ -1406,7 +1406,7 @@ export const data = [
     },
     {
         id: "advice-282",
-        sentence: "Let someone know you remembered their name and they won’t ever forget yours. To help remember their name repeat it on first hearing.",
+        sentence: "Let someone know you remembered their name and they won't ever forget yours. To help remember their name repeat it on first hearing.",
         chinese: "让别人知道你记得他们的名字，他们也不会忘记你的。记名字时，第一次听见就重复一遍会有帮助。"
     },
     {
@@ -1461,7 +1461,7 @@ export const data = [
     },
     {
         id: "advice-293",
-        sentence: "It’s thrilling to be extremely polite to rude strangers.",
+        sentence: "It's thrilling to be extremely polite to rude strangers.",
         chinese: "对无礼的陌生人极有礼貌，会让你有奇妙的快感。"
     },
     {
@@ -1476,7 +1476,7 @@ export const data = [
     },
     {
         id: "advice-296",
-        sentence: "It’s possible that a not-so-smart person who can communicate well can do much better than a super-smart person who can’t communicate well. That is good news because it is much easier to improve your communication skills than your intelligence.",
+        sentence: "It's possible that a not-so-smart person who can communicate well can do much better than a super-smart person who can't communicate well. That is good news because it is much easier to improve your communication skills than your intelligence.",
         chinese: "一个口才好但不太聪明的人，可能比口才差的天才强得多。这是个好消息，因为提高沟通能力比提高智力容易多了。"
     },
     {
@@ -1496,7 +1496,7 @@ export const data = [
     },
     {
         id: "advice-300",
-        sentence: "Looking ahead, focus on direction rather than destinations. Maintain the right direction and you’ll arrive at where you want to go.",
+        sentence: "Looking ahead, focus on direction rather than destinations. Maintain the right direction and you'll arrive at where you want to go.",
         chinese: "展望未来，关注方向而非终点。方向对了，总会走到想去的地方。"
     },
     {
@@ -1506,7 +1506,7 @@ export const data = [
     },
     {
         id: "advice-302",
-        sentence: "Purchase the most recent tourist guidebook to your hometown or region. You’ll learn a lot by playing the tourist once a year.",
+        sentence: "Purchase the most recent tourist guidebook to your hometown or region. You'll learn a lot by playing the tourist once a year.",
         chinese: "买一本最新的本地旅游指南，每年当一次游客，你会学到很多新东西。"
     },
     {
@@ -1516,7 +1516,7 @@ export const data = [
     },
     {
         id: "advice-304",
-        sentence: "When buying a garden hose, an extension cord, or a ladder, get one substantially longer than you think you need. It’ll be the right size.",
+        sentence: "When buying a garden hose, an extension cord, or a ladder, get one substantially longer than you think you need. It'll be the right size.",
         chinese: "买园艺水管、加长电线或梯子时，要买比你想象长得多的。买长点的，才正好。"
     },
     {
@@ -1526,12 +1526,12 @@ export const data = [
     },
     {
         id: "advice-306",
-        sentence: "Don’t wait in line to eat something famous. It is rarely worth the wait.",
+        sentence: "Don't wait in line to eat something famous. It is rarely worth the wait.",
         chinese: "不要排队去吃网红美食，等待通常不值得。"
     },
     {
         id: "advice-307",
-        sentence: "When introduced to someone make eye contact and count to four or say to yourself, \"I see you.\" You’ll both remember each other.",
+        sentence: "When introduced to someone make eye contact and count to four or say to yourself, \"I see you.\" You'll both remember each other.",
         chinese: "结识新朋友时，盯着对方的眼睛默数四下，或在心里说\"我看到你了\"。你们彼此都会记住对方。"
     },
     {
@@ -1561,7 +1561,7 @@ export const data = [
     },
     {
         id: "advice-313",
-        sentence: "Don’t compare your inside to someone else’s outside.",
+        sentence: "Don't compare your inside to someone else's outside.",
         chinese: "别拿自己的内心和别人的外表比较。"
     },
     {
@@ -1571,12 +1571,12 @@ export const data = [
     },
     {
         id: "advice-315",
-        sentence: "Occasionally your first idea is best, but usually it’s the fifth idea. You need to get all the obvious ideas out of the way. Try to surprise yourself.",
+        sentence: "Occasionally your first idea is best, but usually it's the fifth idea. You need to get all the obvious ideas out of the way. Try to surprise yourself.",
         chinese: "偶尔你的第一个想法是最好的，但大多数时候最好的主意是第五个。要先把那些显而易见的想法都写出来。努力让自己惊喜。"
     },
     {
         id: "advice-316",
-        sentence: "Don’t bother fighting the old just build the new.",
+        sentence: "Don't bother fighting the old just build the new.",
         chinese: "与其纠结于推翻旧的，不如直接去创造新的。"
     },
     {
@@ -1586,7 +1586,7 @@ export const data = [
     },
     {
         id: "advice-318",
-        sentence: "When someone tells you about the peak year of human history the period of time when things were good before things went downhill it will always be the year when they were 10 years old— which is the peak of any human’s existence. Factor that into what they say.",
+        sentence: "When someone tells you about the peak year of human history the period of time when things were good before things went downhill it will always be the year when they were 10 years old— which is the peak of any human's existence. Factor that into what they say.",
         chinese: "当有人告诉你什么年代最好、何时走下坡路，这个\"最美好的一年\"总是他们10岁那年——那是任何人生命的巅峰。分析他们的观点时请记住这一点。"
     },
     {
@@ -1596,12 +1596,12 @@ export const data = [
     },
     {
         id: "advice-320",
-        sentence: "In preparing for a long hike old shoes of any type are superior to brand-new shoes of any type. Don’t use a long hike to break in shoes.",
+        sentence: "In preparing for a long hike old shoes of any type are superior to brand-new shoes of any type. Don't use a long hike to break in shoes.",
         chinese: "准备长途徒步时，旧鞋比任何新鞋都好。别用长途拉练来磨合新鞋。"
     },
     {
         id: "advice-321",
-        sentence: "When negotiating don’t aim for a bigger piece of the pie; aim to create a bigger pie.",
+        sentence: "When negotiating don't aim for a bigger piece of the pie; aim to create a bigger pie.",
         chinese: "谈判时，不要只想着分得更大的一块蛋糕，而要努力把蛋糕做大。"
     },
     {
@@ -1616,7 +1616,7 @@ export const data = [
     },
     {
         id: "advice-324",
-        sentence: "Our descendants will achieve things that will amaze us yet a portion of what they will create could have been made with today’s materials and tools if we had had the imagination. Think bigger.",
+        sentence: "Our descendants will achieve things that will amaze us yet a portion of what they will create could have been made with today's materials and tools if we had had the imagination. Think bigger.",
         chinese: "我们的后代会创造很多令我们惊叹的事物，而其中有些原本用我们现有的工具和材料就能做到——只要想象力足够。格局要大一点。"
     },
     {
@@ -1671,12 +1671,12 @@ export const data = [
     },
     {
         id: "advice-335",
-        sentence: "If you don’t smoke before the age of 25 you are unlikely to ever start; if you do smoke before 25 you are unlikely to ever quit.",
+        sentence: "If you don't smoke before the age of 25 you are unlikely to ever start; if you do smoke before 25 you are unlikely to ever quit.",
         chinese: "25岁前不吸烟的人，很难再开始抽烟；而25岁前开始抽烟的人，很难戒烟。"
     },
     {
         id: "advice-336",
-        sentence: "It doesn’t matter how many people don’t appreciate you or your work. The only thing that counts is how many do.",
+        sentence: "It doesn't matter how many people don't appreciate you or your work. The only thing that counts is how many do.",
         chinese: "有多少人不欣赏你或你的作品都不重要。重要的是有多少人喜欢。"
     },
     {
@@ -1696,7 +1696,7 @@ export const data = [
     },
     {
         id: "advice-340",
-        sentence: "Don’t grocery shop while hungry.",
+        sentence: "Don't grocery shop while hungry.",
         chinese: "饿的时候别去超市买菜。"
     },
     {
@@ -1706,7 +1706,7 @@ export const data = [
     },
     {
         id: "advice-342",
-        sentence: "You can really change someone’s life for the better simply by offering words of encouragement.",
+        sentence: "You can really change someone's life for the better simply by offering words of encouragement.",
         chinese: "一句鼓励的话就能让别人的生活变得更好。"
     },
     {
@@ -1716,7 +1716,7 @@ export const data = [
     },
     {
         id: "advice-344",
-        sentence: "The stronger your beliefs, the stronger your reasons to question them regularly. Don’t simply believe everything you think you believe.",
+        sentence: "The stronger your beliefs, the stronger your reasons to question them regularly. Don't simply believe everything you think you believe.",
         chinese: "越是坚定的信念，越要定期质疑。别盲信自己信的东西。"
     },
     {
@@ -1731,12 +1731,12 @@ export const data = [
     },
     {
         id: "advice-347",
-        sentence: "A superpower worth cultivating is learning from people you don’t like. It is called \"humility.\" This is the courage to let dumb, stupid, hateful, crazy, mean people teach you something because despite their character flaws they each know something you don’t.",
+        sentence: "A superpower worth cultivating is learning from people you don't like. It is called \"humility.\" This is the courage to let dumb, stupid, hateful, crazy, mean people teach you something because despite their character flaws they each know something you don't.",
         chinese: "值得培养的一种超能力，是从你不喜欢的人身上学习。这叫\"谦卑\"。让你不喜欢的人教你东西，很有勇气，因为即使他们有缺点，他们也知道你不知道的事。"
     },
     {
         id: "advice-348",
-        sentence: "Don’t purchase extra insurance if you are renting a car with a credit card.",
+        sentence: "Don't purchase extra insurance if you are renting a car with a credit card.",
         chinese: "如果你用信用卡租车，别再额外买保险了。"
     },
     {
@@ -1746,7 +1746,7 @@ export const data = [
     },
     {
         id: "advice-350",
-        sentence: "Hikers’ rule: Don’t step on what you can step over; don’t step over what you can walk around.",
+        sentence: "Hikers' rule: Don't step on what you can step over; don't step over what you can walk around.",
         chinese: "徒步者法则：能跨过的别踩，能绕过的别跨。"
     },
     {
@@ -1761,7 +1761,7 @@ export const data = [
     },
     {
         id: "advice-353",
-        sentence: "When speaking to an audience it’s better to fix your gaze on a few people than to \"spray\" your gaze across the room. Your eyes telegraph to others whether you really believe what you are saying.",
+        sentence: "When speaking to an audience it's better to fix your gaze on a few people than to \"spray\" your gaze across the room. Your eyes telegraph to others whether you really believe what you are saying.",
         chinese: "面对听众演讲时，与其把目光\"扫射\"全场，不如专注地看着几个人。你的眼神会告诉他人你是否真的相信自己所说的话。"
     },
     {
@@ -1786,7 +1786,7 @@ export const data = [
     },
     {
         id: "advice-358",
-        sentence: "It is easy to get trapped by your own success. Say no to tasks you probably won’t fail at and say yes to what you could fail at.",
+        sentence: "It is easy to get trapped by your own success. Say no to tasks you probably won't fail at and say yes to what you could fail at.",
         chinese: "很容易被自己的成功困住。对那些你不会失败的任务说\"不\"，对那些有可能失败的说\"是\"。"
     },
     {
@@ -1811,7 +1811,7 @@ export const data = [
     },
     {
         id: "advice-363",
-        sentence: "Assume no one remembers names. As a courtesy reintroduce yourself by name even to those you have previously met: \"Hi, I’m Kevin.\"",
+        sentence: "Assume no one remembers names. As a courtesy reintroduce yourself by name even to those you have previously met: \"Hi, I'm Kevin.\"",
         chinese: "假设没人会记住名字。即使是已见过的人，也要礼貌地再次介绍自己：\"你好，我是Kevin。\""
     },
     {
@@ -1826,7 +1826,7 @@ export const data = [
     },
     {
         id: "advice-366",
-        sentence: "Your golden ticket is being able to see things from other people’s point of view. This shift enables heartfelt empathy. It also allows you to persuade others and it is the key to great design. Mastering the view through the eyes of others will unlock so many doors.",
+        sentence: "Your golden ticket is being able to see things from other people's point of view. This shift enables heartfelt empathy. It also allows you to persuade others and it is the key to great design. Mastering the view through the eyes of others will unlock so many doors.",
         chinese: "你的一张王牌，是能从他人的角度看待问题。这种转变带来真正的共情，也能帮助你说服他人，是优秀设计的关键。学会从别人的视角看世界，将为你开启无数大门。"
     },
     {
@@ -1836,7 +1836,7 @@ export const data = [
     },
     {
         id: "advice-368",
-        sentence: "To meditate, sit and pay attention to your breathing. Your mind will wander to thoughts. Then you bring your attention back to your breathing where it can’t think. Wander. Retreat. Keep returning to breath no thoughts. That is all.",
+        sentence: "To meditate, sit and pay attention to your breathing. Your mind will wander to thoughts. Then you bring your attention back to your breathing where it can't think. Wander. Retreat. Keep returning to breath no thoughts. That is all.",
         chinese: "冥想时，坐下专注于呼吸。你的思绪会游离，然后你再把注意力拉回到无法思考的呼吸上。走神，回归，再回到呼吸和无念，仅此而已。"
     },
     {
@@ -1846,7 +1846,7 @@ export const data = [
     },
     {
         id: "advice-370",
-        sentence: "If we all threw our troubles into a big pile and we saw everyone else’s problems we would immediately grab ours back.",
+        sentence: "If we all threw our troubles into a big pile and we saw everyone else's problems we would immediately grab ours back.",
         chinese: "如果我们都把自己的烦恼丢到一大堆里，看见别人的问题后，会立刻把自己的拿回来。"
     },
     {
@@ -1856,7 +1856,7 @@ export const data = [
     },
     {
         id: "advice-372",
-        sentence: "You can’t change your past but you can change your story about it. What is important is not what happened to you but what you did about what happened to you.",
+        sentence: "You can't change your past but you can change your story about it. What is important is not what happened to you but what you did about what happened to you.",
         chinese: "你无法改变过去，但你可以改变你对过去的叙述。重要的不在于发生了什么，而在于你如何对待那些发生过的事。"
     },
     {
@@ -1866,7 +1866,7 @@ export const data = [
     },
     {
         id: "advice-374",
-        sentence: "Let your children choose their punishments. They’ll be tougher than you will.",
+        sentence: "Let your children choose their punishments. They'll be tougher than you will.",
         chinese: "让你的孩子自己选择惩罚方式，他们会比你更严格。"
     },
     {
@@ -1891,7 +1891,7 @@ export const data = [
     },
     {
         id: "advice-379",
-        sentence: "You increase your chance of successfully removing a clothing stain if you keep it wet while you work on it. It’s much harder once it dries out.",
+        sentence: "You increase your chance of successfully removing a clothing stain if you keep it wet while you work on it. It's much harder once it dries out.",
         chinese: "清理衣服污渍时，保持湿润能提高去除成功率。等它干了就难多了。"
     },
     {
@@ -1911,12 +1911,12 @@ export const data = [
     },
     {
         id: "advice-383",
-        sentence: "Assuming you are average half of the world will be less proficient than you. Through no fault of their own many of these people can’t handle forms complex instructions, or tricky situations. Be kind to them because the world is not.",
+        sentence: "Assuming you are average half of the world will be less proficient than you. Through no fault of their own many of these people can't handle forms complex instructions, or tricky situations. Be kind to them because the world is not.",
         chinese: "假如你是普通人，那么世界上有一半人比你弱。许多人不是他们的错，却无法应付表格、复杂指令和棘手场合。对他们要友善，因为世界并不善待他们。"
     },
     {
         id: "advice-384",
-        sentence: "Your flaws and your strengths are two poles of the same traits. For instance, there is only a tiny difference between stubbornness and perseverance or between courage and foolishness. The sole difference is in the goal. It’s stupid stubbornness and reckless foolishness if the goal does not matter, and relentless perseverance and courage if it does. To earn dignity with your flaws own up to them, and make sure you push on things that matter.",
+        sentence: "Your flaws and your strengths are two poles of the same traits. For instance, there is only a tiny difference between stubbornness and perseverance or between courage and foolishness. The sole difference is in the goal. It's stupid stubbornness and reckless foolishness if the goal does not matter, and relentless perseverance and courage if it does. To earn dignity with your flaws own up to them, and make sure you push on things that matter.",
         chinese: "你的缺点和优点其实是同一特质的两极。例如，固执与坚韧、勇敢与愚蠢，差别仅在目标。如果目标无意义就是愚蠢和顽固，如果目标有意义就是坚持和勇敢。要让缺点变有尊严，首先要承认它，同时确保把精力用在有意义的事情上。"
     },
     {
@@ -1931,7 +1931,7 @@ export const data = [
     },
     {
         id: "advice-387",
-        sentence: "Try hard to solicit constructive criticism early. You want to hear what’s not working as soon as possible. When it is finished you can’t improve it.",
+        sentence: "Try hard to solicit constructive criticism early. You want to hear what's not working as soon as possible. When it is finished you can't improve it.",
         chinese: "尽早主动寻求建设性的批评。越早知道哪里有问题越好，等做完了就无法再改进了。"
     },
     {
@@ -1941,12 +1941,12 @@ export const data = [
     },
     {
         id: "advice-389",
-        sentence: "Don’t attribute to malice what can be explained by incompetence.",
+        sentence: "Don't attribute to malice what can be explained by incompetence.",
         chinese: "能用无能解释的事，不要归咎于恶意。"
     },
     {
         id: "advice-390",
-        sentence: "Worry is ineffective. It is certain that 99% of the stuff you are anxious about won’t happen.",
+        sentence: "Worry is ineffective. It is certain that 99% of the stuff you are anxious about won't happen.",
         chinese: "担心没有作用。你担心的99%事情都不会发生。"
     },
     {
@@ -1961,7 +1961,7 @@ export const data = [
     },
     {
         id: "advice-393",
-        sentence: "Don’t mistake a clear view of the future for a short distance.",
+        sentence: "Don't mistake a clear view of the future for a short distance.",
         chinese: "不要把未来看得清楚误以为前路很近。"
     },
     {
@@ -1996,12 +1996,12 @@ export const data = [
     },
     {
         id: "advice-400",
-        sentence: "If nobody else does what you do you won’t need a resume.",
+        sentence: "If nobody else does what you do you won't need a resume.",
         chinese: "如果没人能做你做的事，你就无需简历。"
     },
     {
         id: "advice-401",
-        sentence: "To lower tensions during a dispute, mirror the other person’s body language.",
+        sentence: "To lower tensions during a dispute, mirror the other person's body language.",
         chinese: "争执时，模仿对方的肢体语言可以缓和气氛。"
     },
     {
@@ -2026,7 +2026,7 @@ export const data = [
     },
     {
         id: "advice-406",
-        sentence: "When you can’t decide ask yourself, \"Which choice will pay off more later than now?\" The easy choice pays off right away. The best choice will pay off at the end.",
+        sentence: "When you can't decide ask yourself, \"Which choice will pay off more later than now?\" The easy choice pays off right away. The best choice will pay off at the end.",
         chinese: "犹豫不决时，问问自己：\"哪个选择以后受益更大？\"简单的选择马上有回报，最好的选择在最后受益最大。"
     },
     {
@@ -2046,12 +2046,12 @@ export const data = [
     },
     {
         id: "advice-410",
-        sentence: "Even if you don’t say anything if you listen carefully people will consider you a great conversationalist.",
+        sentence: "Even if you don't say anything if you listen carefully people will consider you a great conversationalist.",
         chinese: "即便你什么都不说，只要认真聆听，大家也会觉得你是很棒的谈话者。"
     },
     {
         id: "advice-411",
-        sentence: "Curiosity is fatal to certainty. The more curious you are the less certain you’ll be.",
+        sentence: "Curiosity is fatal to certainty. The more curious you are the less certain you'll be.",
         chinese: "好奇心会动摇确定性。你越好奇，越不会盲目自信。"
     },
     {
@@ -2066,7 +2066,7 @@ export const data = [
     },
     {
         id: "advice-414",
-        sentence: "It’s unfortunate when someone you carefully trained leaves; but it is worse if you don’t train them and they stay.",
+        sentence: "It's unfortunate when someone you carefully trained leaves; but it is worse if you don't train them and they stay.",
         chinese: "辛苦培养的人离开固然可惜，但如果没培训他们却留在身边，那会更糟。"
     },
     {
@@ -2091,7 +2091,7 @@ export const data = [
     },
     {
         id: "advice-419",
-        sentence: "You will spend one third of your life in your bed sleeping, and almost another third in your chair sitting. It’s worth investing in a great bed and fantastic chair.",
+        sentence: "You will spend one third of your life in your bed sleeping, and almost another third in your chair sitting. It's worth investing in a great bed and fantastic chair.",
         chinese: "你一生有三分之一时间在床上睡觉，差不多还有三分之一坐在椅子上。值得投资一张好床和一把好椅子。"
     },
     {
@@ -2101,7 +2101,7 @@ export const data = [
     },
     {
         id: "advice-421",
-        sentence: "Don’t spoil a movie you are sure to see by watching the trailer. Only watch trailers for movies you are unsure of, or unlikely to see.",
+        sentence: "Don't spoil a movie you are sure to see by watching the trailer. Only watch trailers for movies you are unsure of, or unlikely to see.",
         chinese: "如果某部电影你肯定会去看，别提前看预告片。预告片只适合了解那些你不确定看的电影。"
     },
     {
@@ -2141,7 +2141,7 @@ export const data = [
     },
     {
         id: "advice-429",
-        sentence: "Don’t define yourself by your opinions because then you can’t change your mind. Define yourself by your values.",
+        sentence: "Don't define yourself by your opinions because then you can't change your mind. Define yourself by your values.",
         chinese: "不要用观点定义自己，否则就无法改变想法。用价值观定义你自己。"
     },
     {
@@ -2166,12 +2166,12 @@ export const data = [
     },
     {
         id: "advice-434",
-        sentence: "Being curious about another person’s view is the most powerful way to change their view.",
+        sentence: "Being curious about another person's view is the most powerful way to change their view.",
         chinese: "想要改变一个人的看法，最有力的方法是对他们的观点保持好奇。"
     },
     {
         id: "advice-435",
-        sentence: "If you don’t care about your people they won’t care about your mission.",
+        sentence: "If you don't care about your people they won't care about your mission.",
         chinese: "你若不关心你的人，他们就不会关心你的使命。"
     },
     {
@@ -2201,7 +2201,7 @@ export const data = [
     },
     {
         id: "advice-441",
-        sentence: "When making plans you must allow yourself to get lost in order to find the thing you didn’t know you were looking for.",
+        sentence: "When making plans you must allow yourself to get lost in order to find the thing you didn't know you were looking for.",
         chinese: "制定计划时，要允许自己迷路，这样你才能找到那些你本来不知道要找的东西。"
     },
     {
@@ -2211,7 +2211,7 @@ export const data = [
     },
     {
         id: "advice-443",
-        sentence: "To write about something hard to explain write a detailed letter to a friend about why it is so hard to explain, and then remove the initial \"Dear Friend\" part and you’ll have a great first draft.",
+        sentence: "To write about something hard to explain write a detailed letter to a friend about why it is so hard to explain, and then remove the initial \"Dear Friend\" part and you'll have a great first draft.",
         chinese: "要写难以解释的主题时，先给朋友写封详细信件，说明为何难解释。然后删掉\"亲爱的朋友\"开头，你就有了一份很好的初稿。"
     },
     {
@@ -2231,7 +2231,7 @@ export const data = [
     },
     {
         id: "advice-447",
-        sentence: "The first step is usually to complete the last step. You can’t load into a full dish rack.",
+        sentence: "The first step is usually to complete the last step. You can't load into a full dish rack.",
         chinese: "第一步通常是把上次的最后一步做完。你无法在一架已经满了的碟架上装盘。"
     },
     {
@@ -2256,7 +2256,7 @@ export const data = [
     },
     {
         id: "advice-452",
-        sentence: "Aim to die broke. Give to your beneficiaries before you die; it’s more fun and useful to them. Spend it all. Your last check should go to the funeral home and it should bounce.",
+        sentence: "Aim to die broke. Give to your beneficiaries before you die; it's more fun and useful to them. Spend it all. Your last check should go to the funeral home and it should bounce.",
         chinese: "努力在死时身无分文。在你去世前把财产分给受益人；这对他们来说更有趣也更有用。把钱花光。你开出的最后一张支票应该是给殡仪馆的，而且应该跳票。"
     },
     {
@@ -2286,7 +2286,7 @@ export const data = [
     },
     {
         id: "advice-458",
-        sentence: "Very few regrets in life are about what you did. Almost all are about what you didn’t do.",
+        sentence: "Very few regrets in life are about what you did. Almost all are about what you didn't do.",
         chinese: "人生中很少有人后悔自己做过的事，几乎所有的遗憾都来自那些没做的事。"
     },
     {
@@ -2296,7 +2296,7 @@ export const data = [
     },
     {
         id: "advice-460",
-        sentence: "Advice like these are not laws. They are like hats. If one doesn’t fit, try another.",
+        sentence: "Advice like these are not laws. They are like hats. If one doesn't fit, try another.",
         chinese: "这样的建议不是法律，它们像帽子一样。如果这顶不合适，就试试另一顶。"
     }
 ];
