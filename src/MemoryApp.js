@@ -126,6 +126,16 @@ const MemoryApp = () => {
   const [isSpeaking, setIsSpeaking] = useState(false); // 播放状态
   const [isFocused, setIsFocused] = useState(null);
   const textareaRefs = React.useRef([]);
+  // 在MemoryApp组件内
+  const [targetPage, setTargetPage] = useState(1); // 新增目标页状态
+
+  const handleJumpToPage = () => {
+    const page = Number(targetPage);
+    if (page > 0 && page <= Math.ceil(filteredCurrentData.length / itemsPerPage)) {
+      setCurrentPage(page - 1); // page是从1开始的，currentPage是从0开始的
+      setUserInputs(Array(filteredCurrentData.length).fill('')); // 重置用户输入
+    }
+  };
 
   // 收藏相关
   const [favoriteIds, setFavoriteIdsState] = useState(getFavoriteIds());
@@ -180,7 +190,7 @@ const MemoryApp = () => {
     storedCounts[id] = (storedCounts[id] || 0) + 1;
     localStorage.setItem('idCounts', JSON.stringify(storedCounts));
   };
-  
+
   const handleInputChange = (index, value) => {
     if (value == filteredCurrentData[index].sentence) {
       recordCorrect(filteredCurrentData[index].id);
@@ -367,6 +377,32 @@ const MemoryApp = () => {
         <span style={{ fontSize: '18px', fontWeight: 600, minWidth: '90px', textAlign: 'center' }}>
           第 {currentPage + 1} / {Math.max(1, Math.ceil(filteredCurrentData.length / itemsPerPage))} 页
         </span>
+        
+        <div>
+          <input
+            type="number"
+            value={targetPage}
+            onChange={(e) => setTargetPage(e.target.value)}
+            min={1}
+            max={Math.ceil(filteredCurrentData.length / itemsPerPage)}
+            style={{
+              ...buttonStyle,
+              marginRight: '10px',
+              width: '60px',
+              height: '36px',
+              color: '#222',
+              background: '#fff',
+              border: '1.5px solid #cbd5e1',
+              fontSize: '16px',
+              fontWeight: 500,
+              padding: '0 10px',
+              borderRadius: '6px',
+              boxShadow: 'none',
+              appearance: 'textfield'
+            }}
+          />
+          <button onClick={handleJumpToPage} style={buttonStyle}>跳转</button>
+        </div>
         <button
           onClick={handleNextPage}
           disabled={currentPage >= Math.floor(filteredCurrentData.length / itemsPerPage)}
