@@ -11,6 +11,7 @@ import {data as mentalReframeData} from './mental-reframe';
 import {data as realityReframeData} from './reality-reframe';
 import {data as allReframeData} from './all-reframe';
 import {data as adviceData} from './adviceData';
+import {data as readingData} from './reading';
 
 import React, { useState } from 'react';
 import {speakText} from './AzureTextToSpeech';
@@ -78,6 +79,7 @@ allReframeData.forEach(item => {
 
 // 构造dataSources: 每个chapter一个选项，加上“All”
 const dataSources = [
+  { label: 'Reading', value: 'reading', data: readingData},
   { label: 'Random 2025', value: 'random2025', data: random2025Data },
   { label: 'Naval Quotes', value: 'navalQuotes', data: navalQuotesData },
   { label: 'Advice', value: 'advice', data: adviceData },
