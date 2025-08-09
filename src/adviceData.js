@@ -405,7 +405,7 @@ export const data = [
       "id": "advice-68",
       "sentence": "Friends are better than money. Almost anything money can do friends can do better. In so many ways, a friend with a boat is better than owning a boat.",
       "chinese": "朋友比金钱更有价值。几乎金钱能做到的事情，朋友能做得更好。有朋友有船，远胜于自己买一条船。",
-      "chapter": "Practicality"
+      "chapter": "Connection"
     },
     {
       "id": "advice-69",
@@ -609,7 +609,7 @@ export const data = [
       "id": "advice-102",
       "sentence": "You are never too young to wonder \"Why am I still doing this?\" You need to have an excellent answer.",
       "chinese": "无论多年轻，你都应该问自己\"我为什么还在做这件事？\"你要有一个很棒的答案。",
-      "chapter": "Imagination"
+      "chapter": "Goal"
     },
     {
       "id": "advice-103",
@@ -747,7 +747,7 @@ export const data = [
       "id": "advice-125",
       "sentence": "Learn how to tie a bowline knot. Practice in the dark. With one hand. For the rest of your life you'll use this knot more times than you would ever believe.",
       "chinese": "学会打一个船结（蝴蝶结）。在黑暗中练习，用一只手。你会在以后的人生里比你想象得更多次用到它。",
-      "chapter": "Learning"
+      "chapter": "Practicality"
     },
     {
       "id": "advice-126",
@@ -909,7 +909,7 @@ export const data = [
       "id": "advice-152",
       "sentence": "Contemplating the weaknesses of others is easy; contemplating the weaknesses in yourself is hard but it pays a much higher reward.",
       "chinese": "反思别人的弱点很容易，反思自己的弱点很难，但回报却更大。",
-      "chapter": "Emotion"
+      "chapter": "Learning"
     },
     {
       "id": "advice-153",
@@ -993,7 +993,7 @@ export const data = [
       "id": "advice-166",
       "sentence": "It is much easier to change how you think by changing your behavior than it is to change your behavior by changing how you think. Act out the change you seek.",
       "chinese": "通过改变行为来改变思维，比通过改变思维来改变行为要容易得多。先做，再变。",
-      "chapter": "Emotion"
+      "chapter": "Productivity"
     },
     {
       "id": "advice-167",
@@ -1281,7 +1281,7 @@ export const data = [
       "id": "advice-214",
       "sentence": "Don't ever work for someone you don't want to become.",
       "chinese": "永远不要为一个你不愿成为的人工作。",
-      "chapter": "Emotion"
+      "chapter": "Goal"
     },
     {
       "id": "advice-215",
@@ -1359,7 +1359,7 @@ export const data = [
       "id": "advice-227",
       "sentence": "Anything you say before the word \"but\" does not count.",
       "chinese": "你在说\"但是\"前面讲的内容都不算数。",
-      "chapter": "Emotion"
+      "chapter": "Connection"
     },
     {
       "id": "advice-228",
@@ -1371,7 +1371,7 @@ export const data = [
       "id": "advice-229",
       "sentence": "Whenever there is an argument between two sides find the third side.",
       "chinese": "凡是有两方争论时，试着去发现第三个角度。",
-      "chapter": "Practicality"
+      "chapter": "Connection"
     },
     {
       "id": "advice-230",
@@ -1497,7 +1497,7 @@ export const data = [
       "id": "advice-250",
       "sentence": "Making art is not selfish; it's for the rest of us. If you don't do your thing you are cheating us.",
       "chinese": "创作艺术不是自私，它是为了我们所有人。如果你不去做自己的事，就是在亏欠大家。",
-      "chapter": "Wellness"
+      "chapter": "Imagination"
     },
     {
       "id": "advice-251",
@@ -1719,7 +1719,7 @@ export const data = [
       "id": "advice-287",
       "sentence": "The only productive way to answer \"What should I do now?\" is to first tackle the question of \"Who should I become?\"",
       "chinese": "当你问\"我现在该做什么\"时，最有成效的方式是先思考\"我该成为什么样的人？\"",
-      "chapter": "Emotion"
+      "chapter": "Goal"
     },
     {
       "id": "advice-288",

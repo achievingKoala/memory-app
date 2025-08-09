@@ -89,6 +89,13 @@ const dataSources = [
     value: chap,
     data: allReframeData.filter(item => item.chapter === chap),
   })),
+  // 修正：adviceData.map 是对 adviceData 的每一条都 map，并且 chap 实际上是 adviceData 的 item
+  // 所以实际应该和 allChapters 那部分一样，先收到 adviceData 里所有的 chapter 并去重，再 map
+  ...Array.from(new Set(adviceData.map(item => item.chapter))).map(chap => ({
+    label: chap,
+    value: chap,
+    data: adviceData.filter(item => item.chapter === chap),
+  })),
 ];
 
 // 收藏样式
