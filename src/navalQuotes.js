@@ -1,7 +1,15 @@
 export const data = [
     {
-        id: 1, keyword: '财富', sentence: 'Seek wealth, not money or status. Wealth is having assets that earn while you sleep. Money is how we transfer time and wealth. Status is your place in the social hierarchy.',
-        chinese: '追求财富，而不是金钱或地位。财富是拥有在你睡觉时赚钱的资产。金钱是我们转移时间和财富的方式。地位是你在社会等级中的位置。'
+        id: 1,
+        keyword: '财富',
+        sentence: 'Seek wealth, not money or status. Wealth is having assets that earn while you sleep.',
+        chinese: '追求财富，而不是金钱或地位。财富是拥有在你睡觉时赚钱的资产。'
+    },
+    {
+        id: 1.1,
+        keyword: '财富',
+        sentence: 'Money is how we transfer time and wealth. Status is your place in the social hierarchy.',
+        chinese: '金钱是我们转移时间和财富的方式。地位是你在社会等级中的位置。'
     },
     {
         id: 2, keyword: '道德', sentence: 'Understand that ethical wealth creation is possible. If you secretly despise wealth, it will elude you.',
@@ -48,8 +56,16 @@ export const data = [
         chinese: '武装自己具备特定知识、责任感和杠杆。'
     },
     {
-        id: 13, keyword: '独特', sentence: "Specific knowledge is knowledge that you cannot be trained for. If society can train you, it can train someone else, and replace you.",
-        chinese: '特定知识是你不能被训练的知识。如果社会能训练你，它也能训练别人，并取代你。'
+        id: 13,
+        keyword: '独特',
+        sentence: "Specific knowledge is knowledge that you cannot be trained for.",
+        chinese: "特定知识是你不能被训练的知识。"
+    },
+    {
+        id: 13.1,
+        keyword: '独特',
+        sentence: "If society can train you, it can train someone else, and replace you.",
+        chinese: "如果社会能训练你，它也能训练别人，并取代你。"
     },
     {
         id: 14, keyword: '追求', sentence: "Specific knowledge is found by pursuing your genuine curiosity and passion rather than whatever is hot right now.",
