@@ -1686,8 +1686,13 @@ export const data = [
     },
     {
         id: "advice-338",
-        sentence: "When you are looking for a job, remember that somewhere an employer is desperately hunting for someone like you especially if you are unconventional. Your real job is to make that match happen and it is worth whatever time it takes.",
-        chinese: "找工作时要记住，总有雇主在拼命寻找像你这样的人，尤其是你不走寻常路的时候。你的任务是让彼此匹配，这值得花上任何时间。"
+        sentence: "When you are looking for a job, remember that somewhere an employer is desperately hunting for someone like you.",
+        chinese: "找工作时要记住，总有雇主在拼命寻找像你这样的人。"
+    },
+    {
+        id: "advice-338-2",
+        sentence: "Your real job is to make that match happen, and it is worth whatever time it takes.",
+        chinese: "你的任务是让彼此匹配，这值得花上任何时间。"
     },
     {
         id: "advice-339",
