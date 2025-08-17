@@ -1375,8 +1375,14 @@ export const data = [
     },
     {
       "id": "advice-230",
-      "sentence": "The consistency of your endeavors (exercise, companionship, work) is more important than the quantity. Nothing beats small things done every day which is way more important than what you do occasionally.",
-      "chinese": "你在锻炼、陪伴、工作上的坚持，比数量更重要。每天做一点，比偶尔做很多更有价值。",
+      "sentence": "The consistency of your endeavors (exercise, companionship, work) is more important than the quantity.",
+      "chinese": "你在锻炼、陪伴、工作上的坚持，比数量更重要。",
+      "chapter": "Wellness"
+    },
+    {
+      "id": "advice-230-2",
+      "sentence": "Nothing beats small things done every day which is way more important than what you do occasionally.",
+      "chinese": "每天做一点，比偶尔做很多更有价值。",
       "chapter": "Wellness"
     },
     {
@@ -2022,14 +2028,16 @@ export const data = [
       "chapter": "Emotion"
     },
     {
-        id: "advice-338",
-        sentence: "When you are looking for a job, remember that somewhere an employer is desperately hunting for someone like you.",
-        chinese: "找工作时要记住，总有雇主在拼命寻找像你这样的人。"
+        "id": "advice-338",
+        "sentence": "When you seek a job, always remember: somewhere out there, an employer is searching for someone exactly like you.",
+        "chinese": "找工作时要记住，总有雇主在寻找像你这样的人。",
+        "chapter": "Productivity"
     },
     {
-        id: "advice-338-2",
-        sentence: "Your real job is to make that match happen, and it is worth whatever time it takes.",
-        chinese: "你的任务是让彼此匹配，这值得花上任何时间。"
+        "id": "advice-338-2",
+        "sentence": "Your real job is to make that match happen, and it is worth whatever time it takes.",
+        "chinese": "你的任务是让彼此匹配，这值得花上任何时间。",
+        "chapter": "Productivity"
     },
     {
       "id": "advice-339",
