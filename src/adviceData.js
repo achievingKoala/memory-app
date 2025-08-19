@@ -1399,8 +1399,20 @@ export const data = [
     },
     {
       "id": "advice-233",
-      "sentence": "Efficiency is highly overrated; goofing off is highly underrated. Regularly scheduled sabbaths, sabbaticals vacations, breaks, aimless walks and time off are essential for top performance of any kind. The best work ethic requires a good rest ethic.",
-      "chinese": "效率常常被高估，摸鱼却被低估。定期休息日、假期、散步和空闲时间对最佳表现至关重要。最好的工作态度需要配合良好的休息态度。",
+      "sentence": "Efficiency is highly overrated; goofing off is highly underrated.",
+      "chinese": "效率常常被高估，摸鱼却被低估。",
+      "chapter": "Wellness"
+    },
+    {
+      "id": "advice-233-2",
+      "sentence": "Regularly scheduled sabbaths, sabbaticals, vacations, breaks, aimless walks and time off are essential for top performance of any kind.",
+      "chinese": "定期休息日、假期、散步和空闲时间对最佳表现至关重要。",
+      "chapter": "Wellness"
+    },
+    {
+      "id": "advice-233-3",
+      "sentence": "The best work ethic requires a good rest ethic.",
+      "chinese": "最好的工作态度需要配合良好的休息态度。",
       "chapter": "Wellness"
     },
     {
@@ -1777,8 +1789,14 @@ export const data = [
     },
     {
       "id": "advice-296",
-      "sentence": "It's possible that a not-so-smart person who can communicate well can do much better than a super-smart person who can't communicate well. That is good news because it is much easier to improve your communication skills than your intelligence.",
-      "chinese": "一个口才好但不太聪明的人，可能比口才差的天才强得多。这是个好消息，因为提高沟通能力比提高智力容易多了。",
+      "sentence": "It's possible that a not-so-smart person who can communicate well can do much better than a super-smart person who can't communicate well.",
+      "chinese": "一个口才好但不太聪明的人，可能比口才差的天才强得多。",
+      "chapter": "Learning"
+    },
+    {
+      "id": "advice-296-2",
+      "sentence": "That is good news because it is much easier to improve your communication skills than your intelligence.",
+      "chinese": "这是个好消息，因为提高沟通能力比提高智力容易多了。",
       "chapter": "Learning"
     },
     {
@@ -1981,8 +1999,14 @@ export const data = [
     },
     {
       "id": "advice-330",
-      "sentence": "The best time to negotiate your salary for a new job is the moment after they say they want you and not before. Then it becomes a game of chicken for each side to name an amount first but it is to your advantage to get them to give a number before you do.",
-      "chinese": "新工作谈薪水的最佳时机，是对方表示已经要你之后，而不是之前。接下来双方都不愿先报价，你要尽量让对方先开口。",
+      "sentence": "The best time to negotiate your salary for a new job is the moment after they say they want you and not before.",
+      "chinese": "新工作谈薪水的最佳时机，是对方表示已经要你之后，而不是之前。",
+      "chapter": "Wealth"
+    },
+    {
+      "id": "advice-330-2",
+      "sentence": "Then it becomes a game of chicken for each side to name an amount first but it is to your advantage to get them to give a number before you do.",
+      "chinese": "接下来双方都不愿先报价，你要尽量让对方先开口。",
       "chapter": "Wealth"
     },
     {
