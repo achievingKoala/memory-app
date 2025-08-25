@@ -126,6 +126,7 @@ function setFavoriteIds(favIds) {
 
 const MemoryApp = () => {
   const [selectedSource, setSelectedSource] = useState(dataSources[0].value);
+  const [showChinese, setShowChinese] = useState(true); // 添加这行
   const [data, setData] = useState(dataSources[0].data.filter(item => item.hide !== 1));
   const [currentPage, setCurrentPage] = useState(0);
   const [userInputs, setUserInputs] = useState(Array(data.length).fill(''));
@@ -336,6 +337,17 @@ const MemoryApp = () => {
         >
           {showOnlyFavorite ? '显示全部' : '仅看收藏'}
         </button>
+        <button
+          onClick={() => setShowChinese(val => !val)}
+          style={{
+            ...buttonStyle,
+            background: showChinese ? "#facc15" : "#2563eb",
+            color: showChinese ? "#000" : "#fff",
+            marginLeft: "10px"
+          }}
+        >
+          {showChinese ? '显示关键词' : '显示中文'}
+        </button>
       </div>
       {currentItems.length === 0 ? (
         <div style={{ textAlign: 'center', fontSize: '20px', color: '#888', margin: '40px 0' }}>
@@ -359,6 +371,7 @@ const MemoryApp = () => {
             onFocus={() => setIsFocused(index)}
             onBlur={() => setIsFocused(null)}
             textareaRef={el => textareaRefs.current[currentPage * itemsPerPage + index] = el}
+            showChinese={showChinese}
           />
         ))
       )}
@@ -444,15 +457,16 @@ function SentenceItem({
   onFocus,
   onBlur,
   textareaRef,
+  showChinese = true, // 添加默认值为 true
 }) {
   const isCorrect = userInput === item.sentence;
   const showFeedback = feedbackMessage && item.sentence === feedbackMessage;
 
   // 动态样式
   let cardBorder = '#e0e7ef';
-  if (isCorrect) cardBorder = '#22c55e'; // 绿色
-  else if (isFocused) cardBorder = '#2563eb'; // 蓝色
-  else if (userInput && !isCorrect) cardBorder = '#ef4444'; // 红色
+  if (isCorrect) cardBorder = '#22c55e';
+  else if (isFocused) cardBorder = '#2563eb';
+  else if (userInput && !isCorrect) cardBorder = '#ef4444';
 
   const dynamicStyle = {
     ...itemContainerStyle,
@@ -463,7 +477,7 @@ function SentenceItem({
   return (
     <div style={dynamicStyle}>
       <p style={{ fontSize: '20px' }}>
-        {item.id} . {item.chinese}
+        {item.id} . {showChinese ? item.chinese : (item.keyword || item.chinese)}
         <span style={correctCountStyle}> 正确次数：{correctCount}</span>
         <button
           style={{
