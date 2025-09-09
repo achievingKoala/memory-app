@@ -111,19 +111,17 @@
         }
 
         // 页面加载时自动开始
-        window.onload = function() {
+        $(document).ready(function() {
+            startQuiz();
+        });
+
+        function resetQuiz() {
             startQuiz();
         }
 
-        function resetQuiz() {
-            document.getElementById('quiz-container').innerHTML = '';
-            document.getElementById('score').textContent = '0';
-            document.getElementById('total').textContent = '0';
-        }
-
         function updateScore() {
-            document.getElementById('score').textContent = score;
-            document.getElementById('total').textContent = currentQuiz.length;
+            $('#score').text(score);
+            $('#total').text(currentQuiz.length);
         }
 
         function showQuestion() {
@@ -133,9 +131,7 @@
             }
 
             const question = currentQuiz[currentQuestion];
-            const container = document.getElementById('quiz-container');
-            
-            container.innerHTML = `
+            $('#quiz-container').html(`
                 <div class="quiz-card">
                     <div class="question">${currentQuestion + 1}. ${question.question}</div>
                     <div class="options">
@@ -144,38 +140,37 @@
                         ).join('')}
                     </div>
                     <button class="btn" onclick="prevQuestion()" id="prev-btn" ${currentQuestion === 0 ? 'disabled' : ''}>上一题</button>
-                    <button class="btn" onclick="submitAnswer()" id="submit-btn" disabled>提交答案</button>
                     <button class="btn" onclick="nextQuestion()" id="next-btn" style="display:none">下一题</button>
                     <div id="result"></div>
                 </div>
-            `;
+            `);
             answered = false;
         }
 
         function selectOption(index) {
             if (answered) return;
             
-            document.querySelectorAll('.option').forEach(opt => opt.classList.remove('selected'));
-            document.querySelector(`[data-index="${index}"]`).classList.add('selected');
-            document.getElementById('submit-btn').disabled = false;
+            $('.option').removeClass('selected');
+            $(`[data-index="${index}"]`).addClass('selected');
+            submitAnswer();
         }
 
         function submitAnswer() {
             if (answered) return;
             
-            const selected = document.querySelector('.option.selected');
-            if (!selected) return;
+            const selected = $('.option.selected');
+            if (selected.length === 0) return;
             
             answered = true;
-            const selectedIndex = parseInt(selected.dataset.index);
+            const selectedIndex = parseInt(selected.data('index'));
             const question = currentQuiz[currentQuestion];
             const isCorrect = selectedIndex === question.correct;
             
-            document.querySelectorAll('.option').forEach((opt, index) => {
+            $('.option').each(function(index) {
                 if (index === question.correct) {
-                    opt.classList.add('correct');
+                    $(this).addClass('correct');
                 } else if (index === selectedIndex && !isCorrect) {
-                    opt.classList.add('wrong');
+                    $(this).addClass('wrong');
                 }
             });
             
@@ -184,17 +179,15 @@
                 updateScore();
             }
             
-            const resultDiv = document.getElementById('result');
-            resultDiv.innerHTML = `
+            $('#result').html(`
                 <div class="result ${isCorrect ? 'correct' : 'wrong'}">
                     ${isCorrect ? '✓ 正确！' : '✗ 错误！'}
                     <br><br>
                     <strong>解释：</strong>${question.explanation}
                 </div>
-            `;
+            `);
             
-            document.getElementById('submit-btn').style.display = 'none';
-            document.getElementById('next-btn').style.display = 'inline-block';
+            $('#next-btn').show();
         }
 
         function prevQuestion() {
@@ -210,10 +203,9 @@
         }
 
         function showFinalScore() {
-            const container = document.getElementById('quiz-container');
             const percentage = Math.round((score / currentQuiz.length) * 100);
             
-            container.innerHTML = `
+            $('#quiz-container').html(`
                 <div class="quiz-card">
                     <h2 style="text-align: center; color: #333;">测试完成！</h2>
                     <div style="text-align: center; font-size: 24px; margin: 20px 0;">
@@ -225,7 +217,7 @@
                           '📚 需要加强！建议重新阅读纳瓦尔的学习相关内容。'}
                     </div>
                 </div>
-            `;
+            `);
         }
     </script>
 </body>
