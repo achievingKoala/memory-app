@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>纳瓦尔学习选择题</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f5; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1 { text-align: center; color: #333; margin-bottom: 30px; }
+        .quiz-card { background: white; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .question { font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #333; }
+        .options { margin: 15px 0; }
+        .option { display: block; padding: 10px; margin: 8px 0; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; transition: all 0.2s; }
+        .option:hover { border-color: #007acc; background: #f0f8ff; }
+        .option.selected { border-color: #007acc; background: #e6f3ff; }
+        .option.correct { border-color: #28a745; background: #d4edda; }
+        .option.wrong { border-color: #dc3545; background: #f8d7da; }
+        .btn { padding: 10px 20px; border: none; border-radius: 6px; background: #007acc; color: white; cursor: pointer; font-size: 16px; margin: 10px 5px; }
+        .btn:hover { background: #005a99; }
+        .btn:disabled { background: #ccc; cursor: not-allowed; }
+        .result { margin-top: 15px; padding: 10px; border-radius: 6px; font-weight: bold; }
+        .result.correct { background: #d4edda; color: #155724; }
+        .result.wrong { background: #f8d7da; color: #721c24; }
+        .score { text-align: center; font-size: 20px; margin: 20px 0; }
+        .controls { text-align: center; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>纳瓦尔学习智慧选择题</h1>
+        <div class="score">得分: <span id="score">0</span> / <span id="total">0</span></div>
+        <div class="controls">
+            <button class="btn" onclick="startQuiz()">开始测试</button>
+            <button class="btn" onclick="resetQuiz()">重新开始</button>
+        </div>
+        <div id="quiz-container"></div>
+    </div>
+
+    <script>
+        const learningQuotes = [
+            { keyword: '学习', english: 'Learn to sell. Learn to build. If you can do both, you will be unstoppable.', chinese: '学习销售。学习建设。如果你能做到这两点，你将是不可阻挡的。' },
+            { keyword: '学习', english: 'Study microeconomics, game theory, psychology, persuasion, ethics, mathematics, and computers.', chinese: '学习微观经济学、博弈论、心理学、说服术、伦理学、数学和计算机。' },
+            { keyword: '学徒', english: "When specific knowledge is taught, it's through apprenticeships, not schools.", chinese: '当特定知识被教授时，是通过学徒制，而不是学校。' },
+            { keyword: '做事', english: 'Reading is faster than listening. Doing is faster than watching.', chinese: '阅读比听力更快。做事比观看更快。' },
+            { keyword: '判断', english: 'Judgement requires experience but can be built faster by learning foundational skills.', chinese: '判断需要经验，但可以通过学习基础技能更快地建立。' },
+            { keyword: '商业', english: 'There is no skill called "business". Avoid business magazines and business classes.', chinese: '没有叫做「商业」的技能。避免商业杂志和商业课程。' }
+        ];
+
+        const quizData = [
+            {
+                question: "纳瓦尔认为要变得不可阻挡，需要学会什么？",
+                options: ["销售和建设", "编程和设计", "管理和领导", "投资和理财"],
+                correct: 0,
+                explanation: "Learn to sell. Learn to build. If you can do both, you will be unstoppable."
+            },
+            {
+                question: "纳瓦尔建议学习哪些基础学科？",
+                options: ["历史、文学、艺术", "微观经济学、博弈论、心理学", "物理、化学、生物", "法律、医学、工程"],
+                correct: 1,
+                explanation: "Study microeconomics, game theory, psychology, persuasion, ethics, mathematics, and computers."
+            },
+            {
+                question: "关于特定知识的教授方式，纳瓦尔认为是通过什么？",
+                options: ["大学课程", "在线教育", "学徒制", "自学成才"],
+                correct: 2,
+                explanation: "When specific knowledge is taught, it's through apprenticeships, not schools."
+            },
+            {
+                question: "纳瓦尔认为什么比听更快？",
+                options: ["思考", "阅读", "实践", "讨论"],
+                correct: 1,
+                explanation: "Reading is faster than listening. Doing is faster than watching."
+            },
+            {
+                question: "判断力需要什么，但可以通过学习基础技能更快建立？",
+                options: ["天赋", "运气", "经验", "资源"],
+                correct: 2,
+                explanation: "Judgement requires experience but can be built faster by learning foundational skills."
+            },
+            {
+                question: "纳瓦尔对商业技能的看法是什么？",
+                options: ["非常重要", "需要专门学习", "不存在这种技能", "只适合企业家"],
+                correct: 2,
+                explanation: "There is no skill called 'business'. Avoid business magazines and business classes."
+            }
+        ];
+
+        let currentQuiz = [];
+        let currentQuestion = 0;
+        let score = 0;
+        let answered = false;
+
+        function shuffleArray(array) {
+            const newArray = [...array];
+            for (let i = newArray.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+            }
+            return newArray;
+        }
+
+        function startQuiz() {
+            currentQuiz = shuffleArray(quizData);
+            currentQuestion = 0;
+            score = 0;
+            answered = false;
+            updateScore();
+            showQuestion();
+        }
+
+        function resetQuiz() {
+            document.getElementById('quiz-container').innerHTML = '';
+            document.getElementById('score').textContent = '0';
+            document.getElementById('total').textContent = '0';
+        }
+
+        function updateScore() {
+            document.getElementById('score').textContent = score;
+            document.getElementById('total').textContent = currentQuiz.length;
+        }
+
+        function showQuestion() {
+            if (currentQuestion >= currentQuiz.length) {
+                showFinalScore();
+                return;
+            }
+
+            const question = currentQuiz[currentQuestion];
+            const container = document.getElementById('quiz-container');
+            
+            container.innerHTML = `
+                <div class="quiz-card">
+                    <div class="question">${currentQuestion + 1}. ${question.question}</div>
+                    <div class="options">
+                        ${question.options.map((option, index) => 
+                            `<div class="option" onclick="selectOption(${index})" data-index="${index}">${option}</div>`
+                        ).join('')}
+                    </div>
+                    <button class="btn" onclick="submitAnswer()" id="submit-btn" disabled>提交答案</button>
+                    <button class="btn" onclick="nextQuestion()" id="next-btn" style="display:none">下一题</button>
+                    <div id="result"></div>
+                </div>
+            `;
+            answered = false;
+        }
+
+        function selectOption(index) {
+            if (answered) return;
+            
+            document.querySelectorAll('.option').forEach(opt => opt.classList.remove('selected'));
+            document.querySelector(`[data-index="${index}"]`).classList.add('selected');
+            document.getElementById('submit-btn').disabled = false;
+        }
+
+        function submitAnswer() {
+            if (answered) return;
+            
+            const selected = document.querySelector('.option.selected');
+            if (!selected) return;
+            
+            answered = true;
+            const selectedIndex = parseInt(selected.dataset.index);
+            const question = currentQuiz[currentQuestion];
+            const isCorrect = selectedIndex === question.correct;
+            
+            document.querySelectorAll('.option').forEach((opt, index) => {
+                if (index === question.correct) {
+                    opt.classList.add('correct');
+                } else if (index === selectedIndex && !isCorrect) {
+                    opt.classList.add('wrong');
+                }
+            });
+            
+            if (isCorrect) {
+                score++;
+                updateScore();
+            }
+            
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = `
+                <div class="result ${isCorrect ? 'correct' : 'wrong'}">
+                    ${isCorrect ? '✓ 正确！' : '✗ 错误！'}
+                    <br><br>
+                    <strong>解释：</strong>${question.explanation}
+                </div>
+            `;
+            
+            document.getElementById('submit-btn').style.display = 'none';
+            document.getElementById('next-btn').style.display = 'inline-block';
+        }
+
+        function nextQuestion() {
+            currentQuestion++;
+            showQuestion();
+        }
+
+        function showFinalScore() {
+            const container = document.getElementById('quiz-container');
+            const percentage = Math.round((score / currentQuiz.length) * 100);
+            
+            container.innerHTML = `
+                <div class="quiz-card">
+                    <h2 style="text-align: center; color: #333;">测试完成！</h2>
+                    <div style="text-align: center; font-size: 24px; margin: 20px 0;">
+                        最终得分: ${score} / ${currentQuiz.length} (${percentage}%)
+                    </div>
+                    <div style="text-align: center; margin: 20px 0;">
+                        ${percentage >= 80 ? '🎉 优秀！你很好地掌握了纳瓦尔的学习智慧！' : 
+                          percentage >= 60 ? '👍 不错！继续学习纳瓦尔的思想。' : 
+                          '📚 需要加强！建议重新阅读纳瓦尔的学习相关内容。'}
+                    </div>
+                </div>
+            `;
+        }
+    </script>
+</body>
+</html>
