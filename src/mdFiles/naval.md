@@ -38,3 +38,13 @@
 专长 Apply specific knowledge, with leverage, and eventually you will get what you deserve.
 最终 When you’re finally wealthy, you’ll realize it wasn’t what you were seeking in the first place. But that is for another day.
 总结 Summary: Productize Yourself
+## 分类表
+
+| 类别 | 内容 |
+|------|------|
+| 财富与价值观 | 财富 (Seek wealth, not money or status...)；道德 (Ethical wealth creation...)；忽视 (Ignore people playing status games...)；最终 (When you’re finally wealthy...)；总结 (Productize Yourself) |
+| 路径与原则 | 资产 (Own equity...)；需求 (Give society what it wants...)；行业 (Pick an industry...)；互联网 (The Internet has broadened...)；复利 (Play iterated games...)；正直 (Pick partners with integrity...)；悲观 (Don't partner with cynics...) |
+| 知识与能力 | 学习 (Learn to sell, build...)；武装 (Arm with specific knowledge...)；独特 (Knowledge you cannot be trained for...)；追求 (Found by curiosity and passion...)；玩耍 (Feels like play...)；学徒 (Taught via apprenticeships...)；创造 (Highly technical or creative...)；学习 (Study microeconomics, psychology...)；做事 (Reading faster than listening...)；努力 (Work hard...)；最好 (Become the best in the world...) |
+| 责任与风险 | 责任 (Embrace accountability...)；风险 (Singular, risky brands...)；判断 (Judgment requires experience...) |
+| 杠杆与工具 | 支点 (Give me a lever...)；杠杆 (Fortunes require leverage...)；资本 (Capital means money...)；劳动 (Labor means people...)；授权 (Permissioned leverage...)；未授权 (Code and media leverage...)；机器人 (Army of robots...)；写书 (If you can’t code, write books...)；倍增 (Leverage as multiplier...) |
+| 效率与生活方式 | 日历 (Too busy for coffee...)；外包 (Set hourly rate...)；商业 (No skill called business...)；速成 (No get-rich-quick...)；专长 (Apply knowledge with leverage...) |

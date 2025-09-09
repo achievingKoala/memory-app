@@ -34,6 +34,8 @@
         <div class="score">得分: <span id="score">0</span> / <span id="total">0</span></div>
         <div class="controls">
             <button class="btn" onclick="resetQuiz()">重新开始</button>
+            <a href="https://achievingkoala.github.io/memory-app/" class="btn" style="text-decoration: none; display: inline-block;">英文默写练习</a>
+            <a href="../../naval.html" class="btn" style="text-decoration: none; display: inline-block;">纳瓦尔语录</a>
         </div>
         <div id="quiz-container"></div>
     </div>
@@ -45,7 +47,11 @@
             { keyword: '学徒', english: "When specific knowledge is taught, it's through apprenticeships, not schools.", chinese: '当特定知识被教授时，是通过学徒制，而不是学校。' },
             { keyword: '做事', english: 'Reading is faster than listening. Doing is faster than watching.', chinese: '阅读比听力更快。做事比观看更快。' },
             { keyword: '判断', english: 'Judgement requires experience but can be built faster by learning foundational skills.', chinese: '判断需要经验，但可以通过学习基础技能更快地建立。' },
-            { keyword: '商业', english: 'There is no skill called "business". Avoid business magazines and business classes.', chinese: '没有叫做「商业」的技能。避免商业杂志和商业课程。' }
+            { keyword: '商业', english: 'There is no skill called "business". Avoid business magazines and business classes.', chinese: '没有叫做「商业」的技能。避免商业杂志和商业课程。' },
+            { keyword: '玩耍', english: 'Building specific knowledge will feel like play to you but will look like work to others.', chinese: '建立特定知识对你来说像玩耍，但在别人看来像工作。' },
+            { keyword: '追求', english: 'Specific knowledge is found by pursuing your genuine curiosity and passion rather than whatever is hot right now.', chinese: '特定知识是通过追随你真正的好奇心和热情获得的，而不是追逐当下的热点。' },
+            { keyword: '独特', english: 'Specific knowledge is knowledge you cannot be trained for. If society can train you, it can train someone else and replace you.', chinese: '特定知识是无法通过培训获得的。如果社会能培训你，它也能培训别人来取代你。' },
+            { keyword: '武装', english: 'Arm yourself with specific knowledge, accountability, and leverage.', chinese: '用特定知识、责任感和杠杆武装自己。' }
         ];
 
         const quizData = [
@@ -84,6 +90,30 @@
                 options: ["非常重要", "需要专门学习", "不存在这种技能", "只适合企业家"],
                 correct: 2,
                 explanation: "没有叫做'商业'的技能。避免商业杂志和商业课程。<br><em>There is no skill called 'business'. Avoid business magazines and business classes.</em>"
+            },
+            {
+                question: "建立特定知识对你来说像什么？",
+                options: ["痛苦", "工作", "玩耍", "负担"],
+                correct: 2,
+                explanation: "建立特定知识对你来说像玩耍，但在别人看来像工作。<br><em>Building specific knowledge will feel like play to you but will look like work to others.</em>"
+            },
+            {
+                question: "特定知识通常来源于什么？",
+                options: ["追逐热点", "正规培训", "好奇心和热情", "复制他人经验"],
+                correct: 2,
+                explanation: "特定知识是通过追随你真正的好奇心和热情获得的，而不是追逐当下的热点。<br><em>Specific knowledge is found by pursuing your genuine curiosity and passion rather than whatever is hot right now.</em>"
+            },
+            {
+                question: "为什么特定知识无法被轻易取代？",
+                options: ["因为人人都能学", "因为独特不可培训", "因为资源有限", "因为运气好"],
+                correct: 1,
+                explanation: "特定知识是无法通过培训获得的。如果社会能培训你，它也能培训别人来取代你。<br><em>Specific knowledge is knowledge you cannot be trained for. If society can train you, it can train someone else and replace you.</em>"
+            },
+            {
+                question: "纳瓦尔认为应当用什么来武装自己？",
+                options: ["金钱和权力", "责任感和杠杆", "运气和人脉", "健康和习惯"],
+                correct: 1,
+                explanation: "用特定知识、责任感和杠杆武装自己。<br><em>Arm yourself with specific knowledge, accountability, and leverage.</em>"
             }
         ];
 
@@ -140,7 +170,7 @@
                         ).join('')}
                     </div>
                     <button class="btn" onclick="prevQuestion()" id="prev-btn" ${currentQuestion === 0 ? 'disabled' : ''}>上一题</button>
-                    <button class="btn" onclick="nextQuestion()" id="next-btn" style="display:none">下一题</button>
+                    <button class="btn" onclick="nextQuestion()" id="next-btn">下一题</button>
                     <div id="result"></div>
                 </div>
             `);
