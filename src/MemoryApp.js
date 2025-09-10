@@ -13,7 +13,7 @@ import {data as allReframeData} from './all-reframe';
 import {data as adviceData} from './adviceData';
 import {data as readingData} from './reading';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {speakText} from './AzureTextToSpeech';
 import SentenceItem from './SentenceItem';
 const audioPath = require("./new-note.mp3");
@@ -228,12 +228,6 @@ const MemoryApp = () => {
       } else {
         setFeedbackMessage(correctSentence);
       }
-    } else if (event.key === ']') {
-      event.preventDefault(); // Prevent default behavior
-      handleNextPage();
-    } else if (event.key === '[') {
-      event.preventDefault(); // Prevent default behavior
-      handlePrevPage();
     } else if (event.key === '\\') {
       event.preventDefault(); // Prevent default behavior
       playTextWithStatus(filteredCurrentData[index].sentence);
@@ -290,6 +284,24 @@ const MemoryApp = () => {
   };
 
   const storedCounts = JSON.parse(localStorage.getItem('idCounts')) || {};
+
+  // 全局键盘事件监听器
+  useEffect(() => {
+    const handleGlobalKeyDown = (event) => {
+      if (event.key === ']') {
+        event.preventDefault();
+        setCurrentPage((prev) => Math.min(prev + 1, Math.floor(filteredCurrentData.length / itemsPerPage)));
+      } else if (event.key === '[') {
+        event.preventDefault();
+        setCurrentPage((prev) => Math.max(prev - 1, 0));
+      }
+    };
+
+    document.addEventListener('keydown', handleGlobalKeyDown);
+    return () => {
+      document.removeEventListener('keydown', handleGlobalKeyDown);
+    };
+  }, [filteredCurrentData.length, itemsPerPage]);
 
   return (
     <div style={mainContentStyle}>
