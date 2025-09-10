@@ -18,15 +18,6 @@ import {speakText} from './AzureTextToSpeech';
 import SentenceItem from './SentenceItem';
 const audioPath = require("./new-note.mp3");
 
-const commonStyle = {
-  fontSize: '22px',
-  width: '80%',
-  margin: 'auto',
-  textAlign: 'left',
-  wordSpacing: 'normal',
-  fontFamily: 'monospace',
-};
-const correctCountStyle = { fontSize: '24px' };
 const mainContentStyle = {
   width: '95%',
   margin: '0 auto',
@@ -34,27 +25,6 @@ const mainContentStyle = {
   minHeight: '100vh',
   padding: '0 0 40px 0',
   boxSizing: 'border-box',
-};
-const itemContainerStyle = {
-  margin: '24px 0',
-  background: '#fff',
-  borderRadius: '14px',
-  boxShadow: '0 2px 12px rgba(37,99,235,0.10)',
-  padding: '10px',
-  border: '1.5px solid #e0e7ef',
-  transition: 'box-shadow 0.2s',
-  maxWidth: '90%',
-  width: '100%',
-  marginLeft: 'auto',
-  marginRight: 'auto',
-};
-const textareaStyle = {
-  margin: '20px',
-  fontSize: '22px',
-  width: '80%',
-  height: '80px',
-  wordSpacing: 'normal',
-  fontFamily: 'monospace',
 };
 
 const buttonStyle = {
@@ -98,17 +68,6 @@ const dataSources = [
     data: adviceData.filter(item => item.chapter === chap),
   })),
 ];
-
-// 收藏样式
-const favoriteButtonStyle = {
-  border: 'none',
-  background: 'transparent',
-  cursor: 'pointer',
-  fontSize: '1.6em',
-  marginLeft: '12px',
-  verticalAlign: 'middle',
-  userSelect: 'none',
-};
 
 function getFavoriteIds() {
   let favIds = JSON.parse(localStorage.getItem('favoriteIds') || 'null');
@@ -203,7 +162,7 @@ const MemoryApp = () => {
   };
 
   const handleInputChange = (index, value) => {
-    if (value == filteredCurrentData[index].sentence) {
+    if (value === filteredCurrentData[index].sentence) {
       recordCorrect(filteredCurrentData[index].id);
       // 自动聚焦下一个输入框
       setTimeout(() => {

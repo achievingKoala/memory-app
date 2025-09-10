@@ -1,5 +1,3 @@
-import React from 'react';
-
 const commonStyle = {
   fontSize: '22px',
   width: '80%',
