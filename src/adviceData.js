@@ -799,7 +799,7 @@ export const data = [
     },
     {
       "id": "advice-134",
-      "sentence": "Most overnight successes —in fact, any significant successes— take at least 5 years. Budget your life accordingly.",
+      "sentence": "Most overnight successes - in fact, any significant successes - take at least 5 years. Budget your life accordingly.",
       "chinese": "多数所谓的\"一夜成名\"——事实上任何重大的成功——都需要至少五年。要相应地规划自己的人生。",
       "chapter": "Goal"
     },
