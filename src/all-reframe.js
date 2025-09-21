@@ -516,7 +516,7 @@ export const data = [
         "chapter": "Mental Health Reframes",
         "id": "mental-11",
         "keyword": "被讨厌",
-        "sentence": "Usual Frame: An insult hurts because it means someone dislikes or disrespects you. Reframe: A stranger's opinion of you—even if it gets published in The New York Times—is little more than their personal diary entry.",
+        "sentence": "Usual Frame: An insult hurts because it means someone dislikes or disrespects you. Reframe: A stranger's opinion of you - even if it gets published in The New York Times - is little more than their personal diary entry.",
         "chinese": "常规框架：侮辱很伤人，因为有人讨厌或不尊重你。重构框架：陌生人对你的看法，即使发表在纽约时报，也不过是人家的日记。",
         "index": 58,
         "favorite": true
@@ -822,7 +822,7 @@ export const data = [
         "chapter": "Mental Health Reframes",
         "id": "mental-45",
         "keyword": "幸存者愧疚",
-        "sentence": "Usual Frame: I feel bad that I was the lone survivor. Reframe: What would the dead want you to do—suffer or be happy?",
+        "sentence": "Usual Frame: I feel bad that I was the lone survivor. Reframe: What would the dead want you to do - suffer or be happy?",
         "chinese": "常规框架：我是唯一幸存的感觉很内疚。重构框架：死人希望你痛苦还是幸福？",
         "index": 92,
         "favorite": true
@@ -1119,8 +1119,8 @@ export const data = [
         "chapter": "Social Life Reframes",
         "id": "social-17",
         "keyword": "失恋难过",
-        "sentence": "Usual Frame: I am crying because my relationship ended. Reframe: 'Don't cry because it is over, smile because it happened.'—Dr. Seuss",
-        "chinese": "常规框架：分手让我痛哭。重构框架：\"不要因结束而哭泣，要为曾拥有而微笑。\"——苏斯博士",
+        "sentence": "Usual Frame: I am crying because my relationship ended. Reframe: 'Don't cry because it is over, smile because it happened.'- Dr. Seuss",
+        "chinese": "常规框架：分手让我痛哭。重构框架：\"不要因结束而哭泣，要为曾拥有而微笑。\"- - 苏斯博士",
         "index": 125,
         "favorite": true
     },
