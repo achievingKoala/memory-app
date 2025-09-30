@@ -583,7 +583,7 @@ export const data = [
     },
     {
       "id": "advice-98",
-      "sentence": "That thing that made you weird as a kid could make you great as an adult —if you don't lose it.",
+      "sentence": "That thing that made you weird as a kid could make you great as an adult - if you don't lose it.",
       "chinese": "让你小时候与众不同的特质，若你不丢掉，它会让你在成年后变得伟大。",
       "chapter": "Emotion"
     },
@@ -763,7 +763,7 @@ export const data = [
     },
     {
       "id": "advice-128",
-      "sentence": "In all things—except love— start with the exit strategy. Prepare for the ending. Almost anything is easier to get into than out of.",
+      "sentence": "In all things - except love - start with the exit strategy. Prepare for the ending. Almost anything is easier to get into than out of.",
       "chinese": "做任何事——除了爱情——都要从退出策略开始。为结局做好准备。进入一件事总比脱身要容易得多。",
       "chapter": "Practicality"
     },
@@ -895,7 +895,7 @@ export const data = [
     },
     {
       "id": "advice-150",
-      "sentence": "When brainstorming improvising jamming with others you'll go much further and deeper if you build upon each contribution with a playful \"yes—and\" example instead of a deflating \"no—but\" reply.",
+      "sentence": "When brainstorming improvising jamming with others you'll go much further and deeper if you build upon each contribution with a playful \"yes-and\" example instead of a deflating \"no-but\" reply.",
       "chinese": "在头脑风暴、即兴创作、与人协作时，当你用\"是的，并且……\"代替\"不是，但是……\"接纳对方的想法，你们会走得更远更深入。",
       "chapter": "Connection"
     },
@@ -1093,7 +1093,7 @@ export const data = [
     },
     {
       "id": "advice-183",
-      "sentence": "Children totally accept —and crave—family rules. \"In our family we have a rule for X\" is the only excuse a parent needs for setting a family policy. In fact, \"I have a rule for X\" is the only excuse you need for your own personal policies.",
+      "sentence": "Children totally accept - and crave - family rules. \"In our family we have a rule for X\" is the only excuse a parent needs for setting a family policy. In fact, \"I have a rule for X\" is the only excuse you need for your own personal policies.",
       "chinese": "孩子乐于接受——甚至渴望——家庭规则。只要说\"在我们家有个X的规定\"，父母就够合理地制定了政策。其实\"我为X有个规则\"也可以作为你的个人原则。",
       "chapter": "Connection"
     },
@@ -1261,13 +1261,13 @@ export const data = [
     },
     {
       "id": "advice-211",
-      "sentence": "Take one simple thing —almost anything— but take it extremely seriously as if it is the only thing in the world —or maybe the entire world is in it— and by taking it seriously you'll light up the sky.",
+      "sentence": "Take one simple thing - almost anything - but take it extremely seriously as if it is the only thing in the world - or maybe the entire world is in it - and by taking it seriously you'll light up the sky.",
       "chinese": "认真对待一件简单的事情——任何事情都可以——就像它是世间唯一的事，甚至像整个世界都在里面。如此投入，你会点亮天空。",
       "chapter": "Goal"
     },
     {
       "id": "advice-212",
-      "sentence": "When making something always get a few extras—extra material extra parts, extra space, extra finishes. The extras serve as backups for mistakes reduce stress and fill your inventory for the future. They are the cheapest insurance.",
+      "sentence": "When making something always get a few extras - extra material extra parts, extra space, extra finishes. The extras serve as backups for mistakes reduce stress and fill your inventory for the future. They are the cheapest insurance.",
       "chinese": "制作东西时总要多准备点——多些材料、零件、空间、表面处理。多出来的东西可以做备用，减少紧张，也能为未来建立库存。这是最便宜的保险。",
       "chapter": "Practicality"
     },
@@ -1927,7 +1927,7 @@ export const data = [
     },
     {
       "id": "advice-318",
-      "sentence": "When someone tells you about the peak year of human history the period of time when things were good before things went downhill it will always be the year when they were 10 years old— which is the peak of any human's existence. Factor that into what they say.",
+      "sentence": "When someone tells you about the peak year of human history the period of time when things were good before things went downhill it will always be the year when they were 10 years old - which is the peak of any human's existence. Factor that into what they say.",
       "chinese": "当有人告诉你什么年代最好、何时走下坡路，这个\"最美好的一年\"总是他们10岁那年——那是任何人生命的巅峰。分析他们的观点时请记住这一点。",
       "chapter": "Productivity"
     },
@@ -2161,13 +2161,13 @@ export const data = [
     },
     {
       "id": "advice-355",
-      "sentence": "The real test of your character is not how you deal with adversity— although that will teach you much. The real test is how you deal with power. The only cure for power is humility and the admission that your power comes from luck. The small person believes they are superior; the superior person knows they are lucky.",
+      "sentence": "The real test of your character is not how you deal with adversity - although that will teach you much. The real test is how you deal with power. The only cure for power is humility and the admission that your power comes from luck. The small person believes they are superior; the superior person knows they are lucky.",
       "chinese": "真正考验品格的，不是你如何面对逆境——虽然逆境会教会你很多。真正的考验在于你如何对待权力。权力唯一的解药是谦卑，并承认权力来自运气。狭隘的人自以为优越，卓越的人知道自己只是幸运。",
       "chapter": "Learning"
     },
     {
       "id": "advice-356",
-      "sentence": "You will thrive more —and so will others— when you promote what you love rather than bash what you hate. Life is short; focus on the good stuff.",
+      "sentence": "You will thrive more - and so will others - when you promote what you love rather than bash what you hate. Life is short; focus on the good stuff.",
       "chinese": "多宣传自己喜欢的事物，而不是批判你讨厌的，这样你和别人都会更好地成长。人生短暂，把注意力放在美好事物上。",
       "chapter": "Connection"
     },
@@ -2755,7 +2755,7 @@ export const data = [
     },
     {
       "id": "advice-454",
-      "sentence": "Invent as many family rituals as you can handle with ease. Anything done on a schedule —large or small, significant or silly— can become a ritual. Repeated consistently small routines become legendary. Anticipation is key.",
+      "sentence": "Invent as many family rituals as you can handle with ease. Anything done on a schedule - large or small, significant or silly - can become a ritual. Repeated consistently small routines become legendary. Anticipation is key.",
       "chinese": "尽可能轻松地创造出你能承受的家庭仪式。任何按计划进行的事情——无论大小、重要或愚蠢——都可以变成一种仪式。持续重复的小习惯终将变得传奇。关键在于期待感。",
       "chapter": "Productivity"
     },
