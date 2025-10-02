@@ -116,7 +116,7 @@ function SentenceItem({
         <div style={commonStyle}>{feedbackMessage}</div>
       )}
       <div style={commonStyle}>
-        {userInput.split(' ').map((word, wordIndex) => {
+        {(userInput || '').split(' ').map((word, wordIndex) => {
           const isCorrectWord = item.sentence.split(' ').includes(word);
           return (
             <span key={wordIndex} style={{ color: isCorrectWord ? 'green' : 'black' }}>
