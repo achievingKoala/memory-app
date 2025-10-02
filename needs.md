@@ -24,6 +24,8 @@ old reality: starts with: :re-health, re-reality, re-social, re-introducing, Wil
 ### bug fix 
 ------
 1. todo button 冲突
+onlyshow -> all 
+filteredCurrentData 变成常量
 
 # 收藏
 ------
