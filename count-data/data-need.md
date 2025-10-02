@@ -15,3 +15,24 @@ chapter text NOT NULL,
 keyword text NOT NULL,
 idx integer NOT NULL
 );
+
+Join by sentence:
+SELECT
+c.sentence,
+c.keyword,
+c.count AS cloud_count,
+o.count AS old_count
+FROM cloud_all_reframe_count c
+LEFT JOIN old_reframe_count o
+ON c.sentence = o.sentence;
+
+Inner join (only matching sentences):
+
+SELECT
+c.sentence,
+c.keyword,
+c.count AS cloud_count,
+o.count AS old_count
+FROM cloud_all_reframe_count c
+INNER JOIN old_reframe_count o
+ON c.sentence = o.sentence;
