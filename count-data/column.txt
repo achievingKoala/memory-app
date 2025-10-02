@@ -1,0 +1,5 @@
+id
+en_text
+zh_text
+keyword
+count
