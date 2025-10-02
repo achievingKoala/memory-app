@@ -1,0 +1,120 @@
+id,count,chinese,sentence,chapter,keyword,index
+mental-3,6,常规框架：有的人是好人，有的人不是。重构框架：我们都有缺点，也都各有所长。,"Usual Frame: Some people are good, and some are not. Reframe: We're all flawed, and we're all good at different things.",Mental Health Reframes,好人与坏人,50
+success-4,6,常规框架：管理你的时间。重构框架：管理你的精力。,Usual Frame: Manage your time. Reframe: Manage your energy.,Success Reframes,管理目标,8
+social-20,5,常规框架：别人对你不好，你无能为力。重构框架：别人的行为受你影响。,"Usual Frame: People treat you poorly, and you can't do much about it. Reframe: You cause people to act the way they do.",Social Life Reframes,他人影响,128
+mental-9,5,常规框架：社交媒体是一种娱乐。重构框架：社交媒体是一种上瘾。,Usual Frame: Social media is a form of entertainment. Reframe: Social media is an addiction.,Mental Health Reframes,社交媒体,56
+intro-4,2,常规框架：酒是饮料。重构框架：酒是毒药。,Usual Frame: Alcohol is a beverage. Reframe: Alcohol is poison.,Introduction Reframes,饮酒,4
+social-19,1,常规框架：我和你（青少年）谈话只是现在的你和我。重构框架：我要对你未来的自己负责。,"Usual Frame: I'm talking to you, teen, and this is between us. Reframe: I must answer to your future self, not your current self.",Social Life Reframes,孩子教育,127
+success-28,1,常规框架：宇宙与我为敌。重构框架：宇宙欠我。,Usual Frame: The universe is acting against me. Reframe: The universe owes me.,Success Reframes,归因认知,32
+success-31,3,常规框架：事情应该公平。重构框架：人生本就不公平。,Usual Frame: Things should be fair. (me) Reframe: Life isn't fair. (Mom),Success Reframes,公平,35
+physical-6,2,常规框架：糖很美味，只要不过量就好。重构框架：糖是毒药。,Usual Frame: Sugar is delicious but don't overdo it. Reframe: Sugar is poison.,Physical Health Reframes,糖分,143
+success-34,4,常规框架：我要有个好点子。重构框架：先把所有坏点子都掏出来。,Usual Frame: I need to come up with a good idea. Reframe: I need to release all my bad ideas as quickly as possible.,Success Reframes,灵感,38
+success-38,3,常规框架：经理在做的事情就是管理。重构框架：没有度量就没有管理。,"Usual Frame: Whatever managers do is managing. Reframe: If you are not measuring, you are not managing.",Success Reframes,管理定义,42
+success-2,7,常规框架：我尝试的事情有90%都失败。重构框架：我只需要有10%的成功就够了。,Usual Frame: I fail at 90 percent of the things I try. Reframe: I only need to succeed 10 percent of the time.,Success Reframes,失败比例,6
+social-23,1,常规框架：老板在位。重构框架：最能干的人真正主导。,Usual Frame: The boss is in charge. Reframe: The most capable people are in charge.,Social Life Reframes,能力与权力,131
+mental-41,6,常规框架：为什么只有我幸存？重构框架：这像时钟每天都会指向2点，只是因果，无特别意义。,Usual Frame: Why did I survive when others did not? Reframe: It's no different from a clock reading 2:00 PM exactly once a day. It is just cause and effect. It has no meaning.,Mental Health Reframes,幸存者困扰,88
+intro-1,2,常规框架：遛狗没做好。重构框架：让狗狗尽情嗅闻就是成功。,Usual Frame: Taking the dog for a walk and failing. Reframe: Taking the dog for a sniff and succeeding.,Introduction Reframes,遛狗,1
+success-10,5,常规框架：成功需要设目标。重构框架：用系统比设定目标更有效。,Usual Frame: Success requires setting goals. Reframe: Systems are better than goals.,Success Reframes,目标与系统,14
+success-7,4,常规框架：尴尬要避免。重构框架：尴尬是一种投资。,Usual Frame: Embarrassment is something to be avoided. Reframe: Embarrassment is an investment.,Success Reframes,尴尬,11
+physical-1,4,常规框架：饿了就吃东西。重构框架：有的食物是能量，有的只是娱乐。,"Usual Frame: When I am hungry, I eat food. Reframe: Some food is fuel. Some food is entertainment.",Physical Health Reframes,饥饿与进食,138
+mental-15,3,常规框架：死亡是悲剧。重构框架：能陪伴他人走完人生是一种荣誉。,Usual Frame: Death is a tragedy. Reframe: It is an honor to help another pass.,Mental Health Reframes,死亡的看法,62
+mental-38,2,常规框架：这是一个好决定吗？重构框架：我们能否小范围试试？,Usual Frame: Is this a good decision? Reframe: Can we test it small?,Mental Health Reframes,选对决策,85
+physical-5,4,常规框架：我有个减肥目标。重构框架：我需要为自己建立减肥系统。,Usual Frame: I have a weight loss goal. Reframe: I need to create a weight loss system for myself.,Physical Health Reframes,减肥目标,142
+social-11,1,常规框架：一切按常理出牌（通常不幽默）。重构框架：打破常规才有幽默。,Usual Frame: The usual patterns hold (non-humor). Reframe: The usual patterns are violated (humor).,Social Life Reframes,幽默的本质,119
+mental-23,6,常规框架：我担心出事。重构框架：我好奇会发生什么。,Usual Frame: I worry something will go wrong. Reframe: I'm curious what will happen.,Mental Health Reframes,担忧未来,70
+social-26,4,常规框架：大多数人正常，只有我是另类。重构框架：每个人其实都是\,"Usual Frame: Most people are normal, but I'm a basket case. Reframe: Everyone is a basket case once you get to know them.",Social Life Reframes,正常与疯子,134
+intro-2,4,常规框架：我无事可做，只是站着。重构框架：正好练习呼吸和姿势。,Usual Frame: I have nothing to do. I am just standing here. Reframe: Perfect time to practice proper breathing and posture.,Introduction Reframes,无所事事,2
+success-43,4,常规框架：写不出好东西。重构框架：先写出烂的再修。,Usual Frame: I can't think of anything good to write. Reframe 3: I can write something bad and fix it.,Success Reframes,写作要求,47
+reality-11,5,常规框架：别人和我想法差不多。重构框架：别人和你极不相同。,Usual Frame: Others think and feel approximately as I do. Reframe: Others are unimaginably different.,Reality Reframes,人性差异,160
+reality-1,1,常规框架：核能很危险。重构框架：核能是绿色能源。,Usual Frame: Nuclear Power is risky. Reframe: Nuclear power is green.,Reality Reframes,核能,150
+mental-25,5,常规框架：历史很重要。重构框架：历史不存在。,Usual Frame: History is important. Reframe: History doesn't exist.,Mental Health Reframes,历史重要性,72
+social-16,5,常规框架：我失去了我的灵魂伴侣。重构框架：还有无数灵魂伴侣等我遇见。,Usual Frame: I have lost my soulmate. Reframe: I have a million soulmates I have not yet met.,Social Life Reframes,灵魂伴侣丧失,124
+success-42,5,常规框架：我写不出来有写作障碍。重构框架：写作时机选错了。,Usual Frame: I have writer's block. Reframe 2: I'm trying to write at the wrong time of day.,Success Reframes,写作时机,46
+success-39,1,常规框架：有的艺术好，有的艺术糟。重构框架：有市场的艺术就是好艺术。,"Usual Frame: Some art is good, and some is bad. Reframe: If there is a market for the art, it is good art.",Success Reframes,艺术评价,43
+mental-55,3,常规框架：我很焦虑。重构框架：我活在对未来的忧虑中。,Usual Frame: I am anxious. Reframe: I am living in the future (but not in a good way).,Mental Health Reframes,焦虑本质,102
+success-18,1,常规框架：成功取决于你认识谁。重构框架：取决于你认识多少人。,Usual Frame: Success depends on who you know. Reframe: Success depends on how many people you know.,Success Reframes,人脉关系,22
+success-25,1,常规框架：和自己比，慢慢进步。重构框架：和别人比，无论别人知不知道。,Usual Frame: Compete against yourself and try to improve over time. Reframe: Compete against others even if the others are unaware of the competition.,Success Reframes,竞争,29
+success-12,7,常规框架：又遇到问题了，为什么是我？重构框架：新难题，太好了可以挑战一下。,"Usual Frame: Another problem! Why me??? Reframe: Ooh, a new puzzle to solve.",Success Reframes,问题与挑战,16
+success-26,5,常规框架：你做错了。重构框架：你的其他作品更棒。,Usual frame: You did this wrong. Reframe: Your other work is stronger.,Success Reframes,批评反馈,30
+success-1,5,常规框架：我的成功概率很低。重构框架：也许我只是对成功概率的估计不准确。,Usual Frame: My odds of success are low. Reframe: Maybe I am bad at estimating the odds.,Success Reframes,成功概率,5
+success-9,5,常规框架：努力太大太难以开始。重构框架：我能做的最小的一步是什么？,Usual Frame: The effort is so big and daunting I can't even start. Reframe: What's the smallest thing I can do that moves me in the right direction?,Success Reframes,行动,13
+mental-29,4,常规框架：你是自己宇宙的中心，是最重要的。重构框架：站在太空看，一切包括你的烦恼都很渺小。,"Usual Frame: You are the center of your universe and the highest priority. Reframe: Viewed from space, everything looks small, including your problems.",Mental Health Reframes,自我至上,76
+success-37,4,常规框架：心情由内在想法决定。重构框架：完成有意义的事情会让你心情变好。,Usual Frame: Your mood is determined by your internal thoughts. Reframe: You can improve your mood by completing meaningful tasks.,Success Reframes,情绪调节,41
+mental-61,3,常规框架：我的思想只在大脑里。重构框架：我的思想包含大脑、身体和物理环境，任何一处变化都会影响整体。,"Usual Frame: My mind is in my brain. Reframe: My mind includes my brain, body, and physical environment. Any change to one changes the others.",Mental Health Reframes,心理结构,108
+success-15,1,常规框架：用钱赚钱。重构框架：可以把精力变成钱。,Usual Frame: It takes money to make money. Reframe: I can turn energy into money.,Success Reframes,赚钱,19
+success-14,2,常规框架：激情是成功的关键。重构框架：激情很好但不是必须的。,Usual Frame: Passion is the key to success. Reframe: Passion is nice but not required.,Success Reframes,激情,18
+mental-53,3,常规框架：我是过往创伤的受害者。重构框架：历史是想象的。,Usual Frame: I am a victim of my past traumas. Reframe: History is imaginary.,Mental Health Reframes,创伤与历史,100
+physical-2,5,常规框架：吃太多是意志力差。重构框架：吃太多是知识不足。,Usual Frame: Overeating is a willpower problem. Reframe: Overeating is a knowledge problem.,Physical Health Reframes,暴饮暴食,139
+mental-4,5,常规框架：艺术是娱乐。重构框架：艺术是改变心智的强大药物。,"Usual Frame: Art is entertainment. Reframe: Art is a powerful, mind-altering drug.",Mental Health Reframes,艺术定义,51
+physical-12,4,常规框架：我失眠了。重构框架：我还不够努力。,Usual Frame: I can't get to sleep. Reframe: I didn't work hard enough.,Physical Health Reframes,睡眠和努力,149
+mental-46,3,常规框架：你本可以做得更多。重构框架：每个人都能做更多，这种说法没有意义。,Usual Frame: You could have done more. Reframe: Everyone can do more. It is a meaningless concept.,Mental Health Reframes,自责,93
+success-32,5,常规框架：公平是值得追求的目标。重构框架：公平其实会阻碍成功。,Usual Frame: Fairness is a desirable social goal. Reframe: Fairness is the enemy of success.,Success Reframes,社会公平,36
+success-21,1,常规框架：学自己需要的。重构框架：持续学习，尤其学互补技能。,"Usual Frame: Learn what you need. Reframe: Learn continuously, especially skills that work well together.",Success Reframes,学习方式,25
+success-29,5,常规框架：运气无规律。重构框架：你可以去到更有机会的地方。,Usual Frame: Luck is random and can't be managed. Reframe: You can go where there is more luck (more energy).,Success Reframes,运气,33
+success-13,6,常规框架：我讨厌做这些重复的杂务。重构框架：我可以把它变成类似游戏的练习。,"Usual Frame: Ugh, I hate this repetitive chore. Reframe: I can do this chore so gracefully and efficiently it feels like a game.",Success Reframes,重复事务,17
+success-23,1,常规框架：三思后行。重构框架：先开始，边做边调整。,"Usual Frame: Measure twice, cut once. Reframe: Just start. See if you can figure it out as you go.",Success Reframes,行动策略,27
+mental-14,3,常规框架：死亡是悲剧，我得难过。重构框架：去世的人再无烦恼，怎么变成了我的痛苦？,"Usual Frame: Death is a tragedy, and I need to feel bad about it. Reframe: The deceased has no more problems. How did I make this about me?",Mental Health Reframes,死亡的意义,61
+mental-21,3,常规框架：要避免尴尬。重构框架：主动迎接尴尬，用它斩杀你的自我。,Usual Frame: Avoid embarrassment. Reframe: Invite embarrassment and use it as a club to kill your ego.,Mental Health Reframes,避免尴尬,68
+social-8,3,常规框架：我要主动找对象。重构框架：我要展示自身基因优势来吸引对象。,Usual Frame: I need to go find someone to be my romantic partner. Reframe: I need to signal my genetic advantages to attract a romantic partner.,Social Life Reframes,寻找伴侣,116
+mental-47,3,常规框架：要避免上瘾。重构框架：明智地选择自己的嗜好。,Usual Frame: Avoid addiction. Reframe: Choose your addictions wisely.,Mental Health Reframes,上瘾,94
+os-1,4,常规框架：你是你的经历和基因的产物。重构框架：你是自己经历的创作者。,Usual Frame: You are the product of your experiences and genes. Reframe: You are the author of your experience.,The Operating System for Your Mind,自我塑造,161
+social-27,3,常规框架：以错误评判他人。重构框架：看别人如何面对错误来评判。,Usual Frame: Judge people by their mistakes. Reframe: Judge people by how they respond to their mistakes.,Social Life Reframes,错误的评判,135
+mental-52,3,常规框架：我无法忍受一辈子这样。重构框架：一天什么都能撑过去。,Usual Frame: I can't handle this for the rest of my life. Reframe: I can do anything for a day.,Mental Health Reframes,面向未来,99
+mental-54,3,常规框架：某事让我愤怒。重构框架：我活在过去。,Usual Frame: I am angry because something happened. Reframe: I am living in the past.,Mental Health Reframes,愤怒的来源,101
+mental-33,4,常规框架：自信是天生的。重构框架：自信是可以习得的。,Usual Frame: Confidence is something you're born with. Reframe: Confidence is something you learn.,Mental Health Reframes,自信,80
+mental-16,3,常规框架：我的感受是境遇造成的。重构框架：我的感受由我选择。,Usual Frame: My feelings are the result of my situation. Reframe: How I feel is my choice.,Mental Health Reframes,情感与处境,63
+physical-8,5,常规框架：我胃里还能再装点。重构框架：我已经足够了。,Usual Frame: My stomach has room for more food. Reframe: I've had enough.,Physical Health Reframes,吃撑,145
+success-3,5,常规框架：我想做某事。重构框架：我已经决定去做某事。,Usual Frame: I want to do (something). Reframe: I have decided to do (something).,Success Reframes,决心,7
+social-25,4,常规框架：我能从行为判断动机。重构框架：读心术并不存在，人并不擅长看穿动机。,Usual Frame: I can discern people's motives by their actions. Reframe: Mind-reading isn't real. Humans are terrible at discerning motives.,Social Life Reframes,动机猜测,133
+success-6,4,常规框架：我对生活感到无聊。重构框架：我还不够让自己感到尴尬。,Usual Frame: I am bored with life. Reframe: I am not embarrassing myself enough.,Success Reframes,无聊,10
+social-22,3,常规框架：专家说了算。重构框架：表达能力强的说了算。,Usual Frame: The experts are in charge. Reframe: The best communicator is in charge.,Social Life Reframes,权威,130
+reality-3,5,常规框架：我们之间必有对错。重构框架：我们像在一块屏幕前看不同的电影。,"Usual Frame: One of us is right, and one is wrong. Reframe: We are watching two different movies on one screen.",Reality Reframes,对错观,152
+social-6,2,常规框架：夸奖别人很尴尬、做作或有目的。重构框架：吝啬赞美几乎是不道德的。,"Usual Frame: Giving compliments is awkward, creepy, or manipulative. Reframe: Withholding a compliment is almost immoral.",Social Life Reframes,赞美,114
+mental-43,3,常规框架：为什么是我？重构框架：上帝需要你留在人间完成重要的事。,Usual Frame: Why me? Reframe: God needs you here for something important.,Mental Health Reframes,为什么是我,90
+success-41,4,常规框架：我写不出东西。重构框架：我写作环境不对。,Usual Frame: I can't think of anything to write. Reframe 1: I'm in the wrong environment for writing.,Success Reframes,写作环境,45
+mental-20,6,常规框架：自我是你本人，必须被保护。重构框架：自我是你的敌人。,"Usual Frame: Your ego is 'you,' and it must be protected. Reframe: Your ego is your enemy.",Mental Health Reframes,自我（ego）,67
+mental-57,3,常规框架：创伤让我残缺。重构框架：创伤让我更强大。,Usual Frame: My trauma crippled me. Reframe: My trauma is why I can kick your ass.,Mental Health Reframes,创伤与力量,104
+mental-31,5,常规框架：我害怕做该做的事。重构框架：人生苦短。,Usual Frame: I'm afraid to do the thing I know I should do. Reframe: Life is short.,Mental Health Reframes,害怕行动,78
+reality-2,4,常规框架：人类90%的时候是理性的。重构框架：人类就算有10%时间理性就不错了。,Usual Frame: People are rational 90 percent of the time. Reframe: People are rational 10 percent of the time if that.,Reality Reframes,人类理性,151
+reality-7,3,常规框架：人生就是避免痛苦、追求幸福与意义。重构框架：人生是一场冒险。,Usual Frame: Life is about avoiding pain while pursuing happiness and meaning. Reframe: Life is an adventure.,Reality Reframes,人生意义,156
+reality-10,3,常规框架：人们自行形成观点。重构框架：人们加入阵营，媒体替他们分配观点。,"Usual Frame: People come up with their own opinions. Reframe: People join teams, and the media assigns their opinions.",Reality Reframes,舆论与观点,159
+physical-4,3,常规框架：想吃东西就说明我饿了。重构框架：想吃东西也许只是我累了。,"Usual Frame: I want food, so I must be hungry. Reframe: I want food, so I might be tired.",Physical Health Reframes,渴望食物,141
+physical-7,1,常规框架：我容易被不健康碳水吸引。重构框架：我不是爱吃不健康碳水的人。,Usual Frame: I am tempted by bad carbs. Reframe: I'm not the kind of person who eats bad carbs.,Physical Health Reframes,碳水诱惑,144
+physical-9,4,常规框架：我饿了，需要吃东西。重构框架：我饿了，要吃蛋白质。,"Usual Frame: I'm hungry, so I need food. Reframe: I'm hungry, so I need protein.",Physical Health Reframes,饥饿感,146
+physical-10,4,常规框架：锻炼需要意志力和动力。重构框架：一旦习惯成自然，锻炼比不锻炼更容易。,Usual Frame: Exercising requires willpower and motivation. Reframe: Exercising is easier than not exercising if you turn it into a habit.,Physical Health Reframes,锻炼习惯,147
+physical-11,4,常规框架：找到最科学的锻炼方式很重要。重构框架：最好的锻炼方式是你愿意坚持的那种。,Usual Frame: It's important to learn the best ways to exercise. Reframe: The best exercises are the ones you are willing to do.,Physical Health Reframes,健身方式,148
+social-29,3,常规框架：小小善举也是好事。重构框架：善意没有大小之分。,Usual Frame: Small acts of kindness are good. Reframe: There are no small acts of kindness.,Social Life Reframes,小善举,137
+social-2,3,常规框架：学会爱本来的自己。重构框架：庆幸你的大脑催促你进步。,Usual Frame: Learn to love yourself as you are. Reframe: Be glad your brain is pestering you to improve.,Social Life Reframes,爱自己,110
+social-14,3,常规框架：我希望关系天长地久。重构框架：没有什么能永恒。,Usual Frame: I want my relationship to last forever. Reframe: Nothing lasts forever.,Social Life Reframes,永恒关系,122
+social-7,3,常规框架：没人觉得我有魅力。重构框架：我还没遇到足够多人。,Usual Frame: No one seems to find me attractive. Reframe: I haven't met enough people.,Social Life Reframes,吸引力,115
+mental-48,3,常规框架：判断力差的人追求危险与无用的快感。重构框架：人活着需要最低限度的快感，得不到就会冒险去争取。,"Usual Frame: People with bad judgment often pursue dangerous and unproductive pleasures. Reframe: People need a minimum level of pleasure to make life worth living, and if they can't get it safely, they will get it unsafely.",Mental Health Reframes,快感和意志力,95
+mental-8,7,常规框架：每个人都在想我。重构框架：你只是他人电影里的配角。,Usual Frame: Everyone is thinking about me. Reframe: You are only a bit player in their movie.,Mental Health Reframes,自我中心,55
+mental-44,4,常规框架：我有责任背负内疚。重构框架：你可以放下这种内疚。,Usual Frame: I feel a responsibility to hold this guilt. Reframe: You have my permission to release your guilt.,Mental Health Reframes,内疚,91
+mental-2,4,常规框架：寻找自我。重构框架：创造自我。,Usual Frame: Find yourself. Reframe: Author yourself.,Mental Health Reframes,认识自我,49
+mental-28,3,常规框架：我很痛苦。重构框架：痛苦只持续一分钟。,Usual Frame: I am in pain. Reframe: I am in pain for a minute.,Mental Health Reframes,疼痛,75
+mental-10,3,常规框架：侮辱会损伤我的心理健康。重构框架：侮辱其实是对方不能反驳你的观点或有自身问题的自白。,Usual Frame: An insult is damaging to my mental health. Reframe: An insult is a confession that your accuser can't refute your opinion and/or has personal problems of some sort.,Mental Health Reframes,侮辱,57
+mental-49,3,常规框架：有些人没有意志力很软弱。重构框架：有些人从某些恶习中获得的快感比你多。,Usual Frame: Some people have no willpower. They are weak. Reframe: Some people get more pleasure from certain vices than you do.,Mental Health Reframes,意志力,96
+mental-17,3,常规框架：我恨罪有应得的人。重构框架：仇恨只是用来惩罚自己的工具。,Usual Frame: I hate someone who deserves it. Reframe: Hate is nothing but punishing myself for the misdeeds of others.,Mental Health Reframes,仇恨,64
+mental-18,3,常规框架：愤恨和愤怒是有毒的，希望它能自消。重构框架：仇恨和愤怒是一种可被利用的重要能量。,Usual Frame: Hate and anger are toxic feelings you hope will wear off. Reframe: Hate and anger are a superpower level of energy you can use for gain.,Mental Health Reframes,怨恨和愤怒,65
+mental-50,5,常规框架：有好日子和坏日子。重构框架：每一天都各有用处。,Usual Frame: There are good days and bad. Reframe: All days are useful in different ways.,Mental Health Reframes,好坏日子,97
+success-36,4,常规框架：我觉得自己是冒牌员工。重构框架：大家都是冒充者。,Usual Frame: I feel like an impostor at my job. Reframe: Everyone is an impostor.,Success Reframes,职场冒充,40
+success-11,4,常规框架：专注于一项有商业价值的技能。重构框架：让不同技能组合，使你更独特灵活。,Usual Frame: Focus on being excellent at a skill that has commercial value. Reframe: Acquire skills that work well together and make you rare and flexible at the same time.,Success Reframes,技能组合,15
+success-30,4,常规框架：倒霉的事悄然发生在我身上。重构框架：每个人都有问题。,Usual Frame: I am unusually unlucky this happened to me. Reframe: Everyone has problems. No exceptions.,Success Reframes,不幸感,34
+success-35,4,常规框架：你觉得自己是冒充者，别人都很能干。重构框架：你学得很快，看看你都学会了什么！,Usual Frame: You feel like a fraud. Everyone else is competent. Reframe: You are learning fast. Look at all you learned!,Success Reframes,冒充者综合症,39
+success-40,3,常规框架：别人夸你的作品说明它能火。重构框架：真正火的是别人会主动延伸或模仿的。,"Usual Frame: Praise for your creation predicts you have a hit. Reframe: Only action predicts a hit, not words. Watch for people to extend or modify your creation.",Success Reframes,作品热度,44
+mental-12,4,常规框架：细菌会伤害我。重构框架：细菌让我更强壮。,Usual Frame: Germs will harm me. Reframe: Germs make me stronger.,Mental Health Reframes,细菌,59
+mental-40,3,常规框架：工作自带压力。重构框架：你的工作是降低压力。,Usual Frame: Stress comes with the job. Reframe: Reducing stress IS your job.,Mental Health Reframes,压力归因,87
+mental-30,3,常规框架：你要停止消极思考。重构框架：你无法消除负面念头，但可以用别的想法挤掉它们。,Usual Frame: You need to stop thinking negative thoughts. Reframe: You can't subtract negative thoughts. But you can crowd them out.,Mental Health Reframes,消极念头,77
+mental-1,4,常规框架：我是我的内心想法。重构框架：我是我的行为。,Usual Frame: I am my inner thoughts. Reframe: I am what I do.,Mental Health Reframes,内心想法,48
+mental-6,4,常规框架：批评像匕首刺向你的心脏。重构框架：批评只是没在你面前的人头脑中的化学反应。,Usual Frame: Criticism feels like a dagger to your heart. Reframe: Criticism is a chemical reaction in the skull of someone who isn't in the room.,Mental Health Reframes,批评感受,53
+mental-36,3,常规框架：没人愿理我，我很无聊。重构框架：每个人都喜欢有人对自己感兴趣。,Usual Frame: No one wants to talk to me. I'm boring. Reframe: Everyone enjoys talking to people who show interest in them.,Mental Health Reframes,无聊,83
+mental-58,3,常规框架：活在当下。重构框架：想象每个小动作都影响未来。,Usual Frame: Live in the now. Reframe: Imagine even your smallest actions influencing your future.,Mental Health Reframes,活在当下,105
+mental-60,3,常规框架：幸福来自内心。重构框架：用外界来训练你的幸福。,Usual Frame: Happiness comes from within. Reframe: Use the external world to program your brain for happiness.,Mental Health Reframes,幸福来源,107
+mental-22,4,常规框架：我是无价之宝，需被保护。重构框架：我就是一颗土豆，随时能被替换。,Usual Frame: I am a priceless work of art that must be protected. Reframe: I am a potato that is easily replaced.,Mental Health Reframes,自我形象,69
+mental-13,3,常规框架：寒冷意味着痛苦和危险。重构框架：寒冷让我更健康、强壮。,Usual Frame: Coldness is pain and a signal I am in danger. Reframe: Coldness makes me healthier and stronger.,Mental Health Reframes,寒冷,60
+mental-5,1,常规框架：批评你的人是恶魔。重构框架：批评你的人是你的吉祥物。,Usual Frame: Your critics are evil monsters. Reframe: Your critics are your mascots.,Mental Health Reframes,对待批评者,52
+mental-27,4,常规框架：我的压力和焦虑是生活导致的。重构框架：死前你不会关心这些事。,Usual Frame: My stress and anxiety are caused by events in my life. Reframe: I won't care about any of those events on my deathbed.,Mental Health Reframes,压力和焦虑,74
+intro-3,4,常规框架：排队是在浪费时间。重构框架：我有时间好好呼吸。,"Usual Frame: I am waiting in line, which is a waste of time. Reframe: I have time to breathe properly.",Introduction Reframes,排队,3
+mental-39,3,常规框架：别人评价我，导致我犯错会难过。重构框架：别人只关心自己，不真的在意你的糗事。,"Usual Frame: People judge me, so I feel bad when I mess up. Reframe: People only care about themselves. They don't care what dumb thing I did recently, even if they mention it.",Mental Health Reframes,被评价,86
+mental-56,3,常规框架：你是你创伤的产物。重构框架：你只是乱糟糟的神经集合。,Usual Frame: You are the result of your traumas. Reframe: You are a random bundle of loose wires.,Mental Health Reframes,创伤定义,103
+mental-45,3,常规框架：我是唯一幸存的感觉很内疚。重构框架：死人希望你痛苦还是幸福？,Usual Frame: I feel bad that I was the lone survivor. Reframe: What would the dead want you to do - suffer or be happy?,Mental Health Reframes,幸存者愧疚,92
