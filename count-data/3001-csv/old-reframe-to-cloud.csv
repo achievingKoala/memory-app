@@ -2,18 +2,18 @@ id,count,chinese,sentence
 re-1,5,常规框架：我对生活感到无聊。重构框架：我还不够让自己尴尬。,Usual Frame: I am bored with life. Reframe: I am not embarrassing myself enough.
 re-2,5,常规框架：尴尬是要避免的。重构框架：尴尬是一项投资。,Usual Frame: Embarrassment is something to be avoided. Reframe: Embarrassment is an investment.
 re-3,5,常规框架：成功需要设定目标。重构框架：系统比目标更重要。,Usual Frame: Success requires setting goals. Reframe: Systems are better than goals.
-re-4,6,常规框架：量两次，切一次。重构框架：开始吧，看你是否能在过程中搞明白。,Usual Frame: Measure twice cut once. Reframe: Just start. See if you can figure it out as you go.
+re-4,6,常规框架：量两次，切一次。重构框架：开始吧，看你是否能在过程中搞明白。,"Usual Frame: Measure twice, cut once. Reframe: Just start. See if you can figure it out as you go."
 re-5,5,常规框架：我很不幸运，发生了这样的事。重构框架：每个人都有问题，没有例外。,Usual Frame: I am unusually unlucky this happened to me. Reframe: Everyone has problems. No exceptions.
 re-7,5,常规框架：我感觉自己在工作中像个冒充者。重构框架：每个人都是冒充者。,Usual Frame: I feel like an impostor at my job. Reframe: Everyone is an impostor.
 re-6,4,常规框架：我需要想出一个好主意。重构框架：我需要尽快释放掉所有坏主意。,Usual Frame: I need to come up with a good idea. Reframe: I need to release all my bad ideas as quickly as possible.
 re-8,5,常规框架：你的情绪由你内心的想法决定。重构框架：你可以通过完成有意义的任务来改善情绪。,Usual Frame: Your mood is determined by your internal thoughts. Reframe: You can improve your mood by completing meaningful tasks.
 re-9,5,常规框架：社交媒体是一种娱乐形式。重构框架：社交媒体是一种上瘾。,Usual Frame: Social media is a form of entertainment. Reframe: Social media is an addiction.
-re-11,4,"常规框架：你的自我就是""你""，它必须被保护。重构框架：你的自我就是你的敌人。","Usual Frame: Your ego is ""you"" and it must be protected. Reframe: Your ego is your enemy."
+re-11,4,"常规框架：你的自我就是""你""，它必须被保护。重构框架：你的自我就是你的敌人。","Usual Frame: Your ego is 'you,' and it must be protected. Reframe: Your ego is your enemy."
 re-12,4,常规框架：避免尴尬。重构框架：迎接尴尬，并将其用作击败自我的武器。,Usual Frame: Avoid embarrassment. Reframe: Invite embarrassment and use it as a club to kill your ego.
 re-13,4,常规框架：我的压力和焦虑是由生活中的事件引起的。重构框架：在临终时我不会在乎那些事件。,Usual Frame: My stress and anxiety are caused by events in my life. Reframe: I won't care about any of those events on my deathbed.
 re-14,5,常规框架：你需要停止消极的思维。重构框架：你不能消除消极思想，但可以将其挤出。,Usual Frame: You need to stop thinking negative thoughts. Reframe: You can't subtract negative thoughts. But you can crowd them out.
 re-16,5,常规框架：避免成瘾。重构框架：明智地选择你的成瘾。,Usual Frame: Avoid addiction. Reframe: Choose your addictions wisely.
-re-15,4,常规框架：人们评判我，所以我犯错时会感到难过。重构框架：人们只关心自己。他们根本不在乎我最近犯的傻事，即使提到也无所谓。,Usual Frame: People judge me so I feel bad when I mess up. Reframe: People only care about themselves. They don't care what dumb thing I did recently even if they mention it.
+re-15,4,常规框架：人们评判我，所以我犯错时会感到难过。重构框架：人们只关心自己。他们根本不在乎我最近犯的傻事，即使提到也无所谓。,"Usual Frame: People judge me, so I feel bad when I mess up. Reframe: People only care about themselves. They don't care what dumb thing I did recently even if they mention it."
 re-17,4,常规框架：有好日子也有坏日子。重构框架：每一天都有不同的用途。,Usual Frame: There are good days and bad. Reframe: All days are useful in different ways.
 re-18,4,常规框架：我是过去创伤的受害者。重构框架：历史是虚构的。,Usual Frame: I am a victim of my past traumas. Reframe: History is imaginary.
 re-19,4,常规框架：你是创伤的结果。重构框架：你是一个随机的松散电线捆。,Usual Frame: You are the result of your traumas. Reframe: You are a random bundle of loose wires.
@@ -22,15 +22,15 @@ re-21,4,常规框架：活在当下。重构框架：想象即使是你最微小
 re-10,4,常规框架：侮辱会损害我的心理健康。重构框架：侮辱是对方无法反驳你的观点和/或有某种个人问题的自白。,Usual Frame: An insult is damaging to my mental health. Reframe: An insult is a confession that your accuser can't refute your opinion and/or has personal problems of some sort.
 re-22,4,常规框架：幸福源自内心。重构框架：利用外部世界为你的大脑编程，获得幸福。,Usual Frame: Happiness comes from within. Reframe: Use the external world to program your brain for happiness.
 re-23,4,常规框架：小小的善行是好的。重构框架：没有小的善行。,Usual Frame: Small acts of kindness are good. Reframe: There are no small acts of kindness.
-re-24,4,常规框架：当我饿的时候，我吃东西。重构框架：一些食物是燃料，一些食物是娱乐。,Usual Frame: When I am hungry I eat food. Reframe: Some food is fuel. Some food is entertainment.
-re-25,4,常规框架：暴饮暴食是意志力的问题。重构框架：暴饮暴食是知识的问题。,Usual Frame: Overeating is a willpower problem. Reframe: Overeating is a knowledge problem.
-re-26,4,常规框架：我想吃东西，所以我一定饿了。重构框架：我想吃东西，所以我可能累了。,Usual Frame: I want food so I must be hungry. Reframe: I want food so I might be tired.
+re-24,4,常规框架：当我饿的时候，我吃东西。重构框架：一些食物是燃料，一些食物是娱乐。,"Usual Frame: When I am hungry, I eat food. Reframe: Some food is fuel. Some food is entertainment."
+re-25,4,常规框架：暴饮暴食是意志力的问题。重构框架：暴饮暴食是知识的问题。,Usual Frame: Overeating is a willpower problem. Reframe: Overeating is a knowledge problem. Willpower isn't real.
+re-26,4,常规框架：我想吃东西，所以我一定饿了。重构框架：我想吃东西，所以我可能累了。,"Usual Frame: I want food, so I must be hungry. Reframe: I want food, so I might be tired."
 re-27,4,常规框架：我有一个减肥目标。重构框架：我需要为自己创造一个减肥系统。,Usual Frame: I have a weight loss goal. Reframe: I need to create a weight loss system for myself.
-re-28,4,常规框架：我饿了，所以我需要食物。重构框架：我饿了，所以我需要蛋白质。,Usual Frame: I'm hungry so I need food. Reframe: I'm hungry so I need protein.
+re-28,4,常规框架：我饿了，所以我需要食物。重构框架：我饿了，所以我需要蛋白质。,"Usual Frame: I'm hungry, so I need food. Reframe: I'm hungry so I need protein."
 re-29,4,常规框架：了解最好的锻炼方法很重要。重构框架：最好的锻炼是你愿意做的锻炼。,Usual Frame: It's important to learn the best ways to exercise. Reframe: The best exercises are the ones you are willing to do.
 re-30,4,常规框架：你应该传播你的基因。重构框架：无论你做什么，你的基因将随着每一代的传递而被稀释，直到你的贡献接近零。,Usual Frame: You should spread your genes. Reframe: No matter what you do your genes will be diluted with each generation until your contribution nears zero.
 re-31,4,常规框架：生活是避免痛苦，同时追求幸福和意义。重构框架：生活是一场冒险。,Usual Frame: Life is about avoiding pain while pursuing happiness and meaning. Reframe: Life is an adventure.
-re-32,4,常规框架：人们会产生自己的观点。重构框架：人们加入团队，媒体为他们分配观点。,Usual Frame: People come up with their own opinions. Reframe: People join teams and the media assigns their opinions.
+re-32,4,常规框架：人们会产生自己的观点。重构框架：人们加入团队，媒体为他们分配观点。,"Usual Frame: People come up with their own opinions. Reframe: People join teams, and the media assigns their opinions."
 re-33,4,常规框架：别人思考和感觉大致与我相同。重构框架：别人是难以想象的不同。,Usual Frame: Others think and feel approximately as I do. Reframe: Others are unimaginably different.
 re-s-1,22,常规框架：我的成功概率很低。重构框架：也许我只是对成功概率的估计不准确。,Usual Frame: My odds of success are low. Reframe: Maybe I am bad at estimating the odds.
 re-s-2,23,常规框架：我对生活感到无聊。重构框架：我还不够让自己尴尬。,Usual Frame: I am bored with life. Reframe: I am not embarrassing myself enough.
@@ -42,19 +42,19 @@ re-s-7,20,常规框架：我非常不幸，这事发生在我身上。重构框�
 re-s-8,21,常规框架：我需要想出一个好主意。重构框架：我需要尽快释放掉所有坏主意。,Usual Frame: I need to come up with a good idea. Reframe: I need to release all my bad ideas as quickly as possible.
 re-s-9,20,常规框架：我感觉自己在工作中像个冒充者。重构框架：每个人都是冒充者。,Usual Frame: I feel like an impostor at my job. Reframe: Everyone is an impostor.
 re-s-10,21,常规框架：你的情绪由你内心的想法决定。重构框架：你可以通过完成有意义的任务来改善情绪。,Usual Frame: Your mood is determined by your internal thoughts. Reframe: You can improve your mood by completing meaningful tasks.
-re-s-11,17,常规框架：无论经理做什么都是管理。重构框架：如果你不进行衡量，那你就没有在管理。,Usual Frame: Whatever managers do is managing. Reframe: If you are not measuring you are not managing.
-re-s-12,19,常规框架：对你创作的赞美预示着你会有一个成功。重构框架：只有行动才能预测成功，而不是语言。注意别人是否会扩展或修改你的创作。,Usual Frame: Praise for your creation predicts you have a hit. Reframe: Only action predicts a hit not words. Watch for people to extend or modify your creation.
-re-s-13,19,常规框架：我想不出任何要写的东西。重构框架：我处于错误的写作环境中。,Usual Frame: I can't think of anything to write. Reframe: I'm in the wrong environment for writing.
-re-s-14,20,常规框架：我想不出任何好的内容来写。重构框架：我可以先写点坏的，然后再修正它。,Usual Frame: I can't think of anything good to write. Reframe: I can write something bad and fix it.
+re-s-11,17,常规框架：无论经理做什么都是管理。重构框架：如果你不进行衡量，那你就没有在管理。,"Usual Frame: Whatever managers do is managing. Reframe: If you are not measuring, you are not managing."
+re-s-12,19,常规框架：对你创作的赞美预示着你会有一个成功。重构框架：只有行动才能预测成功，而不是语言。注意别人是否会扩展或修改你的创作。,"Usual Frame: Praise for your creation predicts you have a hit. Reframe: Only action predicts a hit, not words. Watch for people to extend or modify your creation."
+re-s-13,19,常规框架：我想不出任何要写的东西。重构框架：我处于错误的写作环境中。,Usual Frame: I can't think of anything to write. Reframe 1: I'm in the wrong environment for writing.
+re-s-14,20,常规框架：我想不出任何好的内容来写。重构框架：我可以先写点坏的，然后再修正它。,Usual Frame: I can't think of anything good to write. Reframe 3: I can write something bad and fix it.
 re-me-13,13,常规框架：我害怕做我知道应该做的事。重构框架：人生苦短。,Usual Frame: I'm afraid to do the thing I know I should do. Reframe: Life is short.
-re-me-1,15,常规框架：艺术是娱乐。重构框架：艺术是一种强大的、改变心智的药物。,Usual Frame: Art is entertainment. Reframe: Art is a powerful mind-altering drug.
-re-me-6,14,"常规框架：自我就是""你""，它必须被保护。重构框架：自我是你的敌人。","Usual Frame: Your ego is ""you"" and it must be protected. Reframe: Your ego is your enemy."
+re-me-1,15,常规框架：艺术是娱乐。重构框架：艺术是一种强大的、改变心智的药物。,"Usual Frame: Art is entertainment. Reframe: Art is a powerful, mind-altering drug."
+re-me-6,14,"常规框架：自我就是""你""，它必须被保护。重构框架：自我是你的敌人。","Usual Frame: Your ego is 'you,' and it must be protected. Reframe: Your ego is your enemy."
 re-me-18,11,常规框架：我是我过去创伤的受害者。重构框架：历史是虚构的。,Usual Frame: I am a victim of my past traumas. Reframe: History is imaginary.
 re-me-12,15,常规框架：你需要停止思考负面思想。重构框架：你无法消除负面思想，但你可以挤掉它们。,Usual Frame: You need to stop thinking negative thoughts. Reframe: You can't subtract negative thoughts. But you can crowd them out.
 re-me-3,14,常规框架：社交媒体是一种娱乐形式。重构框架：社交媒体是一种成瘾。,Usual Frame: Social media is a form of entertainment. Reframe: Social media is an addiction.
 re-me-5,16,常规框架：寒冷是痛苦，是我处于危险中的信号。重构框架：寒冷让我更健康、更强壮。,Usual Frame: Coldness is pain and a signal I am in danger. Reframe: Coldness makes me healthier and stronger.
 re-me-15,11,常规框架：没人想和我说话。我很无聊。重构框架：每个人都喜欢与对自己表现出兴趣的人交谈。,Usual Frame: No one wants to talk to me. I'm boring. Reframe: Everyone enjoys talking to people who show interest in them.
-re-me-14,10,常规框架：人们评判我，所以当我搞砸时我会感觉糟糕。重构框架：人们只关心自己，他们不在意我最近做的愚蠢事，即使提起也如此。,Usual Frame: People judge me so I feel bad when I mess up. Reframe: People only care about themselves. They don't care what dumb thing I did recently even if they mention it.
+re-me-14,10,常规框架：人们评判我，所以当我搞砸时我会感觉糟糕。重构框架：人们只关心自己，他们不在意我最近做的愚蠢事，即使提起也如此。,"Usual Frame: People judge me, so I feel bad when I mess up. Reframe: People only care about themselves. They don't care what dumb thing I did recently even if they mention it."
 re-me-8,13,常规框架：我是一个无价的艺术品，必须被保护。重构框架：我是一颗容易被替代的土豆。,Usual Frame: I am a priceless work of art that must be protected. Reframe: I am a potato that is easily replaced.
 re-me-4,15,常规框架：侮辱会损害我的心理健康。重构框架：侮辱是一种承认，表明你的指责者无法反驳你的观点，或者有某种个人问题。,Usual Frame: An insult is damaging to my mental health. Reframe: An insult is a confession that your accuser can't refute your opinion or has personal problems of some sort.
 re-me-11,10,常规框架：我在痛苦中。重构框架：我的痛苦只有一分钟。,Usual Frame: I am in pain. Reframe: I am in pain for a minute.
@@ -70,27 +70,27 @@ re-s-17,17,而是他们不知道自己在笑什么，也不知道为什么停止
 re-s-18,12,伟大始于用礼貌的蔑视取代仇恨,Greatness starts with the replacement of hatred with polite disdain.
 re-s-16,12,最后，他试图告诉我们，《美丽新世界》中的人们所受的困扰，不是他们笑而不是思考,For in the end he was trying to tell us that what afflicted the people in Brave New World was not that they were laughing instead of thinking
 re-s-19,12,真正的谦卑是你能让自己比别人更惊讶；剩下的要么是害羞，要么是良好的营销。,True humility is when you can surprise yourself more than others; the rest is either shyness or good marketing.
-re-health-1,12,通常的框架：当我饿了，我就吃东西。重新定义：有些食物是燃料。有些食物是娱乐。,Usual Frame: When I am hungry I eat food. Reframe: Some food is fuel. Some food is entertainment.
+re-health-1,12,通常的框架：当我饿了，我就吃东西。重新定义：有些食物是燃料。有些食物是娱乐。,"Usual Frame: When I am hungry, I eat food. Reframe: Some food is fuel. Some food is entertainment."
 re-health-2,11,通常的框架：暴饮暴食是意志力的问题。重新定义：暴饮暴食是知识的问题。意志力并不是真实的。,Usual Frame: Overeating is a willpower problem. Reframe: Overeating is a knowledge problem. Willpower isn't real.
-re-health-3,11,通常的框架：我想吃东西，所以我一定是饿了。重新定义：我想吃东西，可能是因为我累了。,Usual Frame: I want food so I must be hungry. Reframe: I want food so I might be tired.
+re-health-3,11,通常的框架：我想吃东西，所以我一定是饿了。重新定义：我想吃东西，可能是因为我累了。,"Usual Frame: I want food, so I must be hungry. Reframe: I want food, so I might be tired."
 re-health-5,11,通常的框架：运动需要意志力和动力。重新定义：如果把运动变成一种习惯，运动比不运动更容易。,Usual Frame: Exercising requires willpower and motivation. Reframe: Exercising is easier than not exercising if you turn it into a habit.
-re-health-4,13,通常的框架：我饿了，所以我需要食物。重新定义：我饿了，所以我需要蛋白质。,Usual Frame: I'm hungry so I need food. Reframe: I'm hungry so I need protein.
+re-health-4,13,通常的框架：我饿了，所以我需要食物。重新定义：我饿了，所以我需要蛋白质。,"Usual Frame: I'm hungry, so I need food. Reframe: I'm hungry so I need protein."
 re-health-6,10,通常的框架：学习最佳运动方式很重要。重新定义：最好的运动是你愿意去做的运动。,Usual Frame: It's important to learn the best ways to exercise. Reframe: The best exercises are the ones you are willing to do.
-re-reality-4,11,通常的框架：人们形成自己的观点。重新定义：人们加入团队，媒体分配他们的观点。,Usual Frame: People come up with their own opinions. Reframe: People join teams and the media assigns their opinions.
+re-reality-4,11,通常的框架：人们形成自己的观点。重新定义：人们加入团队，媒体分配他们的观点。,"Usual Frame: People come up with their own opinions. Reframe: People join teams, and the media assigns their opinions."
 re-social-5,12,通常的框架：专家掌控一切。重新定义：最好的沟通者掌控一切。,Usual Frame: The experts are in charge. Reframe: The best communicator is in charge.
 re-reality-5,11,通常的框架：他人的思维和感受与我相近。重新定义：他人是难以想象的不同。,Usual Frame: Others think and feel approximately as I do. Reframe: Others are unimaginably different.
-re-social-2,10,通常的框架：给予赞美很尴尬、令人不安或带有目的。重新定义：保留赞美几乎是不道德的。,Usual Frame: Giving compliments is awkward creepy or manipulative. Reframe: Withholding a compliment is almost immoral.
+re-social-2,10,通常的框架：给予赞美很尴尬、令人不安或带有目的。重新定义：保留赞美几乎是不道德的。,"Usual Frame: Giving compliments is awkward, creepy, or manipulative. Reframe: Withholding a compliment is almost immoral."
 re-social-1,9,通常的框架：学会接纳现在的自己。重新定义：庆幸你的大脑在督促你变得更好。,Usual Frame: Learn to love yourself as you are. Reframe: Be glad your brain is pestering you to improve.
 re-social-3,11,通常的框架：似乎没有人觉得我有吸引力。重新定义：我遇到的人还不够多。,Usual Frame: No one seems to find me attractive. Reframe: I haven't met enough people.
-re-social-6,11,通常的框架：大多数人都很正常，但我一团糟。重新定义：一旦你了解他们，每个人都是一团糟。,Usual Frame: Most people are normal but I'm a basket case. Reframe: Everyone is a basket case once you get to know them.
+re-social-6,11,通常的框架：大多数人都很正常，但我一团糟。重新定义：一旦你了解他们，每个人都是一团糟。,"Usual Frame: Most people are normal, but I'm a basket case. Reframe: Everyone is a basket case once you get to know them."
 re-social-7,11,通常的框架：小善举是好事。重新定义：善意之举都不是小事。,Usual Frame: Small acts of kindness are good. Reframe: There are no small acts of kindness.
-re-reality-2,11,通常的框架：我们中一个是对的，一个是错的。重新定义：我们在同一个屏幕上看着两部不同的电影。,Usual Frame: One of us is right and one is wrong. Reframe: We are watching two different movies on one screen.
+re-reality-2,11,通常的框架：我们中一个是对的，一个是错的。重新定义：我们在同一个屏幕上看着两部不同的电影。,"Usual Frame: One of us is right, and one is wrong. Reframe: We are watching two different movies on one screen."
 random-fool-1,11,除非我们操控周围的环境，否则根本没法控制自己去想哪些事、哪些人，就像没法控制自己心脏的跳动一样。,Unless we manipulate our surroundings we have as little control over what and whom we think about as we do over the muscles of our hearts.
 re-reality-6,9,通常的框架：你是经历和基因的产物。重新定义：你是自己经历的作者。,Usual Frame: You are the product of your experiences and genes. Reframe: You are the author of your experience.
 re-reality-3,9,通常的框架：生活是在避免痛苦同时追求幸福和意义。重新定义：生活是一场冒险。,Usual Frame: Life is about avoiding pain while pursuing happiness and meaning. Reframe: Life is an adventure.
 re-social-4,9,通常的框架：我需要去找一个人成为我的伴侣。重新定义：我需要展示我的基因优势来吸引伴侣。,Usual Frame: I need to go find someone to be my romantic partner. Reframe: I need to signal my genetic advantages to attract a romantic partner.
 re-reality-1,11,通常的框架：人们90%的时间是理性的。重新定义：人们理性思维的时间可能只有10%,Usual Frame: People are rational 90 percent of the time. Reframe: People are rational 10 percent of the time.
-re-me-20,8,通常思维：判断力差的人往往追求危险且无益的快感。重新思考：人需要最基本的快乐来让生活有意义，如果他们无法安全地获得快乐，就会以不安全的方式获得。,Usual Frame: People with bad judgment often pursue dangerous and unproductive pleasures. Reframe: People need a minimum level of pleasure to make life worth living and if they can't get it safely they will get it unsafely.
+re-me-20,8,通常思维：判断力差的人往往追求危险且无益的快感。重新思考：人需要最基本的快乐来让生活有意义，如果他们无法安全地获得快乐，就会以不安全的方式获得。,"Usual Frame: People with bad judgment often pursue dangerous and unproductive pleasures. Reframe: People need a minimum level of pleasure to make life worth living, and if they can't get it safely, they will get it unsafely."
 re-me-21,7,通常思维：有些人毫无意志力。他们很软弱。重新思考：有些人从某些恶习中获得的快感比你更多。,Usual Frame: Some people have no willpower. They are weak. Reframe: Some people get more pleasure from certain vices than you do.
 re-introducing-1,9,我没什么事可做。我只是站在这里。重塑：练习正确呼吸和姿势的最佳时机。,Usual Frame: I have nothing to do. I am just standing here. Reframe: Perfect time to practice proper breathing and posture.
 Wilde-1,10,女人代表着物质战胜了精神，就像男人代表着精神战胜了道德一样。,Women represent the triumph of matter over mind just as men represent the triumph of mind over morals.

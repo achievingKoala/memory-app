@@ -44,7 +44,7 @@ mental-61,3,常规框架：我的思想只在大脑里。重构框架：我的�
 success-15,1,常规框架：用钱赚钱。重构框架：可以把精力变成钱。,Usual Frame: It takes money to make money. Reframe: I can turn energy into money.,Success Reframes,赚钱,19
 success-14,2,常规框架：激情是成功的关键。重构框架：激情很好但不是必须的。,Usual Frame: Passion is the key to success. Reframe: Passion is nice but not required.,Success Reframes,激情,18
 mental-53,3,常规框架：我是过往创伤的受害者。重构框架：历史是想象的。,Usual Frame: I am a victim of my past traumas. Reframe: History is imaginary.,Mental Health Reframes,创伤与历史,100
-physical-2,5,常规框架：吃太多是意志力差。重构框架：吃太多是知识不足。,Usual Frame: Overeating is a willpower problem. Reframe: Overeating is a knowledge problem.,Physical Health Reframes,暴饮暴食,139
+physical-2,5,常规框架：吃太多是意志力差。重构框架：吃太多是知识不足。,Usual Frame: Overeating is a willpower problem. Reframe: Overeating is a knowledge problem. Willpower isn't real.,Physical Health Reframes,暴饮暴食,139
 mental-4,5,常规框架：艺术是娱乐。重构框架：艺术是改变心智的强大药物。,"Usual Frame: Art is entertainment. Reframe: Art is a powerful, mind-altering drug.",Mental Health Reframes,艺术定义,51
 physical-12,4,常规框架：我失眠了。重构框架：我还不够努力。,Usual Frame: I can't get to sleep. Reframe: I didn't work hard enough.,Physical Health Reframes,睡眠和努力,149
 mental-46,3,常规框架：你本可以做得更多。重构框架：每个人都能做更多，这种说法没有意义。,Usual Frame: You could have done more. Reframe: Everyone can do more. It is a meaningless concept.,Mental Health Reframes,自责,93
@@ -75,7 +75,7 @@ success-41,4,常规框架：我写不出东西。重构框架：我写作环境�
 mental-20,6,常规框架：自我是你本人，必须被保护。重构框架：自我是你的敌人。,"Usual Frame: Your ego is 'you,' and it must be protected. Reframe: Your ego is your enemy.",Mental Health Reframes,自我（ego）,67
 mental-57,3,常规框架：创伤让我残缺。重构框架：创伤让我更强大。,Usual Frame: My trauma crippled me. Reframe: My trauma is why I can kick your ass.,Mental Health Reframes,创伤与力量,104
 mental-31,5,常规框架：我害怕做该做的事。重构框架：人生苦短。,Usual Frame: I'm afraid to do the thing I know I should do. Reframe: Life is short.,Mental Health Reframes,害怕行动,78
-reality-2,4,常规框架：人类90%的时候是理性的。重构框架：人类就算有10%时间理性就不错了。,Usual Frame: People are rational 90 percent of the time. Reframe: People are rational 10 percent of the time if that.,Reality Reframes,人类理性,151
+reality-2,4,常规框架：人类90%的时候是理性的。重构框架：人类就算有10%时间理性就不错了。,Usual Frame: People are rational 90 percent of the time. Reframe: People are rational 10 percent of the time.,Reality Reframes,人类理性,151
 reality-7,3,常规框架：人生就是避免痛苦、追求幸福与意义。重构框架：人生是一场冒险。,Usual Frame: Life is about avoiding pain while pursuing happiness and meaning. Reframe: Life is an adventure.,Reality Reframes,人生意义,156
 reality-10,3,常规框架：人们自行形成观点。重构框架：人们加入阵营，媒体替他们分配观点。,"Usual Frame: People come up with their own opinions. Reframe: People join teams, and the media assigns their opinions.",Reality Reframes,舆论与观点,159
 physical-4,3,常规框架：想吃东西就说明我饿了。重构框架：想吃东西也许只是我累了。,"Usual Frame: I want food, so I must be hungry. Reframe: I want food, so I might be tired.",Physical Health Reframes,渴望食物,141
@@ -103,7 +103,7 @@ success-30,4,常规框架：倒霉的事悄然发生在我身上。重构框架�
 success-35,4,常规框架：你觉得自己是冒充者，别人都很能干。重构框架：你学得很快，看看你都学会了什么！,Usual Frame: You feel like a fraud. Everyone else is competent. Reframe: You are learning fast. Look at all you learned!,Success Reframes,冒充者综合症,39
 success-40,3,常规框架：别人夸你的作品说明它能火。重构框架：真正火的是别人会主动延伸或模仿的。,"Usual Frame: Praise for your creation predicts you have a hit. Reframe: Only action predicts a hit, not words. Watch for people to extend or modify your creation.",Success Reframes,作品热度,44
 mental-12,4,常规框架：细菌会伤害我。重构框架：细菌让我更强壮。,Usual Frame: Germs will harm me. Reframe: Germs make me stronger.,Mental Health Reframes,细菌,59
-mental-40,3,常规框架：工作自带压力。重构框架：你的工作是降低压力。,Usual Frame: Stress comes with the job. Reframe: Reducing stress IS your job.,Mental Health Reframes,压力归因,87
+mental-40,3,常规框架：工作自带压力。重构框架：你的工作是降低压力。,Usual Frame: Stress comes with the job. Reframe: Reducing stress is your job.,Mental Health Reframes,压力归因,87
 mental-30,3,常规框架：你要停止消极思考。重构框架：你无法消除负面念头，但可以用别的想法挤掉它们。,Usual Frame: You need to stop thinking negative thoughts. Reframe: You can't subtract negative thoughts. But you can crowd them out.,Mental Health Reframes,消极念头,77
 mental-1,4,常规框架：我是我的内心想法。重构框架：我是我的行为。,Usual Frame: I am my inner thoughts. Reframe: I am what I do.,Mental Health Reframes,内心想法,48
 mental-6,4,常规框架：批评像匕首刺向你的心脏。重构框架：批评只是没在你面前的人头脑中的化学反应。,Usual Frame: Criticism feels like a dagger to your heart. Reframe: Criticism is a chemical reaction in the skull of someone who isn't in the room.,Mental Health Reframes,批评感受,53
