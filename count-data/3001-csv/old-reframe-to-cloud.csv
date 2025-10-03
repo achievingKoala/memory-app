@@ -13,7 +13,7 @@ re-12,4,常规框架：避免尴尬。重构框架：迎接尴尬，并将其用
 re-13,4,常规框架：我的压力和焦虑是由生活中的事件引起的。重构框架：在临终时我不会在乎那些事件。,Usual Frame: My stress and anxiety are caused by events in my life. Reframe: I won't care about any of those events on my deathbed.
 re-14,5,常规框架：你需要停止消极的思维。重构框架：你不能消除消极思想，但可以将其挤出。,Usual Frame: You need to stop thinking negative thoughts. Reframe: You can't subtract negative thoughts. But you can crowd them out.
 re-16,5,常规框架：避免成瘾。重构框架：明智地选择你的成瘾。,Usual Frame: Avoid addiction. Reframe: Choose your addictions wisely.
-re-15,4,常规框架：人们评判我，所以我犯错时会感到难过。重构框架：人们只关心自己。他们根本不在乎我最近犯的傻事，即使提到也无所谓。,"Usual Frame: People judge me, so I feel bad when I mess up. Reframe: People only care about themselves. They don't care what dumb thing I did recently even if they mention it."
+re-15,4,常规框架：人们评判我，所以我犯错时会感到难过。重构框架：人们只关心自己。他们根本不在乎我最近犯的傻事，即使提到也无所谓。,"Usual Frame: People judge me, so I feel bad when I mess up. Reframe: People only care about themselves. They don't care what dumb thing I did recently, even if they mention it."
 re-17,4,常规框架：有好日子也有坏日子。重构框架：每一天都有不同的用途。,Usual Frame: There are good days and bad. Reframe: All days are useful in different ways.
 re-18,4,常规框架：我是过去创伤的受害者。重构框架：历史是虚构的。,Usual Frame: I am a victim of my past traumas. Reframe: History is imaginary.
 re-19,4,常规框架：你是创伤的结果。重构框架：你是一个随机的松散电线捆。,Usual Frame: You are the result of your traumas. Reframe: You are a random bundle of loose wires.
@@ -26,7 +26,7 @@ re-24,4,常规框架：当我饿的时候，我吃东西。重构框架：一些
 re-25,4,常规框架：暴饮暴食是意志力的问题。重构框架：暴饮暴食是知识的问题。,Usual Frame: Overeating is a willpower problem. Reframe: Overeating is a knowledge problem. Willpower isn't real.
 re-26,4,常规框架：我想吃东西，所以我一定饿了。重构框架：我想吃东西，所以我可能累了。,"Usual Frame: I want food, so I must be hungry. Reframe: I want food, so I might be tired."
 re-27,4,常规框架：我有一个减肥目标。重构框架：我需要为自己创造一个减肥系统。,Usual Frame: I have a weight loss goal. Reframe: I need to create a weight loss system for myself.
-re-28,4,常规框架：我饿了，所以我需要食物。重构框架：我饿了，所以我需要蛋白质。,"Usual Frame: I'm hungry, so I need food. Reframe: I'm hungry so I need protein."
+re-28,4,常规框架：我饿了，所以我需要食物。重构框架：我饿了，所以我需要蛋白质。,"Usual Frame: I'm hungry, so I need food. Reframe: I'm hungry, so I need protein."
 re-29,4,常规框架：了解最好的锻炼方法很重要。重构框架：最好的锻炼是你愿意做的锻炼。,Usual Frame: It's important to learn the best ways to exercise. Reframe: The best exercises are the ones you are willing to do.
 re-30,4,常规框架：你应该传播你的基因。重构框架：无论你做什么，你的基因将随着每一代的传递而被稀释，直到你的贡献接近零。,Usual Frame: You should spread your genes. Reframe: No matter what you do your genes will be diluted with each generation until your contribution nears zero.
 re-31,4,常规框架：生活是避免痛苦，同时追求幸福和意义。重构框架：生活是一场冒险。,Usual Frame: Life is about avoiding pain while pursuing happiness and meaning. Reframe: Life is an adventure.
@@ -54,9 +54,9 @@ re-me-12,15,常规框架：你需要停止思考负面思想。重构框架：�
 re-me-3,14,常规框架：社交媒体是一种娱乐形式。重构框架：社交媒体是一种成瘾。,Usual Frame: Social media is a form of entertainment. Reframe: Social media is an addiction.
 re-me-5,16,常规框架：寒冷是痛苦，是我处于危险中的信号。重构框架：寒冷让我更健康、更强壮。,Usual Frame: Coldness is pain and a signal I am in danger. Reframe: Coldness makes me healthier and stronger.
 re-me-15,11,常规框架：没人想和我说话。我很无聊。重构框架：每个人都喜欢与对自己表现出兴趣的人交谈。,Usual Frame: No one wants to talk to me. I'm boring. Reframe: Everyone enjoys talking to people who show interest in them.
-re-me-14,10,常规框架：人们评判我，所以当我搞砸时我会感觉糟糕。重构框架：人们只关心自己，他们不在意我最近做的愚蠢事，即使提起也如此。,"Usual Frame: People judge me, so I feel bad when I mess up. Reframe: People only care about themselves. They don't care what dumb thing I did recently even if they mention it."
+re-me-14,10,常规框架：人们评判我，所以当我搞砸时我会感觉糟糕。重构框架：人们只关心自己，他们不在意我最近做的愚蠢事，即使提起也如此。,"Usual Frame: People judge me, so I feel bad when I mess up. Reframe: People only care about themselves. They don't care what dumb thing I did recently, even if they mention it."
 re-me-8,13,常规框架：我是一个无价的艺术品，必须被保护。重构框架：我是一颗容易被替代的土豆。,Usual Frame: I am a priceless work of art that must be protected. Reframe: I am a potato that is easily replaced.
-re-me-4,15,常规框架：侮辱会损害我的心理健康。重构框架：侮辱是一种承认，表明你的指责者无法反驳你的观点，或者有某种个人问题。,Usual Frame: An insult is damaging to my mental health. Reframe: An insult is a confession that your accuser can't refute your opinion or has personal problems of some sort.
+re-me-4,15,常规框架：侮辱会损害我的心理健康。重构框架：侮辱是一种承认，表明你的指责者无法反驳你的观点，或者有某种个人问题。,Usual Frame: An insult is damaging to my mental health. Reframe: An insult is a confession that your accuser can't refute your opinion and/or has personal problems of some sort.
 re-me-11,10,常规框架：我在痛苦中。重构框架：我的痛苦只有一分钟。,Usual Frame: I am in pain. Reframe: I am in pain for a minute.
 re-me-16,15,常规框架：压力是工作的一部分。重构框架：减少压力就是你的工作。,Usual Frame: Stress comes with the job. Reframe: Reducing stress is your job.
 re-me-9,14,常规框架：历史很重要。重构框架：历史并不存在。,Usual Frame: History is important. Reframe: History doesn't exist.
@@ -74,7 +74,7 @@ re-health-1,12,通常的框架：当我饿了，我就吃东西。重新定义�
 re-health-2,11,通常的框架：暴饮暴食是意志力的问题。重新定义：暴饮暴食是知识的问题。意志力并不是真实的。,Usual Frame: Overeating is a willpower problem. Reframe: Overeating is a knowledge problem. Willpower isn't real.
 re-health-3,11,通常的框架：我想吃东西，所以我一定是饿了。重新定义：我想吃东西，可能是因为我累了。,"Usual Frame: I want food, so I must be hungry. Reframe: I want food, so I might be tired."
 re-health-5,11,通常的框架：运动需要意志力和动力。重新定义：如果把运动变成一种习惯，运动比不运动更容易。,Usual Frame: Exercising requires willpower and motivation. Reframe: Exercising is easier than not exercising if you turn it into a habit.
-re-health-4,13,通常的框架：我饿了，所以我需要食物。重新定义：我饿了，所以我需要蛋白质。,"Usual Frame: I'm hungry, so I need food. Reframe: I'm hungry so I need protein."
+re-health-4,13,通常的框架：我饿了，所以我需要食物。重新定义：我饿了，所以我需要蛋白质。,"Usual Frame: I'm hungry, so I need food. Reframe: I'm hungry, so I need protein."
 re-health-6,10,通常的框架：学习最佳运动方式很重要。重新定义：最好的运动是你愿意去做的运动。,Usual Frame: It's important to learn the best ways to exercise. Reframe: The best exercises are the ones you are willing to do.
 re-reality-4,11,通常的框架：人们形成自己的观点。重新定义：人们加入团队，媒体分配他们的观点。,"Usual Frame: People come up with their own opinions. Reframe: People join teams, and the media assigns their opinions."
 re-social-5,12,通常的框架：专家掌控一切。重新定义：最好的沟通者掌控一切。,Usual Frame: The experts are in charge. Reframe: The best communicator is in charge.
