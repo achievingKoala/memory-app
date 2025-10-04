@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <title>Supabase 查询示例</title>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+  <h1>Supabase 查询示例</h1>
+  <button id="fetch">获取数据</button>
+  <pre id="output"></pre>
+
+  <script>
+    // 1️⃣ 替换为你自己的 Supabase URL 和匿名 key
+    const SUPABASE_URL = "https://elckemvmphbjjlpzgoqy.supabase.co";
+    const SUPABASE_KEY = "sb_publishable_iRxgPox3YIrHzjkeAt0axg_v7kJ-_8b";
+
+    // 2️⃣ 初始化客户端
+    const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    // 3️⃣ 查询数据
+    document.getElementById("fetch").addEventListener("click", async () => {
+      const output = document.getElementById("output");
+      output.textContent = "正在加载...";
+
+      const { data, error } = await supabase
+        .from("all_reframe_3")
+        .select("*");
+
+      if (error) {
+        output.textContent = "查询出错: " + error.message;
+      } else {
+        output.textContent = JSON.stringify(data, null, 2);
+      }
+    });
+  </script>
+</body>
+</html>
