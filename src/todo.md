@@ -1,4 +1,4 @@
-1 当 selectedSource 为 'Test 时'， count 从 fetchData 的 data 里面取：
+1. todo-done 当 selectedSource 为 'Test 时'， count 从 fetchData 的 data 里面取：
 [
     {
         "id": "Test-1",
@@ -22,7 +22,7 @@
 
 2. bug: 仅看收藏 —> 排序后 ： 无法再看全部
 
-3. 同步 farovite from cluod stroage:
+3. 同步 todo-done farovite from cluod stroage:
 把 根据 id 把 @favorite-ids.json  同步到 @all_reframe_3_rows.csv 上
 return
 {
@@ -36,4 +36,28 @@ return
     "favorite": false
 }
 
-4. 收藏成功后页面再变化 
+4. todo-done 收藏成功后页面再变化 
+5. 对比 云端 和 local sentence 区别
+
+create table public.all_reframe_with_like (
+  id text not null,
+  count integer not null,
+  chinese text not null,
+  sentence text not null,
+  chapter text not null,
+  keyword text not null,
+  idx integer not null,
+  favorite boolean null,
+  constraint all_reframe_with_like_pkey primary key (id),
+  constraint all_reframe_with_like_sentence_key unique (sentence)
+) TABLESPACE pg_default;
+
+CREATE TABLE IF NOT EXISTS all_reframe_js (
+  id text PRIMARY KEY,
+  chapter text NOT NULL,
+  keyword text NOT NULL,
+  sentence text NOT NULL,
+  chinese text NOT NULL,
+  idx integer NOT NULL,
+  favorite_local boolean NOT NULL DEFAULT false
+);
