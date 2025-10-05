@@ -15,42 +15,11 @@ class SupabaseUtils {
     return { data: result, error }
   }
 
-  static async insert(table, data) {
-    const { data: result, error } = await supabase
-      .from(table)
-      .insert(data)
-      .select()
-    
-    return { data: result, error }
-  }
-
   static async select(table, columns = '*', filters = {'chapter': 'Test'}) {
     let query = supabase.from(table).select(columns)
     
     Object.entries(filters).forEach(([key, value]) => {
       query = query.eq(key, value)
-    })
-    
-    const { data, error } = await query
-    return { data, error }
-  }
-
-  static async update(table, data, filters = {}) {
-    let query = supabase.from(table).update(data)
-    
-    Object.entries(filters).forEach(([key, value]) => {
-      query = query.eq(key, value)
-    })
-    
-    const { data: result, error } = await query.select()
-    return { data: result, error }
-  }
-
-  static async delete(table, filters = {}) {
-    let query = supabase.from(table)
-    
-    Object.entries(filters).forEach(([key, value]) => {
-      query = query.delete().eq(key, value)
     })
     
     const { data, error } = await query
