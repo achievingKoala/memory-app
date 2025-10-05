@@ -50,6 +50,8 @@ allReframeData.forEach(item => {
   }
 });
 
+const SUPABASE_SOURCES = [...allChapters, 'Test', 'all'];
+
 // 构造dataSources: 每个chapter一个选项，加上“All”
 const dataSources = [
   { label: 'Reading', value: 'reading', data: readingData},
@@ -73,12 +75,6 @@ const dataSources = [
 
 function getFavoriteIds() {
   let favIds = JSON.parse(localStorage.getItem('favoriteIds') || 'null');
-  if (!favIds) {
-    // 第一次访问，还未存储，默认全收藏
-    // 假定全局 allReframeData 有所有题目
-    favIds = allReframeData.map(item => item.id);
-    localStorage.setItem('favoriteIds', JSON.stringify(favIds));
-  }
   return favIds;
 }
 
@@ -104,9 +100,9 @@ const MemoryApp = () => {
   // 组件开始时和 selectedSource 变化时执行 select 函数
   useEffect(() => {
     const fetchData = async () => {
-      if (['Test', 'all', 'Success Reframes'].includes(selectedSource) ) {
+      if (SUPABASE_SOURCES.includes(selectedSource) ) {
         const { data: fetchedData } = await SupabaseUtils.select(
-          'all_reframe_3', 
+          'all_reframe_with_like', 
           '*', 
           selectedSource === 'all' ? {} : {'chapter' : selectedSource});
         console.log('supabass', fetchedData);
@@ -115,7 +111,11 @@ const MemoryApp = () => {
           setData(prevData => 
             prevData.map(item => {
               const fetchedItem = fetchedData.find(f => f.id === item.id);
-              return fetchedItem ? { ...item, count: fetchedItem.count } : item;
+              return fetchedItem ? {
+                ...item, 
+                count: fetchedItem.count,
+                favorite : fetchedItem.favorite
+               } : item;
             })
           );
         }
@@ -137,7 +137,29 @@ const MemoryApp = () => {
   const [showOnlyFavorite, setShowOnlyFavorite] = useState(false);
 
   // 收藏按钮handler
-  const toggleFavorite = (id) => {
+  const toggleFavorite = async (id, item) => {
+    if (SUPABASE_SOURCES.includes(selectedSource)) {
+      const newFavorite = !item.favorite;
+      try {
+        const itemIndex = item.index;
+        const { favorite_local, index, ...itemWithoutLocal } = item;
+        const result = await SupabaseUtils.upsert('all_reframe_with_like', {
+          ...itemWithoutLocal,
+          favorite: newFavorite,
+          idx : itemIndex
+        });
+        if (!result.error) {
+          setData(prevData => 
+            prevData.map(dataItem => 
+              dataItem.id === id ? { ...dataItem, favorite: newFavorite } : dataItem
+            )
+          );
+        }
+      } catch (error) {
+        console.error('Error updating favorite:', error);
+      }
+      return;
+    }
     setFavoriteIdsState((prevIds) => {
       let updated;
       if (prevIds.includes(id)) {
@@ -190,9 +212,9 @@ const MemoryApp = () => {
     if (value === filteredCurrentData[index].sentence) {
       recordCorrect(filteredCurrentData[index].id);
       // 调用 upsert 存储句子
-      if (selectedSource === 'Test' || selectedSource === 'All') {
+      if (SUPABASE_SOURCES.includes(selectedSource)) {
         try {
-          const { data, error } = await SupabaseUtils.upsert('all_reframe_3', {
+          const { data, error } = await SupabaseUtils.upsert('all_reframe_with_like', {
             chapter: filteredCurrentData[index].chapter || 'TestNoneError',
             id: filteredCurrentData[index].id,
             keyword: filteredCurrentData[index].keyword,
@@ -261,10 +283,14 @@ const MemoryApp = () => {
     }
   };
 
-  // 先根据 showOnlyFavorite 过滤
-  const filteredCurrentData = showOnlyFavorite
-    ? data.filter(item => favoriteIds.includes(item.id))
-    : data;
+  const getFilteredData = () => {
+    if (!showOnlyFavorite) return data;
+    return SUPABASE_SOURCES.includes(selectedSource)
+      ? data.filter(item => item.favorite)
+      : data.filter(item => favoriteIds.includes(item.id));
+  };
+  
+  const filteredCurrentData = getFilteredData();
 
   const currentItems = filteredCurrentData.slice(
     currentPage * itemsPerPage,
@@ -274,8 +300,8 @@ const MemoryApp = () => {
   const sortDataByIdCount = () => {
     const storedCounts = JSON.parse(localStorage.getItem('idCounts')) || {};
     const sortedData = [...filteredCurrentData].sort((a, b) => {
-      const countA = ['Test', 'all', 'Success Reframes'].includes(selectedSource) ? (a.count || 0) : (storedCounts[a.id] || 0);
-      const countB = ['Test', 'all', 'Success Reframes'].includes(selectedSource) ? (b.count || 0) : (storedCounts[b.id] || 0);
+      const countA = SUPABASE_SOURCES.includes(selectedSource) ? (a.count || 0) : (storedCounts[a.id] || 0);
+      const countB = SUPABASE_SOURCES.includes(selectedSource) ? (b.count || 0) : (storedCounts[b.id] || 0);
       return countB - countA; // Sort in descending order
     });
     setData(sortedData);
@@ -286,8 +312,8 @@ const MemoryApp = () => {
   const sortDataByIdCountDescending = () => {
     const storedCounts = JSON.parse(localStorage.getItem('idCounts')) || {};
     const sortedData = [...filteredCurrentData].sort((a, b) => {
-      const countA = ['Test', 'all', 'Success Reframes'].includes(selectedSource) ? (a.count || 0) : (storedCounts[a.id] || 0);
-      const countB = ['Test', 'all', 'Success Reframes'].includes(selectedSource) ? (b.count || 0) : (storedCounts[b.id] || 0);
+      const countA = SUPABASE_SOURCES.includes(selectedSource) ? (a.count || 0) : (storedCounts[a.id] || 0);
+      const countB = SUPABASE_SOURCES.includes(selectedSource) ? (b.count || 0) : (storedCounts[b.id] || 0);
       return countA - countB; // Sort in ascending order
     });
     setData(sortedData);
@@ -390,9 +416,9 @@ const MemoryApp = () => {
             isSpeaking={isSpeaking}
             isFocused={isFocused === index}
             feedbackMessage={feedbackMessage}
-            correctCount={['Test', 'all', 'Success Reframes'].includes(selectedSource) ? (item.count || 0) : (storedCounts[item.id] || 0)}
-            favorite={favoriteIds.includes(item.id)}
-            onFavoriteClick={() => toggleFavorite(item.id)}
+            correctCount={SUPABASE_SOURCES.includes(selectedSource) ? (item.count || 0) : (storedCounts[item.id] || 0)}
+            favorite={SUPABASE_SOURCES.includes(selectedSource) ? item.favorite : false}
+            onFavoriteClick={() => toggleFavorite(item.id, item)}
             onFocus={() => setIsFocused(index)}
             onBlur={() => setIsFocused(null)}
             textareaRef={el => textareaRefs.current[currentPage * itemsPerPage + index] = el}
