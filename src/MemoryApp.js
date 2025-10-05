@@ -146,7 +146,8 @@ const MemoryApp = () => {
         const result = await SupabaseUtils.upsert('all_reframe_with_like', {
           ...itemWithoutLocal,
           favorite: newFavorite,
-          idx : itemIndex
+          idx : itemIndex,
+          count : item.count ? item.count : 0
         });
         if (!result.error) {
           setData(prevData => 
