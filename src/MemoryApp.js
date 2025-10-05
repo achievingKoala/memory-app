@@ -1,20 +1,20 @@
 // import {data as jsData} from './andyData';
-import {data as navalQuotesData} from './navalQuotes';
+import { data as navalQuotesData } from './navalQuotes';
 // import {data as jsData} from './reframe';
 // import {data as jsData} from './wordData';
 // import {data as jsData} from './readData';
 // import {data as jsData} from './random1';
 // import {data as jsData} from './random2';
-import {data as random2025Data} from './random-2025';
+import { data as random2025Data } from './random-2025';
 // import {data as successReframeData} from './success-reframe';
 // import {data as mentalReframeData} from './mental-reframe';
 // import {data as realityReframeData} from './reality-reframe';
-import {data as allReframeData} from './all-reframe';
-import {data as adviceData} from './adviceData';
-import {data as readingData} from './reading';
+import { data as allReframeData } from './all-reframe';
+import { data as adviceData } from './adviceData';
+import { data as readingData } from './reading';
 
 import React, { useState, useEffect } from 'react';
-import {speakText} from './AzureTextToSpeech';
+import { speakText } from './AzureTextToSpeech';
 import SentenceItem from './SentenceItem';
 import SupabaseUtils from './SupabaseUtils';
 
@@ -54,7 +54,7 @@ const SUPABASE_SOURCES = [...allChapters, 'Test', 'all'];
 
 // 构造dataSources: 每个chapter一个选项，加上“All”
 const dataSources = [
-  { label: 'Reading', value: 'reading', data: readingData},
+  { label: 'Reading', value: 'reading', data: readingData },
   { label: 'Random 2025', value: 'random2025', data: random2025Data },
   { label: 'Naval Quotes', value: 'navalQuotes', data: navalQuotesData },
   { label: 'Advice', value: 'advice', data: adviceData },
@@ -100,22 +100,22 @@ const MemoryApp = () => {
   // 组件开始时和 selectedSource 变化时执行 select 函数
   useEffect(() => {
     const fetchData = async () => {
-      if (SUPABASE_SOURCES.includes(selectedSource) ) {
+      if (SUPABASE_SOURCES.includes(selectedSource)) {
         const { data: fetchedData } = await SupabaseUtils.select(
-          'all_reframe_with_like', 
-          '*', 
-          selectedSource === 'all' ? {} : {'chapter' : selectedSource});
+          'all_reframe_with_like',
+          '*',
+          selectedSource === 'all' ? {} : { 'chapter': selectedSource });
         console.log('supabass', fetchedData);
         if (fetchedData) {
           // 直接更新 data 中的 count
-          setData(prevData => 
+          setData(prevData =>
             prevData.map(item => {
               const fetchedItem = fetchedData.find(f => f.id === item.id);
               return fetchedItem ? {
-                ...item, 
+                ...item,
                 count: fetchedItem.count,
-                favorite : fetchedItem.favorite
-               } : item;
+                favorite: fetchedItem.favorite
+              } : item;
             })
           );
         }
@@ -146,12 +146,12 @@ const MemoryApp = () => {
         const result = await SupabaseUtils.upsert('all_reframe_with_like', {
           ...itemWithoutLocal,
           favorite: newFavorite,
-          idx : itemIndex,
-          count : item.count ? item.count : 0
+          idx: itemIndex,
+          count: item.count ? item.count : 0
         });
         if (!result.error) {
-          setData(prevData => 
-            prevData.map(dataItem => 
+          setData(prevData =>
+            prevData.map(dataItem =>
               dataItem.id === id ? { ...dataItem, favorite: newFavorite } : dataItem
             )
           );
@@ -221,15 +221,15 @@ const MemoryApp = () => {
             keyword: filteredCurrentData[index].keyword,
             sentence: filteredCurrentData[index].sentence,
             chinese: filteredCurrentData[index].chinese,
-            count : filteredCurrentData[index].count + 1|| 1,
-            idx : filteredCurrentData[index].index,
+            count: filteredCurrentData[index].count + 1 || 1,
+            idx: filteredCurrentData[index].index,
           });
           if (!error && data[0]) {
             console.log('Upsert success:', data[0].count);
             // 更新 data 状态中对应项目的 count
-            setData(prevData => 
-              prevData.map(item => 
-                item.id === filteredCurrentData[index].id 
+            setData(prevData =>
+              prevData.map(item =>
+                item.id === filteredCurrentData[index].id
                   ? { ...item, count: data[0].count }
                   : item
               )
@@ -239,7 +239,7 @@ const MemoryApp = () => {
           console.error('Error saving sentence:', error);
         }
       }
-      
+
       // 自动聚焦下一个输入框
       setTimeout(() => {
         if (textareaRefs.current[index + 1]) {
@@ -290,7 +290,7 @@ const MemoryApp = () => {
       ? data.filter(item => item.favorite)
       : data.filter(item => favoriteIds.includes(item.id));
   };
-  
+
   const filteredCurrentData = getFilteredData();
 
   const currentItems = filteredCurrentData.slice(
@@ -451,7 +451,7 @@ const MemoryApp = () => {
         <span style={{ fontSize: '18px', fontWeight: 600, minWidth: '90px', textAlign: 'center' }}>
           第 {currentPage + 1} / {Math.max(1, Math.ceil(filteredCurrentData.length / itemsPerPage))} 页
         </span>
-        
+
         <div>
           <input
             type="number"
