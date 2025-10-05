@@ -6,9 +6,9 @@ import {data as navalQuotesData} from './navalQuotes';
 // import {data as jsData} from './random1';
 // import {data as jsData} from './random2';
 import {data as random2025Data} from './random-2025';
-import {data as successReframeData} from './success-reframe';
-import {data as mentalReframeData} from './mental-reframe';
-import {data as realityReframeData} from './reality-reframe';
+// import {data as successReframeData} from './success-reframe';
+// import {data as mentalReframeData} from './mental-reframe';
+// import {data as realityReframeData} from './reality-reframe';
 import {data as allReframeData} from './all-reframe';
 import {data as adviceData} from './adviceData';
 import {data as readingData} from './reading';
@@ -16,6 +16,8 @@ import {data as readingData} from './reading';
 import React, { useState, useEffect } from 'react';
 import {speakText} from './AzureTextToSpeech';
 import SentenceItem from './SentenceItem';
+import SupabaseUtils from './SupabaseUtils';
+
 const audioPath = require("./new-note.mp3");
 
 const mainContentStyle = {
@@ -99,6 +101,29 @@ const MemoryApp = () => {
   // 在MemoryApp组件内
   const [targetPage, setTargetPage] = useState(1); // 新增目标页状态
 
+  // 组件开始时和 selectedSource 变化时执行 select 函数
+  useEffect(() => {
+    const fetchData = async () => {
+      if (['Test', 'all', 'Success Reframes'].includes(selectedSource) ) {
+        const { data: fetchedData } = await SupabaseUtils.select(
+          'all_reframe_3', 
+          '*', 
+          selectedSource === 'all' ? {} : {'chapter' : selectedSource});
+        console.log('supabass', fetchedData);
+        if (fetchedData) {
+          // 直接更新 data 中的 count
+          setData(prevData => 
+            prevData.map(item => {
+              const fetchedItem = fetchedData.find(f => f.id === item.id);
+              return fetchedItem ? { ...item, count: fetchedItem.count } : item;
+            })
+          );
+        }
+      }
+    };
+    fetchData();
+  }, [selectedSource]);
+
   const handleJumpToPage = () => {
     const page = Number(targetPage);
     if (page > 0 && page <= Math.ceil(filteredCurrentData.length / itemsPerPage)) {
@@ -161,9 +186,37 @@ const MemoryApp = () => {
     localStorage.setItem('idCounts', JSON.stringify(storedCounts));
   };
 
-  const handleInputChange = (index, value) => {
+  const handleInputChange = async (index, value) => {
     if (value === filteredCurrentData[index].sentence) {
       recordCorrect(filteredCurrentData[index].id);
+      // 调用 upsert 存储句子
+      if (selectedSource === 'Test' || selectedSource === 'All') {
+        try {
+          const { data, error } = await SupabaseUtils.upsert('all_reframe_3', {
+            chapter: filteredCurrentData[index].chapter || 'TestNoneError',
+            id: filteredCurrentData[index].id,
+            keyword: filteredCurrentData[index].keyword,
+            sentence: filteredCurrentData[index].sentence,
+            chinese: filteredCurrentData[index].chinese,
+            count : filteredCurrentData[index].count + 1|| 1,
+            idx : filteredCurrentData[index].index,
+          });
+          if (!error && data[0]) {
+            console.log('Upsert success:', data[0].count);
+            // 更新 data 状态中对应项目的 count
+            setData(prevData => 
+              prevData.map(item => 
+                item.id === filteredCurrentData[index].id 
+                  ? { ...item, count: data[0].count }
+                  : item
+              )
+            );
+          }
+        } catch (error) {
+          console.error('Error saving sentence:', error);
+        }
+      }
+      
       // 自动聚焦下一个输入框
       setTimeout(() => {
         if (textareaRefs.current[index + 1]) {
@@ -221,11 +274,11 @@ const MemoryApp = () => {
   const sortDataByIdCount = () => {
     const storedCounts = JSON.parse(localStorage.getItem('idCounts')) || {};
     const sortedData = [...filteredCurrentData].sort((a, b) => {
-      const countA = storedCounts[a.id] || 0;
-      const countB = storedCounts[b.id] || 0;
+      const countA = ['Test', 'all', 'Success Reframes'].includes(selectedSource) ? (a.count || 0) : (storedCounts[a.id] || 0);
+      const countB = ['Test', 'all', 'Success Reframes'].includes(selectedSource) ? (b.count || 0) : (storedCounts[b.id] || 0);
       return countB - countA; // Sort in descending order
     });
-    setData(showOnlyFavorite ? data : sortedData);
+    setData(sortedData);
     setCurrentPage(0);
     setUserInputs(Array(sortedData.length).fill(''));
   };
@@ -233,11 +286,11 @@ const MemoryApp = () => {
   const sortDataByIdCountDescending = () => {
     const storedCounts = JSON.parse(localStorage.getItem('idCounts')) || {};
     const sortedData = [...filteredCurrentData].sort((a, b) => {
-      const countA = storedCounts[a.id] || 0;
-      const countB = storedCounts[b.id] || 0;
+      const countA = ['Test', 'all', 'Success Reframes'].includes(selectedSource) ? (a.count || 0) : (storedCounts[a.id] || 0);
+      const countB = ['Test', 'all', 'Success Reframes'].includes(selectedSource) ? (b.count || 0) : (storedCounts[b.id] || 0);
       return countA - countB; // Sort in ascending order
     });
-    setData(showOnlyFavorite ? data : sortedData);
+    setData(sortedData);
     setCurrentPage(0);
     setUserInputs(Array(sortedData.length).fill(''));
   };
@@ -337,7 +390,7 @@ const MemoryApp = () => {
             isSpeaking={isSpeaking}
             isFocused={isFocused === index}
             feedbackMessage={feedbackMessage}
-            correctCount={storedCounts[item.id] || 0}
+            correctCount={['Test', 'all', 'Success Reframes'].includes(selectedSource) ? (item.count || 0) : (storedCounts[item.id] || 0)}
             favorite={favoriteIds.includes(item.id)}
             onFavoriteClick={() => toggleFavorite(item.id)}
             onFocus={() => setIsFocused(index)}
