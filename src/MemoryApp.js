@@ -85,6 +85,7 @@ function setFavoriteIds(favIds) {
 const MemoryApp = () => {
   const [selectedSource, setSelectedSource] = useState(dataSources[0].value);
   const [showChinese, setShowChinese] = useState(true); // 添加这行
+  const [showGreenTips, setShowGreenTips] = useState(true);
   const [data, setData] = useState(dataSources[0].data.filter(item => item.hide !== 1));
   const [currentPage, setCurrentPage] = useState(0);
   const [userInputs, setUserInputs] = useState(Array(data.length).fill(''));
@@ -400,6 +401,17 @@ const MemoryApp = () => {
         >
           {showChinese ? '显示关键词' : '显示中文'}
         </button>
+        <button
+          onClick={() => setShowGreenTips(val => !val)}
+          style={{
+            ...buttonStyle,
+            background: showGreenTips ? "#facc15" : "#2563eb",
+            color: showGreenTips ? "#000" : "#fff",
+            marginLeft: "10px"
+          }}
+        >
+          {showGreenTips ? '隐藏提示' : '显示提示'}
+        </button>
       </div>
       {currentItems.length === 0 ? (
         <div style={{ textAlign: 'center', fontSize: '20px', color: '#888', margin: '40px 0' }}>
@@ -424,6 +436,7 @@ const MemoryApp = () => {
             onBlur={() => setIsFocused(null)}
             textareaRef={el => textareaRefs.current[currentPage * itemsPerPage + index] = el}
             showChinese={showChinese}
+            showGreenTips={showGreenTips}
           />
         ))
       )}

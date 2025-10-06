@@ -72,6 +72,7 @@ function SentenceItem({
   onBlur,
   textareaRef,
   showChinese = true,
+  showGreenTips = true,
 }) {
   const isCorrect = userInput === item.sentence;
   const showFeedback = feedbackMessage && item.sentence === feedbackMessage;
@@ -115,16 +116,20 @@ function SentenceItem({
       {showFeedback && (
         <div style={commonStyle}>{feedbackMessage}</div>
       )}
-      <div style={commonStyle}>
-        {userInput.split(' ').map((word, wordIndex) => {
-          const isCorrectWord = item.sentence.split(' ').includes(word);
-          return (
-            <span key={wordIndex} style={{ color: isCorrectWord ? 'green' : 'black' }}>
-              {word}{' '}
-            </span>
-          );
-        })}
-      </div>
+      {showGreenTips && (
+        <div
+          name='green-tips'
+          style={commonStyle}>
+          {userInput.split(' ').map((word, wordIndex) => {
+            const isCorrectWord = item.sentence.split(' ').includes(word);
+            return (
+              <span key={wordIndex} style={{ color: isCorrectWord ? 'green' : 'black' }}>
+                {word}{' '}
+              </span>
+            );
+          })}
+        </div>
+      )}
       <textarea
         type="text"
         placeholder="默写英文句子..."
