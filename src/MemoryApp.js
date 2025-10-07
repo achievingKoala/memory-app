@@ -5,13 +5,13 @@ import {data as navalQuotesData} from './navalQuotes';
 // import {data as jsData} from './readData';
 // import {data as jsData} from './random1';
 // import {data as jsData} from './random2';
+import {data as readingData} from './reading';
 import {data as random2025Data} from './random-2025';
 import {data as successReframeData} from './success-reframe';
 import {data as mentalReframeData} from './mental-reframe';
 import {data as realityReframeData} from './reality-reframe';
 import {data as allReframeData} from './all-reframe';
 import {data as adviceData} from './adviceData';
-import {data as readingData} from './reading';
 
 import React, { useState, useEffect } from 'react';
 import {speakText} from './AzureTextToSpeech';
