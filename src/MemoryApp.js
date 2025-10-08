@@ -212,13 +212,13 @@ const MemoryApp = () => {
 
   const handleInputChange = async (index, value) => {
     if (value === filteredCurrentData[index].sentence) {
-      recordCorrect(filteredCurrentData[index].id);
       // 自动聚焦下一个输入框
       setTimeout(() => {
         if (textareaRefs.current[index + 1]) {
           textareaRefs.current[index + 1].focus();
         }
       }, 100); // 延迟以确保禁用生效
+      recordCorrect(filteredCurrentData[index].id);
       // 调用 upsert 存储句子
       if (SUPABASE_SOURCES.includes(selectedSource)) {
         try {
