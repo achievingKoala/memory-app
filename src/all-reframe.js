@@ -309,7 +309,7 @@ export const data = [
         "chapter": "Success Reframes",
         "id": "success-26",
         "keyword": "批评反馈",
-        "sentence": "Usual frame: You did this wrong. Reframe: Your other work is stronger.",
+        "sentence": "Usual Frame: You did this wrong. Reframe: Your other work is stronger.",
         "chinese": "常规框架：你做错了。重构框架：你的其他作品更棒。",
         "index": 30,
         "favorite_local": true
