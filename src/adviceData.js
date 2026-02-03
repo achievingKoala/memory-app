@@ -463,8 +463,14 @@ export const data = [
     },
     {
       "id": "advice-77",
-      "sentence": "Be prepared: When you have 90% of a large project completed finishing the final details will take another 90%. Houses and films are famous for having two 90%s.",
-      "chinese": "要有心理准备：一个大项目完成90%后，剩下的细节部分还需要再花90%的精力。盖房和拍电影都出了个\"两次90%\"的名。",
+      "sentence": "Be prepared: When you have 90% of a large project completed finishing the final details will take another 90%.",
+      "chinese": "要有心理准备：一个大项目完成90%后，剩下的细节部分还需要再花90%的精力。",
+      "chapter": "Management"
+    },
+    {
+      "id": "advice-77-B",
+      "sentence": "Houses and films are famous for having two 90%s.",
+      "chinese": "盖房和拍电影都出了个\"两次90%\"的名。",
       "chapter": "Management"
     },
     {
