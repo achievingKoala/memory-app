@@ -19,8 +19,14 @@ export const data = [
     },
     {
       "id": "advice-4",
-      "sentence": "Always demand a deadline because it weeds out the extraneous and the ordinary. A deadline prevents you from trying to make it perfect so you have to make it different. Different is better.",
-      "chinese": "总是要求有最后期限，因为它能筛除多余和平庸的东西。截止日期会阻止你追求完美，而促使你追求创新。不同往往更好。",
+      "sentence": "Always demand a deadline because it weeds out the extraneous and the ordinary.",
+      "chinese": "总是要求有最后期限，因为它能筛除多余和平庸的东西.",
+      "chapter": "Productivity"
+    },
+    {
+      "id": "advice-4-B",
+      "sentence": "A deadline prevents you from trying to make it perfect so you have to make it different. Different is better.",
+      "chinese": "截止日期会阻止你追求完美，而促使你追求创新。不同往往更好。",
       "chapter": "Productivity"
     },
     {
