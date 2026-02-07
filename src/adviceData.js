@@ -2737,8 +2737,14 @@ export const data = [
     },
     {
       "id": "advice-449",
-      "sentence": "Right now no matter your age these are your golden years. The good stuff will yield golden memories and the bad stuff will yield golden lessons.",
-      "chinese": "不论你几岁，现在都是你的黄金岁月。美好的记忆来自美好时光，宝贵教训来自苦涩经历。",
+      "sentence": "Right now no matter your age these are your golden years.",
+      "chinese": "不论你几岁，现在都是你的黄金岁月。",
+      "chapter": "Ethics"
+    },
+    {
+      "id": "advice-449B",
+      "sentence": "The good stuff will yield golden memories and the bad stuff will yield golden lessons.",
+      "chinese": "美好的记忆来自美好时光，宝贵教训来自苦涩经历。",
       "chapter": "Ethics"
     },
     {
