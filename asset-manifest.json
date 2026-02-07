@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/memory-app/static/css/main.f855e6bc.css",
-    "main.js": "/memory-app/static/js/main.58e6a0eb.js",
+    "main.js": "/memory-app/static/js/main.bc58bd68.js",
     "static/js/453.185bcc27.chunk.js": "/memory-app/static/js/453.185bcc27.chunk.js",
     "static/media/new-note.mp3": "/memory-app/static/media/new-note.30b2ce1b17574794ed99.mp3",
     "index.html": "/memory-app/index.html",
     "main.f855e6bc.css.map": "/memory-app/static/css/main.f855e6bc.css.map",
-    "main.58e6a0eb.js.map": "/memory-app/static/js/main.58e6a0eb.js.map",
+    "main.bc58bd68.js.map": "/memory-app/static/js/main.bc58bd68.js.map",
     "453.185bcc27.chunk.js.map": "/memory-app/static/js/453.185bcc27.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.58e6a0eb.js"
+    "static/js/main.bc58bd68.js"
   ]
 }
