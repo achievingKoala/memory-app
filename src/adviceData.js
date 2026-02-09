@@ -2305,8 +2305,14 @@ export const data = [
     },
     {
       "id": "advice-377",
-      "sentence": "Make one to throw away. The only way to write a great book is to first write an awful book. Ditto for a movie, song, piece of furniture or anything.",
-      "chinese": "先写一个可以扔掉的版本。写一本好书的唯一办法，是先写一本烂书。电影、歌曲、家具、任何东西都一样。",
+      "sentence": "Make one to throw away. The only way to write a great book is to first write an awful book.",
+      "chinese": "先写一个可以扔掉的版本。写一本好书的唯一办法，是先写一本烂书。",
+      "chapter": "Learning"
+    },
+    {
+      "id": "advice-377B",
+      "sentence": "Ditto for a movie, song, piece of furniture or anything.",
+      "chinese": "电影、歌曲、家具、任何东西都一样。",
       "chapter": "Learning"
     },
     {
