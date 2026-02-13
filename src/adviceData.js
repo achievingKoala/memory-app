@@ -769,8 +769,14 @@ export const data = [
     },
     {
       "id": "advice-127",
-      "sentence": "On the way to a grand goal celebrate the smallest victories as if each one were the final goal. That way, no matter where it ends you are victorious.",
-      "chinese": "在追逐伟大目标的途中，要像庆祝最终目标一样庆祝每一个小胜利。这样，无论结果如何，你都是胜利者。",
+      "sentence": "On the way to a grand goal celebrate the smallest victories as if each one were the final goal.",
+      "chinese": "在追逐伟大目标的途中，要像庆祝最终目标一样庆祝每一个小胜利。",
+      "chapter": "Productivity"
+    },
+    {
+      "id": "advice-127B",
+      "sentence": "That way, no matter where it ends you are victorious.",
+      "chinese": "这样，无论结果如何，你都是胜利者。",
       "chapter": "Productivity"
     },
     {
