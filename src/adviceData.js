@@ -1279,8 +1279,14 @@ export const data = [
     },
     {
       "id": "advice-211",
-      "sentence": "Take one simple thing - almost anything - but take it extremely seriously as if it is the only thing in the world - or maybe the entire world is in it - and by taking it seriously you'll light up the sky.",
-      "chinese": "认真对待一件简单的事情——任何事情都可以——就像它是世间唯一的事，甚至像整个世界都在里面。如此投入，你会点亮天空。",
+      "sentence": "Take one simple thing - almost anything - but take it extremely seriously as if it is the only thing in the world",
+      "chinese": "认真对待一件简单的事情——任何事情都可以——就像它是世间唯一的事",
+      "chapter": "Goal"
+    },
+    {
+      "id": "advice-211",
+      "sentence": "- or maybe the entire world is in it - and by taking it seriously you'll light up the sky.",
+      "chinese": "甚至像整个世界都在里面。如此投入，你会点亮天空。",
       "chapter": "Goal"
     },
     {
@@ -1309,8 +1315,14 @@ export const data = [
     },
     {
       "id": "advice-216",
-      "sentence": "The expanding universe is overflowing with abundance. It is so full that improvement can often be gained only by subtracting. Keep removing, until you can't. End with wanting more, not less.",
-      "chinese": "扩张的宇宙中充满了丰盈。以致于改善往往只能通过减法获得。不断地减少，直到不能再减。终点是让你意犹未尽，而非嫌弃。",
+      "sentence": "The expanding universe is overflowing with abundance. It is so full that improvement can often be gained only by subtracting.",
+      "chinese": "扩张的宇宙中充满了丰盈。以致于改善往往只能通过减法获得。不断地减少，直到不能再减。",
+      "chapter": "Goal"
+    },
+    {
+      "id": "advice-216B",
+      "sentence": "Keep removing, until you can't. End with wanting more, not less.",
+      "chinese": "终点是让你意犹未尽，而非嫌弃。",
       "chapter": "Goal"
     },
     {
