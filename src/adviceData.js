@@ -1284,7 +1284,7 @@ export const data = [
       "chapter": "Goal"
     },
     {
-      "id": "advice-211",
+      "id": "advice-211B",
       "sentence": "- or maybe the entire world is in it - and by taking it seriously you'll light up the sky.",
       "chinese": "甚至像整个世界都在里面。如此投入，你会点亮天空。",
       "chapter": "Goal"
