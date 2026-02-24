@@ -75,7 +75,7 @@ const dataSources = [
 
 function getFavoriteIds() {
   let favIds = JSON.parse(localStorage.getItem('favoriteIds') || 'null');
-  return favIds;
+  return favIds || [];
 }
 
 function setFavoriteIds(favIds) {
@@ -418,7 +418,7 @@ const MemoryApp = () => {
             isFocused={isFocused === index}
             feedbackMessage={feedbackMessage}
             correctCount={SUPABASE_SOURCES.includes(selectedSource) ? (item.count || 0) : (storedCounts[item.id] || 0)}
-            favorite={SUPABASE_SOURCES.includes(selectedSource) ? item.favorite : false}
+            favorite={SUPABASE_SOURCES.includes(selectedSource) ? item.favorite : favoriteIds?.includes(item.id)}
             onFavoriteClick={() => toggleFavorite(item.id, item)}
             onFocus={() => setIsFocused(index)}
             onBlur={() => setIsFocused(null)}
